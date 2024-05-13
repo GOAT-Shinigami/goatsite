@@ -44,7 +44,7 @@ body {
 
 .nav-link {
     color: white;
-    font-size: 1.2rem; /* Aumentar um pouco o tamanho da fonte */
+    font-size: 1.0rem; /* Aumentar um pouco o tamanho da fonte */
 }
 
 .nav-link:hover {
