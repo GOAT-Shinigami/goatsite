@@ -6,7 +6,7 @@ body {
 
 .header-bg {
     background-image: url('fundo.png');
-    background-position: center 20%;
+    background-position: center 22%;
     background-repeat: no-repeat;
     background-size: cover; /* Ajusta para manter toda a imagem visível */
     background-attachment: scroll; /* Pode alternar para 'fixed' se desejar que a imagem não role com a página */
