@@ -8,7 +8,7 @@ body {
     background-image: url('fundo.png');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain; /* Ajusta a imagem para caber inteiramente no espaço disponível */
+    background-size: cover; /* Garante que a imagem cubra toda a área, ajustando a imagem conforme necessário */
     width: 100%; /* Assegura que o cabeçalho se estenda por toda a largura da tela */
     min-height: 768px; /* A altura mínima baseada na altura da imagem original */
     display: flex;
