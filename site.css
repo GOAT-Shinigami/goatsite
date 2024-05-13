@@ -2,8 +2,11 @@
     background-image: url('fundo.png');
    background-position: center center; /* Centraliza a imagem no cabeçalho */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-size: cover; /* Ajusta a imagem para cobrir toda a área disponível, mantendo sua proporção */
-    min-height: 768px; /* Define a altura mínima para ser pelo menos a altura da imagem original */
+    background-size: contain; /* Ajusta a imagem para caber inteiramente no espaço disponível */
+    width: 100%; /* Assegura que o cabeçalho se estenda por toda a largura da tela */
+    min-height: 768px; /* A altura mínima baseada na altura da imagem original */
+    display: flex;
+    align-items: center; /* Alinha o conteúdo do cabeçalho verticalmente */
 }
 
 .navbar-custom {
