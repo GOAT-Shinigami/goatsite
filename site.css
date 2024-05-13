@@ -12,6 +12,8 @@
     text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Exemplo de fonte retro */
+
 .navbar-custom {
     background-color: #004d40;
     color: white;
@@ -19,6 +21,7 @@
     position: fixed; /* Fixar a barra de navegação no topo */
     top: 0;
     z-index: 1000; /* Garantir que a navbar fique acima de outros conteúdos */
+    font-family: 'Press Start 2P', cursive; /* Aplicar a fonte retro */
 }
 
 .navbar-toggler {
@@ -33,6 +36,7 @@
 
 .nav-link {
     color: white;
+    font-size: 1.2rem; /* Aumentar um pouco o tamanho da fonte */
 }
 
 .nav-link:hover {
@@ -50,7 +54,7 @@
     background-color: #e64a19;
 }
 
-.meme-coin-logo {
+.meme-coin-logo, .navbar-logo {
     height: 40px;
     margin-right: 10px;
 }
