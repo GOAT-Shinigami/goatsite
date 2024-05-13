@@ -1,5 +1,9 @@
+.header-bg {
+    background: url('path_to_header_background.jpg') no-repeat center center / cover;
+}
+
 .navbar-custom {
-    background-color: #004d40; /* Dark green background */
+    background-color: transparent; /* Make the navbar background transparent */
     color: white;
 }
 
@@ -21,4 +25,10 @@
 .connect-wallet:hover {
     background-color: #e64a19; /* Darken the button on hover */
 }
+
+.meme-coin-logo {
+    height: 40px; /* Set the size of the logo */
+    margin-right: 10px; /* Space between logo and site name */
+}
+
 
