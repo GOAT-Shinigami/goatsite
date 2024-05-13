@@ -6,12 +6,12 @@ body {
 
 .header-bg {
     background-image: url('fundo.png');
-    background-position: top center;
+    background-position: top bottom;
     background-repeat: no-repeat;
     background-size: cover; /* Ajusta para manter toda a imagem visível */
     background-attachment: scroll; /* Pode alternar para 'fixed' se desejar que a imagem não role com a página */
     width: 100%; /* Assegura que o cabeçalho se estenda por toda a largura da tela */
-    min-height: 768px; /* A altura mínima baseada na altura da imagem original */
+    min-height: 760px; /* A altura mínima baseada na altura da imagem original */
     display: flex;
     align-items: center; /* Alinha o conteúdo do cabeçalho verticalmente */
     justify-content: center;
