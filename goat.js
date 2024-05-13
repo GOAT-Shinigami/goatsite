@@ -1,29 +1,29 @@
-function adjustBackgroundImage() {
-        const header = document.querySelector('.header-bg');
-        const screenWidth = window.innerWidth;
+function adjustStylesBasedOnScreen() {
+    const headerBg = document.querySelector('.header-bg');
+    const screenWidth = window.innerWidth;
 
-        // Define diferentes alturas mínimas e ajustes de fundo com base no tamanho da tela
-        if (screenWidth > 1600) {
-            header.style.minHeight = '768px'; // Altura para telas muito grandes
-            header.style.backgroundSize = 'cover';
-        } else if (screenWidth > 1200) {
-            header.style.minHeight = '600px'; // Altura para telas grandes
-            header.style.backgroundSize = 'cover';
-        } else if (screenWidth > 992) {
-            header.style.minHeight = '500px'; // Altura para laptops pequenos
-            header.style.backgroundSize = 'cover';
-        } else if (screenWidth > 768) {
-            header.style.minHeight = '450px'; // Altura para tablets
-            header.style.backgroundSize = 'contain';
-        } else {
-            header.style.minHeight = '300px'; // Altura para smartphones
-            header.style.backgroundSize = 'contain';
-        }
-
-        // Centraliza a imagem em todos os casos
-        header.style.backgroundPosition = 'center center';
+    // Ajustar a altura do cabeçalho com base no tamanho da tela
+    if (screenWidth > 1500) { // Muito grande
+        headerBg.style.minHeight = '768px';
+        headerBg.style.backgroundAttachment = 'fixed';
+    } else if (screenWidth > 1200) { // Grande
+        headerBg.style.minHeight = '600px';
+        headerBg.style.backgroundAttachment = 'scroll';
+    } else if (screenWidth > 992) { // Médio
+        headerBg.style.minHeight = '500px';
+        headerBg.style.backgroundAttachment = 'scroll';
+    } else { // Pequeno e muito pequeno
+        headerBg.style.minHeight = '300px'; // Usar o valor padrão de CSS
     }
 
-    // Aplica a função no carregamento e no redimensionamento da página
-    window.addEventListener('load', adjustBackgroundImage);
-    window.addEventListener('resize', adjustBackgroundImage);
+    // Verificações específicas para navegadores, se necessário
+    var ua = navigator.userAgent;
+    if (/MSIE \d|Trident.*rv:/.test(ua)) {
+        // Código específico para Internet Explorer
+        headerBg.style.backgroundSize = 'contain';
+    }
+}
+
+// Adiciona event listeners para carregamento e redimensionamento
+window.addEventListener('load', adjustStylesBasedOnScreen);
+window.addEventListener('resize', adjustStylesBasedOnScreen);
