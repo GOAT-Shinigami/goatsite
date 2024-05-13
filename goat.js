@@ -4,7 +4,7 @@ function adjustHeaderBackground() {
     const screenWidth = window.innerWidth;
 
     if (screenWidth > 1200) { // Considerado tela grande (desktop)
-        header.style.minHeight = '600px';
+        header.style.minHeight = '768px';
     } else if (screenWidth > 992 && screenWidth <= 1200) { // Considerado médio (laptops menores)
         header.style.minHeight = '500px';
     } else if (screenWidth > 768 && screenWidth <= 992) { // Considerado pequeno (tablets)
