@@ -20,8 +20,8 @@ body {
 }
 
 .navbar-custom {
-    background-color: #004d40;
-    color: white;
+    background-color: transparent;
+    color: black;
     width: 100%;
     position: fixed; /* Fixar a barra de navegação no topo */
     top: 0;
