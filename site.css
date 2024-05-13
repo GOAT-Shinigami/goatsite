@@ -1,9 +1,9 @@
 .header-bg {
     background-image: url('fundo.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto; /* Usar 'auto' para manter o tamanho original da imagem */
-    min-height: 400px; /* Ajuste a altura mínima conforme necessário para mostrar toda a imagem */
+   background-position: center center; /* Centraliza a imagem no cabeçalho */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área disponível, mantendo sua proporção */
+    min-height: 768px; /* Define a altura mínima para ser pelo menos a altura da imagem original */
 }
 
 .navbar-custom {
