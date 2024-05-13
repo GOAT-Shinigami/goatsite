@@ -1,16 +1,23 @@
 .header-bg {
     background-image: url('fundo.png');
-   background-position: center center; /* Centraliza a imagem no cabeçalho */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-size: contain; /* Ajusta a imagem para caber inteiramente no espaço disponível */
-    width: 100%; /* Assegura que o cabeçalho se estenda por toda a largura da tela */
-    min-height: 768px; /* A altura mínima baseada na altura da imagem original */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
     display: flex;
-    align-items: center; /* Alinha o conteúdo do cabeçalho verticalmente */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.header-content h1, .header-content p {
+    margin: 0;
 }
 
 .navbar-custom {
-    background-color: transparent; /* Make the navbar background transparent */
+    background-color: #004d40;
     color: white;
 }
 
@@ -19,23 +26,24 @@
 }
 
 .nav-link:hover {
-    color: #f8f9fa; /* Lighter shade on hover */
+    color: #f8f9fa;
 }
 
 .connect-wallet {
-    background-color: #ff5722; /* Distinctive button color */
+    background-color: #ff5722;
     color: white;
     padding: 0.5rem 1rem;
-    margin-left: 2rem; /* Extra space to set it apart */
+    margin-left: 2rem;
 }
 
 .connect-wallet:hover {
-    background-color: #e64a19; /* Darken the button on hover */
+    background-color: #e64a19;
 }
 
 .meme-coin-logo {
-    height: 40px; /* Set the size of the logo */
-    margin-right: 10px; /* Space between logo and site name */
+    height: 40px;
+    margin-right: 10px;
 }
+
 
 
