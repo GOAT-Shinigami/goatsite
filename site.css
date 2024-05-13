@@ -1,16 +1,24 @@
 .navbar-custom {
-    background-color: #004d40; /* Um tom de verde escuro */
-}
-
-.footer-custom {
-    background-color: #263238; /* Um tom de cinza escuro */
+    background-color: #004d40; /* Dark green background */
     color: white;
 }
 
-.footer-custom .container > span {
-    color: #bdbdbd; /* Um cinza mais claro para o texto */
+.nav-link {
+    color: white;
 }
 
-.header-title {
-    color: #01579b;
+.nav-link:hover {
+    color: #f8f9fa; /* Lighter shade on hover */
 }
+
+.connect-wallet {
+    background-color: #ff5722; /* Distinctive button color */
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-left: 2rem; /* Extra space to set it apart */
+}
+
+.connect-wallet:hover {
+    background-color: #e64a19; /* Darken the button on hover */
+}
+
