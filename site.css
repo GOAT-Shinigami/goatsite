@@ -1,0 +1,16 @@
+.navbar-custom {
+    background-color: #004d40; /* Um tom de verde escuro */
+}
+
+.footer-custom {
+    background-color: #263238; /* Um tom de cinza escuro */
+    color: white;
+}
+
+.footer-custom .container > span {
+    color: #bdbdbd; /* Um cinza mais claro para o texto */
+}
+
+.header-title {
+    color: #01579b;
+}
