@@ -2,12 +2,12 @@
     background-image: url('fundo.png');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 400px;
+    background-size: contain; /* Ajusta a imagem para caber inteiramente no espaço disponível */
+    width: 100%; /* Assegura que o cabeçalho se estenda por toda a largura da tela */
+    min-height: 768px; /* A altura mínima baseada na altura da imagem original */
     display: flex;
+    align-items: center; /* Alinha o conteúdo do cabeçalho verticalmente */
     justify-content: center;
-    align-items: center;
     color: white;
     text-align: center;
 }
