@@ -81,6 +81,10 @@ body {
     .navbar-custom {
         padding: 0 50px; /* Aumentar o padding nas laterais para maior espaçamento em telas grandes */
     }
+
+    .header-bg {
+        min-height: 600px; /* Aumentar a altura mínima para monitores grandes para garantir cobertura vertical adequada */
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -91,6 +95,10 @@ body {
     .nav-link {
         font-size: 1.2rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
     }
+
+    .header-bg {
+        min-height: 500px; /* Ajustar a altura para laptops de tamanho intermediário */
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -100,6 +108,10 @@ body {
 
     .nav-link {
         font-size: 1rem; /* Reduzir o tamanho da fonte para links de navegação em tablets */
+    }
+
+    .header-bg {
+        min-height: 450px; /* Ajustar a altura para tablets */
     }
 }
 
@@ -114,6 +126,10 @@ body {
 
     .navbar-custom {
         text-align: center; /* Centralizar a barra de navegação em dispositivos móveis */
+    }
+
+    .header-bg {
+        min-height: 300px; /* Reduzir a altura para dispositivos móveis */
     }
 }
 
