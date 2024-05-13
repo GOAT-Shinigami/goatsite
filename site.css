@@ -67,15 +67,53 @@ body {
     margin-right: 10px;
 }
 
-@media (max-width: 768px) {
-    .header-bg {
-        min-height: 200px; /* Reduzir ainda mais a altura em dispositivos móveis */
+/* Media queries para diferentes dispositivos */
+
+@media (min-width: 1200px) {
+    .navbar-logo {
+        height: 80px; /* Aumentar o logo para telas grandes */
+    }
+
+    .nav-link {
+        font-size: 1.4rem; /* Aumentar o tamanho da fonte para links de navegação em telas grandes */
     }
 
     .navbar-custom {
-        position: static; /* Em telas pequenas, a navbar pode se tornar estática novamente se desejado */
+        padding: 0 50px; /* Aumentar o padding nas laterais para maior espaçamento em telas grandes */
     }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-logo {
+        height: 70px; /* Ajustar o logo para laptops */
+    }
 
+    .nav-link {
+        font-size: 1.2rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-logo {
+        height: 50px; /* Reduzir ligeiramente o tamanho do logo para tablets */
+    }
+
+    .nav-link {
+        font-size: 1rem; /* Reduzir o tamanho da fonte para links de navegação em tablets */
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-logo {
+        height: 40px; /* Diminuir o logo para telas menores */
+    }
+
+    .nav-link {
+        font-size: 0.9rem; /* Diminuir o tamanho da fonte para links de navegação em dispositivos móveis */
+    }
+
+    .navbar-custom {
+        text-align: center; /* Centralizar a barra de navegação em dispositivos móveis */
+    }
+}
 
