@@ -8,8 +8,8 @@ body {
     background-image: url('fundo.png');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; /* Garante que a imagem cubra toda a área, ajustando a imagem conforme necessário */
-    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+    background-size: contain; /* Ajusta para manter toda a imagem visível */
+    background-attachment: scroll; /* Pode alternar para 'fixed' se desejar que a imagem não role com a página */
     width: 100%; /* Assegura que o cabeçalho se estenda por toda a largura da tela */
     min-height: 768px; /* A altura mínima baseada na altura da imagem original */
     display: flex;
