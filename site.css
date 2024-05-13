@@ -12,10 +12,6 @@
     text-align: center;
 }
 
-.header-content h1, .header-content p {
-    margin: 0;
-}
-
 .navbar-custom {
     background-color: #004d40;
     color: white;
@@ -29,12 +25,18 @@
     background-color: white; /* Tornar o botão do menu mais visível em dispositivos móveis */
 }
 
+.navbar-nav {
+    margin: 0 auto; /* Centralizar os itens de navegação horizontalmente */
+    width: 100%; /* Usar toda a largura disponível */
+    justify-content: center; /* Alinha os itens ao centro */
+}
+
 .nav-link {
     color: white;
 }
 
 .nav-link:hover {
-    color: #f8f9fa;
+    color: #f8f9fa; /* Um tom mais claro ao passar o mouse */
 }
 
 .connect-wallet {
