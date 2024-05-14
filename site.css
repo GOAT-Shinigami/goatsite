@@ -45,7 +45,7 @@ body {
 
 .nav-link {
     color: black;
-    font-size: 0.8rem; /* Aumentar um pouco o tamanho da fonte */
+    font-size: 0.5rem; /* Aumentar um pouco o tamanho da fonte */
     margin-right: 15px; /* Aumentar o espaço entre os botões */
 }
 
