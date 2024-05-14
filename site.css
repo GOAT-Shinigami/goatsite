@@ -1,16 +1,12 @@
-@font-face {
-    font-family: '8bitwonder';
-    src: url('8bitwonder.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); /* Exemplo de fonte retro */
 
 body {
-    font-family: '8bitwonder', sans-serif;
+    font-family: 'Monoton', cursive; /* Aplicar a fonte retro ao corpo todo */
 }
+
 .header-bg {
     background-image: url('fundo.png');
-    background-position: center 19%;
+    background-position: center 20%;
     background-repeat: no-repeat;
     background-size: cover; /* Ajusta para manter toda a imagem visível */
     background-attachment: fixed; /* Pode alternar para 'fixed' se desejar que a imagem não role com a página */
@@ -30,7 +26,7 @@ body {
     position: fixed; /* Fixar a barra de navegação no topo */
     top: 0;
     z-index: 1000; /* Garantir que a navbar fique acima de outros conteúdos */
-    font-family: '8bitwonder', cursive; /* Aplicar a fonte retro */
+    font-family: 'Monoton', cursive; /* Aplicar a fonte retro */
 }
 
 .navbar-toggler {
