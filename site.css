@@ -54,6 +54,7 @@ body {
 }
 
 .connect-wallet {
+    font-size:0.8rem;
     background-color: #ff5722;
     color: white;
     padding: 0.5rem 1rem;
