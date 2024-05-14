@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=PixelEmulator&display=swap'); /* Exemplo de fonte retro */
+@import url('https://fonts.googleapis.com/css2?family=BleedingCowboys&display=swap'); /* Exemplo de fonte retro */
 
 body {
-    font-family: 'Pixel Emulator', cursive; /* Aplicar a fonte retro ao corpo todo */
+    font-family: 'Bleeding Cowboys', cursive; /* Aplicar a fonte retro ao corpo todo */
 }
 
 .header-bg {
@@ -26,7 +26,7 @@ body {
     position: fixed; /* Fixar a barra de navegação no topo */
     top: 0;
     z-index: 1000; /* Garantir que a navbar fique acima de outros conteúdos */
-    font-family: 'Press Start 2P', cursive; /* Aplicar a fonte retro */
+    font-family: 'Bleeding Cowboys', cursive; /* Aplicar a fonte retro */
 }
 
 .navbar-toggler {
