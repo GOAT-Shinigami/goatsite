@@ -46,7 +46,11 @@ body {
 .nav-link {
     color: black;
     font-size: 0.8rem; /* Aumentar um pouco o tamanho da fonte */
-    padding:0.5rem;
+    margin-right: 15px; /* Aumentar o espaço entre os botões */
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0; /* Remover margem extra do último item para manter o alinhamento */
 }
 
 .nav-link:hover {
