@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Outrun&display=swap'); /* Exemplo de fonte retro */
+@import url('https://fonts.googleapis.com/css2?family=PixelEmulator&display=swap'); /* Exemplo de fonte retro */
 
 body {
-    font-family: 'Outrun', cursive; /* Aplicar a fonte retro ao corpo todo */
+    font-family: 'Pixel Emulator', cursive; /* Aplicar a fonte retro ao corpo todo */
 }
 
 .header-bg {
