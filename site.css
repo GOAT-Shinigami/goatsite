@@ -45,7 +45,8 @@ body {
 
 .nav-link {
     color: black;
-    font-size: 1.0rem; /* Aumentar um pouco o tamanho da fonte */
+    font-size: 0.8rem; /* Aumentar um pouco o tamanho da fonte */
+    padding:0.5rem;
 }
 
 .nav-link:hover {
