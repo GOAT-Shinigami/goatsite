@@ -1,6 +1,5 @@
 function adjustBackgroundAndNavbar() {
     const bg = document.querySelector('.header-bg');
-    const navbar = document.querySelector('.navbar-custom');
     const ratio = window.innerWidth / window.innerHeight;
 
     // Ajustar tamanho de fundo com base na relação de aspecto
@@ -21,12 +20,7 @@ function adjustBackgroundAndNavbar() {
         navbar.style.padding = '0 10px'; // Espaçamento mínimo para smartphones
     }
 
-    // Ajustes dinâmicos para links na navbar
-    const links = navbar.querySelectorAll('.nav-link');
-    links.forEach(link => {
-        link.style.fontSize = (window.innerWidth > 1200) ? '1.2rem' : '1rem';
-        link.style.marginRight = (window.innerWidth > 1200) ? '20px' : '10px';
-    });
+
 }
 
 window.addEventListener('load', adjustBackgroundAndNavbar);
