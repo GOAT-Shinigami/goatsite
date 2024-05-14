@@ -44,8 +44,8 @@ body {
 }
 
 .nav-link {
-    color: black;
-    font-size: 0.5rem; /* Aumentar um pouco o tamanho da fonte */
+    color: #000000;
+    font-size: 0.7rem; /* Aumentar um pouco o tamanho da fonte */
     margin-right: 15px; /* Aumentar o espaço entre os botões */
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #f8f9fa; /* Um tom mais claro ao passar o mouse */
+    color: #E64A19; /* Um tom mais claro ao passar o mouse */
 }
 
 .connect-wallet {
