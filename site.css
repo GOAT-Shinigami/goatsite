@@ -1,12 +1,12 @@
 @font-face {
-    font-family: '8BitWonder';
-    src: url('8-BIT WONDER.ttf') format('truetype');
+    font-family: '8bitwonder';
+    src: url('8bitwonder.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: '8BitWonder', sans-serif;
+    font-family: '8bitwonder', sans-serif;
 }
 .header-bg {
     background-image: url('fundo.png');
@@ -30,7 +30,7 @@ body {
     position: fixed; /* Fixar a barra de navegação no topo */
     top: 0;
     z-index: 1000; /* Garantir que a navbar fique acima de outros conteúdos */
-    font-family: '8BitWonder', cursive; /* Aplicar a fonte retro */
+    font-family: '8bitwonder', cursive; /* Aplicar a fonte retro */
 }
 
 .navbar-toggler {
