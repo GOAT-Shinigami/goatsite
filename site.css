@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=BleedingCowboys&display=swap'); /* Exemplo de fonte retro */
-
-body {
-    font-family: 'Bleeding Cowboys', cursive; /* Aplicar a fonte retro ao corpo todo */
+@font-face {
+    font-family: '8BitWonder';
+    src: url('8-BIT WONDER.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
+body {
+    font-family: '8BitWonder', sans-serif;
+}
 .header-bg {
     background-image: url('fundo.png');
     background-position: center 19%;
@@ -26,7 +30,7 @@ body {
     position: fixed; /* Fixar a barra de navegação no topo */
     top: 0;
     z-index: 1000; /* Garantir que a navbar fique acima de outros conteúdos */
-    font-family: 'Bleeding Cowboys', cursive; /* Aplicar a fonte retro */
+    font-family: '8BitWonder', cursive; /* Aplicar a fonte retro */
 }
 
 .navbar-toggler {
