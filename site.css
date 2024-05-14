@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap'); /* Exemplo de fonte retro */
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap'); /* Exemplo de fonte retro */
 
 body {
-    font-family: 'Honk', cursive; /* Aplicar a fonte retro ao corpo todo */
+    font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
 }
 
 .header-bg {
@@ -26,7 +26,7 @@ body {
     position: fixed; /* Fixar a barra de navegação no topo */
     top: 0;
     z-index: 1000; /* Garantir que a navbar fique acima de outros conteúdos */
-    font-family: 'Honk', cursive; /* Aplicar a fonte retro */
+    font-family: 'Sixtyfour'; /* Aplicar a fonte retro */
 }
 
 .navbar-toggler {
