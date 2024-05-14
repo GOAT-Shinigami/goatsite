@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Exemplo de fonte retro */
+@import url('https://fonts.googleapis.com/css2?family=Keep on Truckin&display=swap'); /* Exemplo de fonte retro */
 
 body {
-    font-family: 'Press Start 2P', cursive; /* Aplicar a fonte retro ao corpo todo */
+    font-family: 'Keep on Truckin', cursive; /* Aplicar a fonte retro ao corpo todo */
 }
 
 .header-bg {
