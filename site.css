@@ -41,12 +41,6 @@ body {
 
 /* Ajuste para telas pequenas (smartphones) */
 @media screen and (max-width: 600px) {
-    .header-bg {
-        background-image: url('Fundo1.png'); /* Imagem específica para dispositivos móveis */
-        height: auto; /* Altura automática para evitar corte da imagem */
-        padding: 20px 0; /* Reduz o padding para ajustar melhor a tela */
-    }
-
     .w3-bar-item {
         display: block;
         width: 100%;
@@ -56,15 +50,6 @@ body {
     .connect-wallet {
         margin: 10px 0;
     }
-}
-
-.navbar-logo {
-    max-width: 100px;
-    margin: 0 auto;
-}
-
-.connect-wallet {
-    margin-left: 20px;
 }
 
 
