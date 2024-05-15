@@ -7,6 +7,7 @@ body {
 .header-bg {
     background-image: url('fundo.png');
     background-size: cover;
+    background-position: center;
     color: white;
     padding: 50px 0;
 }
