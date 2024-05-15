@@ -9,6 +9,7 @@ body {
     background-image: url('fundo.png');
     background-size: cover; /* Ajuste a imagem para cobrir o contêiner */
     background-position: center;
+    background-repeat: no-repeat; /* Evitar repetição da imagem */
     color: white;
     padding: 50px 0;
     height: 100vh; /* Ocupa toda a altura da viewport */
