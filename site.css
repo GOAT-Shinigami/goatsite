@@ -2,7 +2,9 @@
 
 body {
     font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
-     scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    background-color: #000; /* Adicionando um fundo preto para realçar o estilo retrô */
+    color: #fff; /* Definindo a cor do texto para branco */
 }
 
 .header-bg {
@@ -16,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center; /* Centraliza o texto */
 }
 
 .navbar-logo {
@@ -29,38 +32,39 @@ body {
 
 /* Estilo personalizado para a barra de navegação */
 .custom-navbar {
-    background-color: rgb(180, 180, 180); /* Fundo transparente */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Opcional: linha de borda inferior transparente */
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Linha de borda inferior transparente */
 }
 
 /* Estilo para as seções do conteúdo */
 .w3-container {
     padding: 64px;
+    color: #fff; /* Define a cor do texto para branco */
 }
 
 .w3-light-grey {
-    background-color: #f1f1f1;
+    background-color: #333; /* Fundo mais escuro */
 }
 
 /* Estilo para o rodapé */
 footer {
-    background-color: #f1f1f1;
+    background-color: #333; /* Fundo mais escuro */
     padding: 64px 16px;
 }
 
 footer p {
     margin: 8px 0;
+    color: #fff; /* Define a cor do texto para branco */
 }
 
 /* Estilo para o conteúdo do disclosure */
 #disclosure-content {
-    background-color: #f1f1f1;
+    background-color: #444; /* Fundo mais escuro */
     border: 1px solid #ccc;
     padding: 16px;
     margin-top: 16px;
     display: none; /* Escondido por padrão */
 }
-
 
 /* Ajuste para telas médias e grandes */
 @media screen and (min-width: 601px) {
@@ -81,12 +85,18 @@ footer p {
         display: block;
         width: 100%;
         text-align: center;
+        color: #fff; /* Define a cor do texto para branco */
     }
 
     .connect-wallet {
         margin: 10px 0;
     }
+
+    .custom-navbar {
+        background-color: rgba(0, 0, 0, 0.9); /* Fundo mais escuro e semi-transparente */
+    }
 }
+
 
 
 
