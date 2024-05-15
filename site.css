@@ -114,25 +114,12 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .navbar-logo {
-        height: 60px; /* Ajustar o logo para laptops */
+    .navbar-logo, .nav-link, .header-bg, .navbar-custom, .connect-wallet {
+        /*height: 60px; /* Ajustar o logo para laptops */
+        
     }
 
-    .nav-link {
-        font-size: 0.9rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
-    }
-
-    .header-bg {
-        min-height: 500px; /* Ajustar a altura para laptops de tamanho intermediário */
-    }
-
-    .connect-wallet {
-        font-size: 0.8rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em laptops */
-    }
-
-    .navbar-custom {
-        padding: 0 10px; /* Reduzir o padding lateral para caber melhor em laptops */
-    }
+    
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
