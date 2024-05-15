@@ -49,8 +49,8 @@ body {
 
 .nav-link {
     color: #000000;
-    font-size: 1.4rem; /* Aumentar um pouco o tamanho da fonte */
-    margin-right: 0.625rem; /* Aumentar o espaço entre os botões */
+    font-size: 1.2rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
+    margin-right: 0.5rem; /* Ajustar o espaço entre os botões */
     white-space: nowrap; /* Prevenir quebra de texto nos botões */
 }
 
@@ -63,11 +63,11 @@ body {
 }
 
 .connect-wallet {
-    font-size: 0.8rem;
+    font-size: 1rem; /* Ajustar o tamanho da fonte */
     background-color: #ff5722;
     color: white;
     padding: 0.5rem 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     white-space: nowrap; /* Prevenir quebra de texto no botão "Connect Wallet" */
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .meme-coin-logo, .navbar-logo {
-    height: 80px;
+    height: 70px; /* Ajustar o tamanho do logo para caber melhor */
     margin-right: 10px;
 }
 
@@ -102,11 +102,11 @@ body {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar-logo {
-        height: 70px; /* Ajustar o logo para laptops */
+        height: 60px; /* Ajustar o logo para laptops */
     }
 
     .nav-link {
-        font-size: 1.2rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
+        font-size: 1.1rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
     }
 
     .header-bg {
@@ -114,7 +114,7 @@ body {
     }
 
     .connect-wallet {
-        font-size: 0.7rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em laptops */
+        font-size: 0.9rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em laptops */
     }
 }
 
@@ -132,7 +132,7 @@ body {
     }
 
     .connect-wallet {
-        font-size: 0.6rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em tablets */
+        font-size: 0.8rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em tablets */
     }
 }
 
@@ -155,9 +155,10 @@ body {
     }
 
     .connect-wallet {
-        font-size: 0.5rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em dispositivos móveis */
+        font-size: 0.7rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em dispositivos móveis */
         margin-left: 0; /* Remover margem esquerda do botão Connect Wallet em dispositivos móveis */
     }
 }
+
 
 
