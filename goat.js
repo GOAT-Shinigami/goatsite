@@ -24,13 +24,27 @@ function adjustBackgroundAndNavbar() {
     // Ajustes dinâmicos para links na navbar
     const links = navbar.querySelectorAll('.nav-link');
     links.forEach(link => {
-        link.style.fontSize = (window.innerWidth > 1200) ? '1.4rem' : '1rem';
+        link.style.fontSize = (window.innerWidth > 1200) ? '1.4rem' : (window.innerWidth > 992) ? '1.2rem' : '1rem';
         link.style.marginRight = (window.innerWidth > 1200) ? '0.625rem' : '0.3rem';
     });
+
+    // Ajustes dinâmicos para o botão Connect Wallet
+    const connectWalletBtn = navbar.querySelector('.connect-wallet');
+    if (window.innerWidth > 1200) {
+        connectWalletBtn.style.fontSize = '0.8rem';
+    } else if (window.innerWidth > 992) {
+        connectWalletBtn.style.fontSize = '0.7rem';
+    } else if (window.innerWidth > 768) {
+        connectWalletBtn.style.fontSize = '0.6rem';
+    } else {
+        connectWalletBtn.style.fontSize = '0.5rem';
+        connectWalletBtn.style.marginLeft = '0'; // Remover margem esquerda em dispositivos móveis
+    }
 }
 
 window.addEventListener('load', adjustBackgroundAndNavbar);
 window.addEventListener('resize', adjustBackgroundAndNavbar);
+
 
 
 
