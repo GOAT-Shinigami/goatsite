@@ -77,7 +77,7 @@ footer p {
 /* Ajuste para telas pequenas (smartphones) */
 @media screen and (max-width: 600px) {
     .header-bg {
-        height: 100vh; /* Ocupa toda a altura da viewport */
+        height: 20vh; /* Ocupa toda a altura da viewport */
         background-size: cover; /* Garante que a imagem cubra a área */
         background-repeat: no-repeat; /* Impede a repetição da imagem */
         background-position: center; /* Centraliza a imagem */
