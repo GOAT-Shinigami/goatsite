@@ -45,13 +45,20 @@ body {
     margin: 0 auto; /* Centralizar os itens de navegação horizontalmente */
     width: 100%; /* Usar toda a largura disponível */
     justify-content: center; /* Alinha os itens ao centro */
+    flex-wrap: nowrap; /* Evitar que os itens se movam para a próxima linha */
+}
+
+.nav-item {
+    flex-shrink: 1; /* Permitir que os itens encolham se necessário */
+    flex-basis: auto; /* Permitir que a largura dos itens seja automática */
 }
 
 .nav-link {
     color: #000000;
-    font-size: 1.2rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
-    margin-right: 0.5rem; /* Ajustar o espaço entre os botões */
+    font-size: 1rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
+    margin-right: 0.3rem; /* Ajustar o espaço entre os botões */
     white-space: nowrap; /* Prevenir quebra de texto nos botões */
+    padding: 0.5rem 0.5rem; /* Reduzir o padding dos links */
 }
 
 .navbar-nav .nav-item:last-child .nav-link {
@@ -63,11 +70,10 @@ body {
 }
 
 .connect-wallet {
-    font-size: 1rem; /* Ajustar o tamanho da fonte */
+    font-size: 0.9rem; /* Ajustar o tamanho da fonte */
     background-color: #ff5722;
     color: white;
     padding: 0.5rem 1rem;
-    margin-left: 1rem;
     white-space: nowrap; /* Prevenir quebra de texto no botão "Connect Wallet" */
 }
 
@@ -76,7 +82,7 @@ body {
 }
 
 .meme-coin-logo, .navbar-logo {
-    height: 70px; /* Ajustar o tamanho do logo para caber melhor */
+    height: 60px; /* Ajustar o tamanho do logo para caber melhor */
     margin-right: 10px;
 }
 
@@ -106,7 +112,7 @@ body {
     }
 
     .nav-link {
-        font-size: 0.9rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
+        font-size: 1rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
     }
 
     .header-bg {
@@ -114,7 +120,7 @@ body {
     }
 
     .connect-wallet {
-        font-size: 0.9rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em laptops */
+        font-size: 0.8rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em laptops */
     }
 }
 
@@ -124,7 +130,7 @@ body {
     }
 
     .nav-link {
-        font-size: 1rem; /* Reduzir o tamanho da fonte para links de navegação em tablets */
+        font-size: 0.9rem; /* Reduzir o tamanho da fonte para links de navegação em tablets */
     }
 
     .header-bg {
@@ -142,7 +148,7 @@ body {
     }
 
     .nav-link {
-        font-size: 0.9rem; /* Diminuir o tamanho da fonte para links de navegação em dispositivos móveis */
+        font-size: 0.8rem; /* Diminuir o tamanho da fonte para links de navegação em dispositivos móveis */
     }
 
     .navbar-custom {
@@ -156,9 +162,9 @@ body {
 
     .connect-wallet {
         font-size: 0.7rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em dispositivos móveis */
-        margin-left: 0; /* Remover margem esquerda do botão Connect Wallet em dispositivos móveis */
     }
 }
+
 
 
 
