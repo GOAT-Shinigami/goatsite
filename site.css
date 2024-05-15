@@ -55,7 +55,7 @@ body {
 
 .nav-link {
     color: #000000;
-    font-size: 1rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
+    font-size: 0.8rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
     margin-right: 0.3rem; /* Ajustar o espaço entre os botões */
     white-space: nowrap; /* Prevenir quebra de texto nos botões */
     padding: 0.5rem 0.5rem; /* Reduzir o padding dos links */
