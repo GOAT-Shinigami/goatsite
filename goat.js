@@ -7,7 +7,8 @@ function toggleNav() {
     }
 }
 
-
+// Adicionando console.log para verificar o carregamento do JavaScript
+console.log("JavaScript carregado");
 
 
 
