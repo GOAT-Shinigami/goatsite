@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
+    margin: 0; /* Remover margens padrão do body */
+    padding: 0; /* Remover padding padrão do body */
 }
 
 .header-bg {
@@ -23,7 +25,7 @@ body {
 .navbar-custom {
     background-color: transparent;
     color: white;
-    width: 100%;
+    width: calc(100% - 30px); /* Adicionar espaço para margens do navegador */
     max-width: 1200px; /* Definir uma largura máxima para a navbar */
     margin: 0 auto; /* Centralizar a navbar */
     position: fixed; /* Fixar a barra de navegação no topo */
@@ -55,7 +57,7 @@ body {
 
 .nav-link {
     color: #000000;
-    font-size: 0.8rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
+    font-size: 1rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
     margin-right: 0.3rem; /* Ajustar o espaço entre os botões */
     white-space: nowrap; /* Prevenir quebra de texto nos botões */
     padding: 0.5rem 0.5rem; /* Reduzir o padding dos links */
@@ -75,6 +77,7 @@ body {
     color: white;
     padding: 0.5rem 1rem;
     white-space: nowrap; /* Prevenir quebra de texto no botão "Connect Wallet" */
+    margin-left: 1rem; /* Garantir espaço entre o botão e os links anteriores */
 }
 
 .connect-wallet:hover {
@@ -162,8 +165,10 @@ body {
 
     .connect-wallet {
         font-size: 0.7rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em dispositivos móveis */
+        margin-left: 0; /* Remover margem esquerda do botão Connect Wallet em dispositivos móveis */
     }
 }
+
 
 
 
