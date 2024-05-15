@@ -53,3 +53,4 @@ window.addEventListener('resize', adjustBackgroundAndNavbar);
 
 
 
+
