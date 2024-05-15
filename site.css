@@ -11,11 +11,6 @@ body {
     padding: 50px 0;
 }
 
-.custom-navbar {
-    background-color: transparent; /* Fundo transparente */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Opcional: linha de borda inferior transparente */
-}
-
 .navbar-logo {
     max-width: 100px;
     margin: 0 auto;
@@ -23,6 +18,12 @@ body {
 
 .connect-wallet {
     margin-left: 20px;
+}
+
+/* Estilo personalizado para a barra de navegação */
+.custom-navbar {
+    background-color: transparent; /* Fundo transparente */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Opcional: linha de borda inferior transparente */
 }
 
 @media screen and (max-width: 600px) {
