@@ -12,7 +12,7 @@ function adjustBackgroundAndNavbar() {
         navbar.style.padding = '0 50px'; // Espaçamento maior para telas grandes
     } else if (window.innerWidth > 992) {
         bg.style.minHeight = '500px';
-        navbar.style.padding = '0 20px'; // Espaçamento padrão para desktops menores
+        navbar.style.padding = '0 10px'; // Espaçamento padrão para desktops menores
     } else if (window.innerWidth > 768) {
         bg.style.minHeight = '450px';
         navbar.style.padding = '0 15px'; // Espaçamento reduzido para tablets
@@ -24,7 +24,7 @@ function adjustBackgroundAndNavbar() {
     // Ajustes dinâmicos para links na navbar
     const links = navbar.querySelectorAll('.nav-link');
     links.forEach(link => {
-        link.style.fontSize = (window.innerWidth > 1200) ? '1.4rem' : (window.innerWidth > 992) ? '1rem' : (window.innerWidth > 768) ? '0.9rem' : '0.8rem';
+        link.style.fontSize = (window.innerWidth > 1200) ? '1.4rem' : (window.innerWidth > 992) ? '0.9rem' : (window.innerWidth > 768) ? '0.9rem' : '0.8rem';
         link.style.marginRight = (window.innerWidth > 1200) ? '0.625rem' : '0.3rem';
     });
 
@@ -43,6 +43,7 @@ function adjustBackgroundAndNavbar() {
 
 window.addEventListener('load', adjustBackgroundAndNavbar);
 window.addEventListener('resize', adjustBackgroundAndNavbar);
+
 
 
 
