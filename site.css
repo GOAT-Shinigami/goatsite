@@ -36,6 +36,22 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Linha de borda inferior transparente */
 }
 
+/* Estilo para a seção de introdução */
+.intro-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.intro-section h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.intro-section .subtitle {
+    font-size: 1.5em;
+    color: #666;
+}
+
 /* Estilo para as seções do conteúdo */
 .w3-container {
     padding: 64px;
@@ -91,6 +107,14 @@ footer p {
 
     .connect-wallet {
         margin: 10px 0;
+    }
+
+    .intro-section h1 {
+        font-size: 2em;
+    }
+
+    .intro-section .subtitle {
+        font-size: 1.2em;
     }
 }
 
