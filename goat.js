@@ -24,7 +24,7 @@ function adjustBackgroundAndNavbar() {
     // Ajustes dinâmicos para links na navbar
     const links = navbar.querySelectorAll('.nav-link');
     links.forEach(link => {
-        link.style.fontSize = (window.innerWidth > 1200) ? '0.8rem' : (window.innerWidth > 992) ? '1rem' : (window.innerWidth > 768) ? '0.9rem' : '0.8rem';
+        link.style.fontSize = (window.innerWidth > 1200) ? '1.4rem' : (window.innerWidth > 992) ? '1rem' : (window.innerWidth > 768) ? '0.9rem' : '0.8rem';
         link.style.marginRight = (window.innerWidth > 1200) ? '0.625rem' : '0.3rem';
     });
 
@@ -43,6 +43,7 @@ function adjustBackgroundAndNavbar() {
 
 window.addEventListener('load', adjustBackgroundAndNavbar);
 window.addEventListener('resize', adjustBackgroundAndNavbar);
+
 
 
 
