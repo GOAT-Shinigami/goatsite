@@ -3,7 +3,7 @@
 body {
     font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
     scroll-behavior: smooth;
-    background-color: #000; /* Adicionando um fundo preto para realçar o estilo retrô */
+    background-color: #BFFBD9; /* Adicionando um fundo preto para realçar o estilo retrô */
     color: #fff; /* Definindo a cor do texto para branco */
 }
 
@@ -39,7 +39,7 @@ body {
 /* Estilo para a seção de introdução */
 .intro-section {
     padding: 50px 0;
-    background-color: #f9f9f9;
+    /*background-color: #f9f9f9;*/
 }
 
 .intro-section h1 {
