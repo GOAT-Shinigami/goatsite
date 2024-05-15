@@ -106,7 +106,7 @@ body {
     }
 
     .nav-link {
-        font-size: 1.1rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
+        font-size: 0.9rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
     }
 
     .header-bg {
