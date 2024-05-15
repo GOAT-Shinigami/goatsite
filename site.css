@@ -10,6 +10,10 @@ body {
     background-position: center;
     color: white;
     padding: 50px 0;
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar-logo {
@@ -27,12 +31,6 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Opcional: linha de borda inferior transparente */
 }
 
-@media screen and (min-width: 601px) {
-    .header-bg {
-        background-position: center;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .w3-bar-item {
         display: block;
@@ -43,7 +41,6 @@ body {
     .connect-wallet {
         margin: 10px 0;
     }
-
 }
 
 
