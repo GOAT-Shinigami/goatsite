@@ -7,6 +7,7 @@ function toggleNav() {
     }
 }
 
+
 // Função para alternar a visibilidade do conteúdo do disclosure
 function toggleDisclosure() {
     var x = document.getElementById("disclosure-content");
