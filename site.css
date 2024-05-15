@@ -77,23 +77,20 @@ footer p {
 /* Ajuste para telas pequenas (smartphones) */
 @media screen and (max-width: 600px) {
     .header-bg {
-        height: 50vh; /* Ajusta a altura do cabeçalho para manter a proporção da imagem */
-        background-size: contain; /* Mantém a proporção da imagem */
+        height: 50vh; /* Ocupa toda a altura da viewport */
+        background-size: cover; /* Garante que a imagem cubra a área */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */
+        background-position: center; /* Centraliza a imagem */
     }
 
     .w3-bar-item {
         display: block;
         width: 100%;
         text-align: center;
-        color: #fff; /* Define a cor do texto para branco */
     }
 
     .connect-wallet {
         margin: 10px 0;
-    }
-
-    .custom-navbar {
-        background-color: rgba(0, 0, 0, 0.9); /* Fundo mais escuro e semi-transparente */
     }
 }
 
