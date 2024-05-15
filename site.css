@@ -11,6 +11,10 @@ body {
     padding: 50px 0;
 }
 
+.custom-navbar {
+    background-color: transparent; /* Mude essa cor conforme necessário */
+}
+
 .navbar-logo {
     max-width: 100px;
     margin: 0 auto;
