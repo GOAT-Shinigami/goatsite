@@ -27,6 +27,12 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Opcional: linha de borda inferior transparente */
 }
 
+@media screen and (min-width: 601px) {
+    .header-bg {
+        background-position: center;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .w3-bar-item {
         display: block;
@@ -36,6 +42,10 @@ body {
 
     .connect-wallet {
         margin: 10px 0;
+    }
+
+    .header-bg {
+        background-position: top; /* Ajusta a posição do fundo para telas pequenas */
     }
 }
 
