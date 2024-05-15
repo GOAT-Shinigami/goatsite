@@ -65,7 +65,7 @@ footer p {
 @media screen and (min-width: 601px) {
     .header-bg {
         height: 100vh; /* Ocupa toda a altura da viewport */
-        background-attachment: fixed; /* Para evitar que a imagem se mova */
+        background-attachment: scroll; /* Para evitar que a imagem se mova */
     }
 }
 
