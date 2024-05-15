@@ -167,7 +167,12 @@ body {
         font-size: 0.7rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em dispositivos móveis */
         margin-left: 0; /* Remover margem esquerda do botão Connect Wallet em dispositivos móveis */
     }
+
+    .navbar-collapse {
+        justify-content: flex-start; /* Alinhar itens à esquerda para dispositivos móveis */
+    }
 }
+
 
 
 
