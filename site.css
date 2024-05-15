@@ -115,7 +115,7 @@ body {
     }
 
     .nav-link {
-        font-size: 1rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
+        font-size: 0.9rem; /* Ajustar o tamanho da fonte para links de navegação em laptops */
     }
 
     .header-bg {
@@ -124,6 +124,24 @@ body {
 
     .connect-wallet {
         font-size: 0.8rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em laptops */
+    }
+
+    .navbar-custom {
+        padding: 0 10px; /* Reduzir o padding lateral para caber melhor em laptops */
+    }
+
+    .navbar-nav {
+        flex-wrap: wrap; /* Permitir quebra de linha se necessário */
+        justify-content: flex-start; /* Alinhar itens à esquerda */
+    }
+
+    .nav-item {
+        flex-basis: auto; /* Permitir ajuste automático da largura dos itens */
+        margin-bottom: 0.5rem; /* Espaço entre linhas de itens de navegação */
+    }
+
+    .nav-link {
+        padding: 0.3rem 0.5rem; /* Ajustar o padding dos links */
     }
 }
 
@@ -172,6 +190,7 @@ body {
         justify-content: flex-start; /* Alinhar itens à esquerda para dispositivos móveis */
     }
 }
+
 
 
 
