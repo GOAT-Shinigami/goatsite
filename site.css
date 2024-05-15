@@ -25,14 +25,17 @@ body {
 .navbar-custom {
     background-color: transparent;
     color: white;
-    width: calc(100% - 30px); /* Adicionar espaço para margens do navegador */
+    width: 100%; /* Adicionar espaço para margens do navegador */
     max-width: 1200px; /* Definir uma largura máxima para a navbar */
     margin: 0 auto; /* Centralizar a navbar */
     position: fixed; /* Fixar a barra de navegação no topo */
     top: 0;
     z-index: 1000; /* Garantir que a navbar fique acima de outros conteúdos */
     font-family: 'Sixtyfour'; /* Aplicar a fonte retro */
-    padding: 0 15px; /* Adicionar padding para evitar que os itens fiquem encostados nas bordas */
+    padding: 0 10px; /* Adicionar padding para evitar que os itens fiquem encostados nas bordas */
+    display: flex;
+    flex-wrap: wrap; /* Permitir que a barra de navegação se ajuste */
+    justify-content: space-between;
 }
 
 .navbar-toggler {
@@ -44,23 +47,24 @@ body {
 }
 
 .navbar-nav {
-    margin: 0 auto; /* Centralizar os itens de navegação horizontalmente */
-    width: 100%; /* Usar toda a largura disponível */
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap; /* Permitir quebra de linha dos itens de navegação */
     justify-content: center; /* Alinha os itens ao centro */
-    flex-wrap: nowrap; /* Evitar que os itens se movam para a próxima linha */
 }
 
 .nav-item {
     flex-shrink: 1; /* Permitir que os itens encolham se necessário */
     flex-basis: auto; /* Permitir que a largura dos itens seja automática */
+    margin-bottom: 0.5rem; /* Espaço entre itens na quebra de linha */
 }
 
 .nav-link {
     color: #000000;
-    font-size: 1rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
+    font-size: 0.9rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
     margin-right: 0.3rem; /* Ajustar o espaço entre os botões */
     white-space: nowrap; /* Prevenir quebra de texto nos botões */
-    padding: 0.5rem 0.5rem; /* Reduzir o padding dos links */
+    padding: 0.3rem 0.5rem; /* Reduzir o padding dos links */
 }
 
 .navbar-nav .nav-item:last-child .nav-link {
@@ -72,7 +76,7 @@ body {
 }
 
 .connect-wallet {
-    font-size: 0.9rem; /* Ajustar o tamanho da fonte */
+    font-size: 0.8rem; /* Ajustar o tamanho da fonte */
     background-color: #ff5722;
     color: white;
     padding: 0.5rem 1rem;
@@ -85,7 +89,7 @@ body {
 }
 
 .meme-coin-logo, .navbar-logo {
-    height: 60px; /* Ajustar o tamanho do logo para caber melhor */
+    height: 50px; /* Ajustar o tamanho do logo para caber melhor */
     margin-right: 10px;
 }
 
@@ -128,20 +132,6 @@ body {
 
     .navbar-custom {
         padding: 0 10px; /* Reduzir o padding lateral para caber melhor em laptops */
-    }
-
-    .navbar-nav {
-        flex-wrap: wrap; /* Permitir quebra de linha se necessário */
-        justify-content: flex-start; /* Alinhar itens à esquerda */
-    }
-
-    .nav-item {
-        flex-basis: auto; /* Permitir ajuste automático da largura dos itens */
-        margin-bottom: 0.5rem; /* Espaço entre linhas de itens de navegação */
-    }
-
-    .nav-link {
-        padding: 0.3rem 0.5rem; /* Ajustar o padding dos links */
     }
 }
 
@@ -190,6 +180,7 @@ body {
         justify-content: flex-start; /* Alinhar itens à esquerda para dispositivos móveis */
     }
 }
+
 
 
 
