@@ -2,171 +2,36 @@
 
 body {
     font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
-    margin: 0; /* Remover margens padrão do body */
-    padding: 0; /* Remover padding padrão do body */
 }
 
 .header-bg {
-    background-image: url('fundo.png');
-    background-position: center 20%;
-    background-repeat: no-repeat;
-    background-size: cover; /* Ajusta para manter toda a imagem visível */
-    background-attachment: fixed; /* Pode alternar para 'fixed' se desejar que a imagem não role com a página */
-    width: 100%; /* Assegura que o cabeçalho se estenda por toda a largura da tela */
-    min-height: 768px; /* A altura mínima baseada na altura da imagem original */
-    display: flex;
-    align-items: center; /* Alinha o conteúdo do cabeçalho verticalmente */
-    justify-content: center;
+    background-image: url('header-bg.jpg');
+    background-size: cover;
     color: white;
-    text-align: center;
-    padding: 20px;
+    padding: 50px 0;
 }
 
-.navbar-custom {
-    background-color: transparent;
-    color: white;
-    width: 100%; /* Adicionar espaço para margens do navegador */
-    max-width: 1200px; /* Definir uma largura máxima para a navbar */
-    margin: 0 auto; /* Centralizar a navbar */
-    position: fixed; /* Fixar a barra de navegação no topo */
-    top: 0;
-    z-index: 1000; /* Garantir que a navbar fique acima de outros conteúdos */
-    font-family: 'Sixtyfour'; /* Aplicar a fonte retro */
-    padding: 0 10px; /* Adicionar padding para evitar que os itens fiquem encostados nas bordas */
-    display: flex;
-    flex-wrap: wrap; /* Permitir que a barra de navegação se ajuste */
-    justify-content: space-between;
-}
-
-.navbar-toggler {
-    background-color: white; /* Tornar o botão do menu mais visível em dispositivos móveis */
-}
-
-.navbar-brand {
-    margin-left: 20px; /* Ajustar o logo para a direita */
-}
-
-.navbar-nav {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap; /* Permitir quebra de linha dos itens de navegação */
-    justify-content: center; /* Alinha os itens ao centro */
-}
-
-.nav-item {
-    flex-shrink: 1; /* Permitir que os itens encolham se necessário */
-    flex-basis: auto; /* Permitir que a largura dos itens seja automática */
-    margin-bottom: 0.5rem; /* Espaço entre itens na quebra de linha */
-}
-
-.nav-link {
-    color: #000000;
-    font-size: 0.9rem; /* Ajustar o tamanho da fonte para caber melhor em laptops */
-    margin-right: 0.3rem; /* Ajustar o espaço entre os botões */
-    white-space: nowrap; /* Prevenir quebra de texto nos botões */
-    padding: 0.3rem 0.5rem; /* Reduzir o padding dos links */
-}
-
-.navbar-nav .nav-item:last-child .nav-link {
-    margin-right: 0; /* Remover margem extra do último item para manter o alinhamento */
-}
-
-.nav-link:hover {
-    color: #E64A19; /* Um tom mais claro ao passar o mouse */
+.navbar-logo {
+    max-width: 100px;
+    margin: 20px 0;
 }
 
 .connect-wallet {
-    font-size: 0.8rem; /* Ajustar o tamanho da fonte */
-    background-color: #ff5722;
-    color: white;
-    padding: 0.5rem 1rem;
-    white-space: nowrap; /* Prevenir quebra de texto no botão "Connect Wallet" */
-    margin-left: 1rem; /* Garantir espaço entre o botão e os links anteriores */
+    margin-left: 20px;
 }
 
-.connect-wallet:hover {
-    background-color: #e64a19;
-}
-
-.meme-coin-logo, .navbar-logo {
-    height: 50px; /* Ajustar o tamanho do logo para caber melhor */
-    margin-right: 10px;
-}
-
-/* Media queries para diferentes dispositivos */
-
-@media (min-width: 1200px) {
-    .navbar-logo {
-        height: 80px; /* Aumentar o logo para telas grandes */
-    }
-
-    .nav-link {
-        font-size: 1.4rem; /* Aumentar o tamanho da fonte para links de navegação em telas grandes */
-    }
-
-    .navbar-custom {
-        padding: 0 50px; /* Aumentar o padding nas laterais para maior espaçamento em telas grandes */
-    }
-
-    .header-bg {
-        min-height: 768px; /* Aumentar a altura mínima para monitores grandes para garantir cobertura vertical adequada */
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .navbar-logo, .nav-link, .header-bg, .navbar-custom, .connect-wallet {
-        /*height: 60px; /* Ajustar o logo para laptops */
-        
-    }
-
-    
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-logo {
-        height: 50px; /* Reduzir ligeiramente o tamanho do logo para tablets */
-    }
-
-    .nav-link {
-        font-size: 0.9rem; /* Reduzir o tamanho da fonte para links de navegação em tablets */
-    }
-
-    .header-bg {
-        min-height: 450px; /* Ajustar a altura para tablets */
+@media screen and (max-width: 600px) {
+    .w3-bar-item {
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 
     .connect-wallet {
-        font-size: 0.8rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em tablets */
+        margin: 10px 0;
     }
 }
 
-@media (max-width: 767px) {
-    .navbar-logo {
-        height: 40px; /* Diminuir o logo para telas menores */
-    }
-
-    .nav-link {
-        font-size: 0.8rem; /* Diminuir o tamanho da fonte para links de navegação em dispositivos móveis */
-    }
-
-    .navbar-custom {
-        text-align: center; /* Centralizar a barra de navegação em dispositivos móveis */
-        padding: 0 10px; /* Reduzir o padding para dispositivos móveis */
-    }
-
-    .header-bg {
-        min-height: 300px; /* Reduzir a altura para dispositivos móveis */
-    }
-
-    .connect-wallet {
-        font-size: 0.7rem; /* Ajustar o tamanho da fonte do botão Connect Wallet em dispositivos móveis */
-        margin-left: 0; /* Remover margem esquerda do botão Connect Wallet em dispositivos móveis */
-    }
-
-    .navbar-collapse {
-        justify-content: flex-start; /* Alinhar itens à esquerda para dispositivos móveis */
-    }
-}
 
 
 
