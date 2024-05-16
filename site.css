@@ -136,6 +136,7 @@ footer p {
 
     .about-title {
         text-align: center; /* Centraliza o título em telas pequenas */
+        font-size: 1.2em;
     }
 }
 
