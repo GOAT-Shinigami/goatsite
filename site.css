@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap'); /* Exemplo de fonte retro */
 
+html {
+    scroll-behavior: smooth; /* Adiciona rolagem suave */
+}
+
 body {
     font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
-    scroll-behavior: smooth;
     background-color: #BFFBD9; /* Adicionando um fundo preto para realçar o estilo retrô */
     color: #000;
 }
@@ -41,7 +44,21 @@ body {
 
 .custom-navbar .w3-bar-item:hover {
     background-color: #0094CE; /* Cor de fundo ao passar o mouse */
-    color: #BFFBD9 /*!important; /* Cor do texto ao passar o mouse */
+    color: #FE8029 !important; /* Mantém a cor do texto */
+}
+
+/* Estilo para o menu exibido após clicar no botão toggle */
+#nav-small {
+    background-color: #BFFBD9; /* Cor de fundo do menu */
+}
+
+#nav-small .w3-bar-item {
+    color: #FE8029 !important; /* Cor do texto dos itens do menu */
+}
+
+#nav-small .w3-bar-item:hover {
+    background-color: #0094CE; /* Cor de fundo ao passar o mouse */
+    color: #FE8029 !important; /* Mantém a cor do texto */
 }
 
 /* Estilo para a seção de introdução */
