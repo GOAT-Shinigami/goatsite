@@ -57,7 +57,7 @@ body {
 }
 
 .intro-section .subtitle {
-    color: #333; /* Cor mais suave para o subtítulo */
+    color: #000; /* Cor mais suave para o subtítulo */
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Adiciona um rebordo branco ao texto */
 }
 
@@ -132,7 +132,7 @@ footer p {
     }
 
     .intro-section h1 {
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     .intro-section .subtitle {
