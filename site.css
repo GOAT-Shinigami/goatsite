@@ -91,6 +91,12 @@ body {
     padding: 64px;
 }
 
+/* Ajustes para a seção About */
+.about-content {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
 .about-title {
     font-family: 'Sixtyfour', cursive; /* Define a fonte */
     font-size: 4.5em; /* Aumenta o tamanho da fonte */
