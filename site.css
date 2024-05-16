@@ -58,6 +58,12 @@ body {
     color: #fff; /* Define a cor do texto para branco */
 }
 
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
 /* Estilo para o rodapé */
 footer {
     background-color: #000; /* Fundo mais escuro */
@@ -111,6 +117,10 @@ footer p {
 
     .intro-section .subtitle {
         font-size: 1.2em;
+    }
+
+    .w3-col {
+        width: 100% !important; /* Assegura que as colunas ocupem 100% da largura em telas pequenas */
     }
 }
 
