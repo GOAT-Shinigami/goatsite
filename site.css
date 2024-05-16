@@ -59,9 +59,11 @@ body {
 }
 
 .about-title {
-    text-align: left;
-    font-size: 40px; /* Aumenta o tamanho da fonte */
-    font-weight: bold;
+    font-family: 'Sixtyfour', cursive; /* Mantém a fonte consistente com o site */
+    font-size: 80px;
+    color: #FE8029;
+    margin: 0 auto; /* Centraliza horizontalmente o título no contêiner */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
