@@ -43,13 +43,22 @@ body {
 }
 
 .intro-section h1 {
-    font-size: 3em;
+    font-size: 4.5em;
     margin-bottom: 10px;
+    color: #FE8029; /* Usando a cor principal do site */
+    text-shadow: 
+        1px 1px 0 #000,   /* Sombra múltipla para efeito 3D */
+        2px 2px 0 #000,
+        3px 3px 0 #000,
+        4px 4px 0 #000,
+        5px 5px 0 #000;
+    transform: translateZ(0); /* Habilita a aceleração de hardware para suavizar as sombras */
+    font-family: 'Sixtyfour', cursive; /* Define a fonte */
 }
 
 .intro-section .subtitle {
-    font-size: 1.5em;
-    color: #666;
+    color: #333; /* Cor mais suave para o subtítulo */
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Adiciona um rebordo branco ao texto */
 }
 
 /* Estilo para as seções do conteúdo */
@@ -60,7 +69,7 @@ body {
 
 .about-title {
     font-family: 'Sixtyfour', cursive; /* Define a fonte */
-    font-size: 4em; /* Aumenta o tamanho da fonte */
+    font-size: 4.5em; /* Aumenta o tamanho da fonte */
     color: #FE8029; /* Define a cor do texto */
     text-align: left; /* Alinha o texto à esquerda */
     margin: 0 50px 20px; /* Centraliza horizontalmente o contêiner do título e adiciona margem inferior */
