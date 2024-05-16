@@ -41,7 +41,7 @@ body {
     
 }
 
-.intro-section h1 {
+.intro-title {
     font-size: 4.5em;
     margin-bottom: 10px;
     color: #FE8029; /* Usando a cor principal do site */
@@ -55,7 +55,7 @@ body {
     font-family: 'Sixtyfour', cursive; /* Define a fonte */
 }
 
-.intro-section .subtitle {
+.subtitle {
     color: #000; /* Cor mais suave para o subtítulo */
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Adiciona um rebordo branco ao texto */
 }
