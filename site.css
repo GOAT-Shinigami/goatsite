@@ -98,15 +98,15 @@ body {
     font-size: 4.5em; /* Aumenta o tamanho da fonte */
     color: #FE8029; /* Define a cor do texto */
     text-align: left; /* Alinha o texto à esquerda */
-    margin-top: 170px;
+    margin: 150px 5px 10px 230px; /* Ajusta as margens: superior, direita, inferior, esquerda */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
     width: fit-content; /* Ajusta a largura do contêiner do título ao seu conteúdo */
-    left: 130px; /* Move o título 50px para a direita */
+    
 }
 
 .w3-row {
     display: flex; /* Torna o contêiner flexível */
-    align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+    align-items: flex-start; /* Alinha o conteúdo ao início (topo) */
 }
 
 .about-text {
