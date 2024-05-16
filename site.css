@@ -12,7 +12,7 @@ body {
     background-size: cover; /* Ajuste a imagem para cobrir o contêiner */
     background-position: center;
     background-repeat: no-repeat; /* Evitar repetição da imagem */
-    color: white;
+    /*color: white;*/
     padding: 50px 0;
     height: 100vh; /* Ocupa toda a altura da viewport */
     display: flex;
@@ -64,7 +64,7 @@ body {
 
 /* Estilo para o rodapé */
 footer {
-    background-color: #333; /* Fundo mais escuro */
+    background-color: #000; /* Fundo mais escuro */
     padding: 64px 16px;
 }
 
