@@ -98,10 +98,10 @@ body {
     font-size: 4.5em; /* Aumenta o tamanho da fonte */
     color: #FE8029; /* Define a cor do texto */
     text-align: left; /* Alinha o texto à esquerda */
-    margin-top: 150px;
+    margin-top: 170px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
     width: fit-content; /* Ajusta a largura do contêiner do título ao seu conteúdo */
-    left: 90px; /* Move o título 50px para a direita */
+    left: 130px; /* Move o título 50px para a direita */
 }
 
 .w3-row {
