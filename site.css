@@ -66,7 +66,7 @@ body {
     margin: 0 auto 20px; /* Centraliza horizontalmente o contêiner do título e adiciona margem inferior */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
     width: fit-content; /* Ajusta a largura do contêiner do título ao seu conteúdo */
-    margin-bottom: 20px; /* Espaço abaixo do título */
+    /*margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
 .about-image img {
