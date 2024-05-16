@@ -4,7 +4,7 @@ body {
     font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
     scroll-behavior: smooth;
     background-color: #BFFBD9; /* Adicionando um fundo preto para realçar o estilo retrô */
-    color: #000; /* Definindo a cor do texto para branco */
+    color: #000; /* 
 }
 
 .header-bg {
@@ -61,10 +61,10 @@ body {
 }
 
 /* Estilo para as seções do conteúdo */
-.w3-container {
+/*.w3-container {
     padding: 64px;
-    color: #fff; /* Define a cor do texto para branco */
-}
+    color: #000; /* Define a cor do texto para branco */
+/*}*/
 
 .about-title {
     font-family: 'Sixtyfour', cursive; /* Define a fonte */
