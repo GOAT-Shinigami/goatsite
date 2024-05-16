@@ -51,14 +51,14 @@ body {
 }
 
 .subtitle {
-    color: #000; /* Cor mais suave para o subtítulo */
+    color: #000 !important; /* Cor preta com !important para garantir prioridade */
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Adiciona um rebordo branco ao texto */
 }
 
 /* Estilo para as seções do conteúdo */
 .w3-container {
     padding: 64px;
-    color: #fff; /* Define a cor do texto para branco */
+    color: #000; /* Define a cor do texto para branco */
 }
 
 .about-title {
