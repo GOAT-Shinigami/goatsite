@@ -122,6 +122,7 @@ footer p {
 
     .intro-section h1 {
         font-size: 2em;
+        letter-spacing: normal; /* Remove espaçamento extra entre letras */
     }
 
     .intro-section .subtitle {
