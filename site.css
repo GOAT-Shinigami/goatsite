@@ -97,7 +97,7 @@ body {
     font-size: 4.5em; /* Aumenta o tamanho da fonte */
     color: #FE8029; /* Define a cor do texto */
     text-align: left; /* Alinha o texto à esquerda */
-    margin: 0 50px 20px; /* Centraliza horizontalmente o contêiner do título e adiciona margem inferior */
+    margin: 30px 50px 20px; /* Centraliza horizontalmente o contêiner do título e adiciona margem inferior */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
     width: fit-content; /* Ajusta a largura do contêiner do título ao seu conteúdo */
 }
