@@ -4,7 +4,7 @@ body {
     font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
     scroll-behavior: smooth;
     background-color: #BFFBD9; /* Adicionando um fundo preto para realçar o estilo retrô */
-    color: #fff; /* Definindo a cor do texto para branco */
+    color: #000; /* Definindo a cor do texto para branco */
 }
 
 .header-bg {
@@ -56,10 +56,6 @@ body {
 .w3-container {
     padding: 64px;
     color: #fff; /* Define a cor do texto para branco */
-}
-
-.w3-light-grey {
-    background-color: #333; /* Fundo mais escuro */
 }
 
 /* Estilo para o rodapé */
