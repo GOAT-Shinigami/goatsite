@@ -4,7 +4,7 @@ body {
     font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
     scroll-behavior: smooth;
     background-color: #BFFBD9; /* Adicionando um fundo preto para realçar o estilo retrô */
-    color: #000; /* 
+    color: #000;
 }
 
 .header-bg {
