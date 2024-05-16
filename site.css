@@ -172,6 +172,15 @@ footer p {
         text-align: center; /* Centraliza o título em telas pequenas */
         font-size: 2em;
     }
+
+    .w3-row {
+        flex-direction: column; /* Empilha as colunas verticalmente */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .about-text {
+        padding: 20px 0; /* Ajusta o padding para telas pequenas */
+    }
 }
 
 
