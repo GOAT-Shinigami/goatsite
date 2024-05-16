@@ -21,7 +21,7 @@ body {
 }
 
 .navbar-logo {
-    max-width: 100px;
+    max-width: 150px; /* Aumente o tamanho para o desejado, por exemplo, 150px */
     margin: 0 auto;
 }
 
