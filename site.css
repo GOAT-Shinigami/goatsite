@@ -61,10 +61,9 @@ body {
 }
 
 /* Estilo para as seções do conteúdo */
-/*.w3-container {
+.w3-container {
     padding: 64px;
-    color: #000; /* Define a cor do texto para branco */
-/*}*/
+}
 
 .about-title {
     font-family: 'Sixtyfour', cursive; /* Define a fonte */
