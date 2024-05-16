@@ -43,7 +43,7 @@ body {
 }
 
 .custom-navbar .w3-bar-item:hover {
-    background-color: #0094CE; /* Cor de fundo ao passar o mouse */
+    background-color: #1266e5; /* Cor de fundo ao passar o mouse */
     color: #FE8029 !important; /* Mantém a cor do texto */
 }
 
