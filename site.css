@@ -36,6 +36,11 @@ body {
 }
 
 /* Estilo para a seção de introdução */
+.intro-section {
+    padding: 50px 0;
+    
+}
+
 .intro-title {
     font-size: 4.5em;
     margin-bottom: 10px;
@@ -58,7 +63,7 @@ body {
 /* Estilo para as seções do conteúdo */
 .w3-container {
     padding: 64px;
-    color: #000; /* Define a cor do texto para branco */
+    color: #fff; /* Define a cor do texto para branco */
 }
 
 .about-title {
@@ -69,7 +74,6 @@ body {
     margin: 0 50px 20px; /* Centraliza horizontalmente o contêiner do título e adiciona margem inferior */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
     width: fit-content; /* Ajusta a largura do contêiner do título ao seu conteúdo */
-    /*margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
 .about-image img {
@@ -87,15 +91,6 @@ footer {
 footer p {
     margin: 8px 0;
     color: #fff; /* Define a cor do texto para branco */
-}
-
-/* Estilo para o conteúdo do disclosure */
-#disclosure-content {
-    background-color: #444; /* Fundo mais escuro */
-    border: 1px solid #ccc;
-    padding: 16px;
-    margin-top: 16px;
-    display: none; /* Escondido por padrão */
 }
 
 /* Ajuste para telas médias e grandes */
@@ -142,6 +137,7 @@ footer p {
         font-size: 2em;
     }
 }
+
 
 
 
