@@ -58,10 +58,16 @@ body {
     color: #fff; /* Define a cor do texto para branco */
 }
 
+.about-title {
+    text-align: left;
+    font-size: 40px; /* Aumenta o tamanho da fonte */
+    font-weight: bold;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
 .about-image img {
     width: 100%;
     height: auto;
-    border-radius: 8px; /* Adiciona bordas arredondadas */
 }
 
 /* Estilo para o rodapé */
@@ -121,6 +127,10 @@ footer p {
 
     .w3-col {
         width: 100% !important; /* Assegura que as colunas ocupem 100% da largura em telas pequenas */
+    }
+
+    .about-title {
+        text-align: center; /* Centraliza o título em telas pequenas */
     }
 }
 
