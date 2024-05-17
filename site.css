@@ -21,7 +21,6 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center; /* Centraliza o texto */
-    text-decoration: none;
 }
 
 .navbar-logo {
@@ -36,8 +35,8 @@ body {
 /* Estilo personalizado para a barra de navegação */
 .custom-navbar {
     background-color: #3d3d3d; /* Fundo definido para #BFFBD9 */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Linha de borda inferior transparente */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para profundidade */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8); /* Linha de borda inferior transparente */
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra para profundidade */
 }
 
 .custom-navbar .w3-bar-item {
@@ -48,7 +47,7 @@ body {
 .custom-navbar .w3-bar-item:hover {
     background-color: #24B39C !important; /* Cor de fundo ao passar o mouse */
     color: #FE8029 !important; /* Mantém a cor do texto */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para profundidade ao passar o mouse */
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra para profundidade ao passar o mouse */
 }
 
 /* Estilo para o menu exibido após clicar no botão toggle */
