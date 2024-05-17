@@ -1,3 +1,13 @@
+// Função para alternar a navegação em telas pequenas
+function toggleNav() {
+    var x = document.getElementById("nav-small");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     const button = document.getElementById('connectBtn');
     const statusElement = document.getElementById('status');
@@ -74,24 +84,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Função para alternar a navegação em telas pequenas
-    function toggleNav() {
-        var x = document.getElementById("nav-small");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
-
-    // Adiciona um evento de rolagem suave ao carregar a página
-    window.onload = function() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
     // Adicionando console.log para verificar o carregamento do JavaScript
     console.log("JavaScript carregado");
 });
+
 
 
 
