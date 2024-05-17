@@ -66,7 +66,7 @@ body {
 /* Estilo para a seção de introdução */
 .intro-section {
     padding: 50px 0;
-     margin-bottom: 70px; /* Adiciona um espaço de 50px abaixo da seção de introdução */
+    margin-bottom: 90px; /* Adiciona um espaço de 50px abaixo da seção de introdução */
 }
 
 .intro-title {
@@ -99,7 +99,7 @@ body {
     font-size: 4.5em; /* Aumenta o tamanho da fonte */
     color: #FE8029; /* Define a cor do texto */
     text-align: left; /* Alinha o texto à esquerda */
-    margin: 0 0 10px 0; /* Ajusta as margens: superior, direita, inferior, esquerda */
+    margin: 0 0 7px 0; /* Ajusta as margens: superior, direita, inferior, esquerda */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
     width: fit-content; /* Ajusta a largura do contêiner do título ao seu conteúdo */
     
@@ -122,7 +122,7 @@ body {
 }
 
 .about-image img {
-    width: 80%;
+    width: 75%;
     height: auto;
     border-radius: 8px; /* Adiciona bordas arredondadas */
 }
