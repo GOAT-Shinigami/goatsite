@@ -11,7 +11,7 @@ body {
 }
 
 .header-bg {
-    background-image: url('fundo.png');
+    background-image: url('goatland.png');
     background-size: cover; /* Ajuste a imagem para cobrir o contêiner */
     background-position: center;
     background-repeat: no-repeat; /* Evitar repetição da imagem */
