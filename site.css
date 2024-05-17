@@ -66,7 +66,7 @@ body {
 /* Estilo para a seção de introdução */
 .intro-section {
     padding: 50px 0;
-    
+     margin-bottom: 70px; /* Adiciona um espaço de 50px abaixo da seção de introdução */
 }
 
 .intro-title {
