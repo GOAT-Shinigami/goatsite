@@ -155,10 +155,11 @@ body {
     margin: 10px 0; /* Margem entre os parágrafos */
 }
 
-#wallet-address {
+#walletAddress {
     font-weight: bold; /* Texto em negrito */
     color: #000; /* Cor do texto */
 }
+
 
 
 /* Estilo para o rodapé */
