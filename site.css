@@ -38,11 +38,12 @@ h1, h2 {
 
 /* Estilo personalizado para a barra de navegação */
 .custom-navbar {
-    background-color: #3d3d3d; /* Fundo definido para #BFFBD9 */
+    background-color: #3d3d3d; /* Fundo definido para #3d3d3d */
     box-shadow: 0 8px 6px rgb(255, 255, 255, 1); /* Adiciona uma sombra para profundidade */
 }
 
 .custom-navbar .w3-bar-item {
+    font-size:1em;
     font-family: 'Sixtyfour', cursive; /* Define a fonte retro */
     color: #FE8029 !important; /* Cor do texto definida para #FE8029 */
     transition: all 0.3s ease; /* Adiciona uma transição suave para hover */
@@ -74,7 +75,7 @@ h1, h2 {
 }
 
 .intro-title {
-    font-size: 5.6em;
+    font-size: 6em;
     margin-bottom: 10px;
     color: #FE8029; /* Usando a cor principal do site */
     text-shadow: 
@@ -114,6 +115,7 @@ h1, h2 {
 }
 
 .about-text {
+    font-size: 1.2em;
     padding: 20px; /* Adiciona algum padding para garantir que o texto não toque nas bordas */
     flex: 1; /* Permite que o texto ocupe a largura disponível */
 }
@@ -222,7 +224,7 @@ footer p {
 
 #wallet-info p {
     font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
-    font-size: 1em;
+    font-size: 1.8em;
     margin: 10px 0;
     color: #000; /* Cor do texto para melhor legibilidade */
     line-height: 1.5;
