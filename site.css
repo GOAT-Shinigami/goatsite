@@ -177,7 +177,6 @@ h1, h2 {
     color: #000; /* Cor do texto para melhor legibilidade */
     line-height: 1.5;
     margin: 20px auto; /* Adiciona margem para espaçamento */
-    max-width: 800px; /* Limita a largura máxima para melhorar a legibilidade */
     text-align: justify; /* Justifica o texto */
 }
 
