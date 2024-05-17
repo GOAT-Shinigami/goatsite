@@ -75,7 +75,7 @@ h1, h2 {
 }
 
 .intro-title {
-    font-size: 6em;
+    font-size: 8em;
     margin-bottom: 10px;
     color: #FE8029; /* Usando a cor principal do site */
     text-shadow: 
@@ -130,6 +130,51 @@ h1, h2 {
     width: 75%;
     height: auto;
     border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+/* Estilos para a seção de informações da carteira */
+#wallet-info {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px auto; /* Centraliza horizontalmente */
+    max-width: 600px; /* Limita a largura máxima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Adiciona sombra para efeito de flutuação */
+}
+
+#wallet-info h2 {
+    font-family: 'Sixtyfour', cursive; /* Define a fonte retro */
+    font-size: 2.4em; /* Mantém o tamanho da fonte como no restante do site */
+    color: #FE8029;
+    margin-bottom: 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
+}
+
+#wallet-info p {
+    font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
+    font-size: 1em;
+    margin: 10px 0;
+    color: #000; /* Cor do texto para melhor legibilidade */
+    line-height: 1.5;
+}
+
+#whyGoat h2 {
+    font-family: 'Sixtyfour', cursive; /* Fonte para o título */
+    font-size: 4.3em;
+    color: #FE8029;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom: 20px;
+}
+
+#whyGoat p {
+    font-family: 'Press Start 2P', cursive; /* Fonte para parágrafos */
+    font-size: 1.2em;
+    color: #333; /* Cor do texto para melhor legibilidade */
+    line-height: 1.5;
+    margin: 20px auto; /* Adiciona margem para espaçamento */
+    max-width: 800px; /* Limita a largura máxima para melhorar a legibilidade */
+    text-align: justify; /* Justifica o texto */
 }
 
 /* Estilo para o rodapé */
@@ -203,32 +248,6 @@ footer p {
     }
 }
 
-/* Estilos para a seção de informações da carteira */
-#wallet-info {
-    background-color: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px auto; /* Centraliza horizontalmente */
-    max-width: 600px; /* Limita a largura máxima */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Adiciona sombra para efeito de flutuação */
-}
-
-#wallet-info h2 {
-    font-family: 'Sixtyfour', cursive; /* Define a fonte retro */
-    font-size: 3em; /* Mantém o tamanho da fonte como no restante do site */
-    color: #FE8029;
-    margin-bottom: 20px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
-}
-
-#wallet-info p {
-    font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
-    font-size: 1.2em;
-    margin: 10px 0;
-    color: #000; /* Cor do texto para melhor legibilidade */
-    line-height: 1.5;
-}
 
 
 
