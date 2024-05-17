@@ -39,7 +39,7 @@ h1, h2 {
 /* Estilo personalizado para a barra de navegação */
 .custom-navbar {
     background-color: #3d3d3d; /* Fundo definido para #3d3d3d */
-    box-shadow: 0 8px 6px rgb(255, 255, 255, 1); /* Adiciona uma sombra para profundidade */
+    box-shadow: 0 8px 6px rgb(254, 128, 41, 1); /* Adiciona uma sombra para profundidade */
 }
 
 .custom-navbar .w3-bar-item {
@@ -75,7 +75,7 @@ h1, h2 {
 }
 
 .intro-title {
-    font-size: 8em;
+    font-size: 8em !important;
     margin-bottom: 10px;
     color: #FE8029; /* Usando a cor principal do site */
     text-shadow: 
@@ -159,6 +159,7 @@ h1, h2 {
     line-height: 1.5;
 }
 
+/* Ajustes para a seção Why Goat */
 #whyGoat {
     margin-top: 70px; /* Adiciona margem superior para mover a seção para baixo */
 }
@@ -181,7 +182,7 @@ h1, h2 {
 }
 
 #whyGoat img {
-    width: 70%; /* Faz a imagem ocupar 100% da largura do contêiner */
+    width: 85%; /* Faz a imagem ocupar 100% da largura do contêiner */
     max-width: 600px; /* Limita a largura máxima da imagem */
     height: auto; /* Mantém a proporção da imagem */
     margin-top: 20px; /* Adiciona margem superior */
