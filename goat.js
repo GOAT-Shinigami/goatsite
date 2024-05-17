@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
     const button = document.getElementById('connectBtn');
-    const modal = document.getElementById('walletModal');
     // Inicializa a interface com base nos dados do localStorage
     updateUIFromStorage();
 
@@ -30,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
             localStorage.setItem('isConnected', 'true');
             localStorage.setItem('walletAddress', response.publicKey.toString());
             updateUI(true, response.publicKey.toString());
-            modal.style.display = 'block'; // Exibe o modal
         } catch (error) {
             if (error.message.includes("User rejected the request")) {
                 alert("Connection request was rejected. Please allow the connection in your Phantom wallet.");
@@ -52,22 +50,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Atualiza o status da carteira e o endereço na página
     function updateUI(isConnected, address = null) {
-        const statusElement = document.getElementById('status');
-        const addressElement = document.getElementById('walletAddress');    
-        const infoDisplay = document.getElementById('infoDisplay');
+    const statusElement = document.getElementById('status');
+    const addressElement = document.getElementById('walletAddress');    
+    const infoDisplay = document.getElementById('infoDisplay');
 
-        if (isConnected) {
-            statusElement.textContent = 'Status: Connected';
-            addressElement.textContent = 'Address: ' + address;
-            infoDisplay.style.display = 'block'; // Mostra o infoDisplay quando conectado
-            modal.style.display = 'block'; // Exibe o modal quando conectado
-        } else {
-            statusElement.textContent = 'Status: Not Connected';
-            addressElement.textContent = 'Address: ';
-            infoDisplay.style.display = 'none'; // Oculta quando não conectado
-            modal.style.display = 'none'; // Oculta o modal quando desconectado
-        }
+    if (isConnected) {
+        statusElement.textContent = 'Status: Connected';
+        addressElement.textContent = 'Address: ' + address;
+        infoDisplay.style.display = 'block'; // Mostra o infoDisplay quando conectado
+    } else {
+        infoDisplay.style.display = 'none'; // Oculta quando não conectado
     }
+}
+
 
     // Listener para o botão
     button.addEventListener('click', async () => {
@@ -78,8 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-
-
+   
 
 // Função para alternar a navegação em telas pequenas
 function toggleNav() {
