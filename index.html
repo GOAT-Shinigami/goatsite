@@ -26,6 +26,10 @@
             <a href="#roadmap" class="w3-bar-item w3-button w3-hide-small">Roadmap</a>
             <a href="#socials" class="w3-bar-item w3-button w3-hide-small">Socials</a>
             <a href="#" id="connectBtn" class="w3-bar-item w3-button w3-hide-small connect-wallet">Connect Wallet</a>
+            <div id="infoDisplay" class="wallet-info w3-hide">
+                <span id="status">Status: Not Connected</span>
+                <span id="walletAddress">Address: </span>
+            </div>
             <a href="javascript:void(0);" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNav()">☰</a>
         </div>
     </nav>
@@ -39,25 +43,6 @@
         <a href="#roadmap" class="w3-bar-item w3-button">Roadmap</a>
         <a href="#socials" class="w3-bar-item w3-button">Socials</a>
         <a href="#" id="connectBtnSmall" class="w3-bar-item w3-button connect-wallet">Connect Wallet</a>
-    </div>
-
- <!-- Seção da Carteira -->
-   <div id="walletModal" class="w3-modal">
-        <div class="w3-modal-content w3-animate-top w3-card-4">
-            <header class="w3-container w3-teal"> 
-                <span onclick="document.getElementById('walletModal').style.display='none'" 
-                class="w3-button w3-display-topright">&times;</span>
-                <h2>Wallet Information</h2>
-            </header>
-            <div class="w3-container">
-                <p id="status">Status: Not Connected</p>
-                <p id="walletAddress">Address: </p>
-                <p><strong>Balance:</strong> <span id="wallet-balance"></span> SOL</p>
-            </div>
-            <footer class="w3-container w3-teal">
-                <p>Phantom Wallet Integration</p>
-            </footer>
-        </div>
     </div>
     
     <!-- Conteúdo do Site -->
