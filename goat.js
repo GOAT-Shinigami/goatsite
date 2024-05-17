@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     const button = document.getElementById('connectBtn');
+    const statusElement = document.getElementById('status');
+    const addressElement = document.getElementById('walletAddress');    
+    const infoDisplay = document.getElementById('infoDisplay');
+
     // Inicializa a interface com base nos dados do localStorage
     updateUIFromStorage();
 
@@ -7,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const connected = localStorage.getItem('isConnected') === 'true';
         const address = localStorage.getItem('walletAddress');
         updateUI(connected, address);
-        button.textContent = connected ? 'Disconnect from Phantom': 'Connect Wallet';
+        button.textContent = connected ? 'Disconnect from Phantom' : 'Connect Wallet';
     }
 
     function isPhantomInstalled() {
@@ -50,19 +54,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Atualiza o status da carteira e o endereço na página
     function updateUI(isConnected, address = null) {
-    const statusElement = document.getElementById('status');
-    const addressElement = document.getElementById('walletAddress');    
-    const infoDisplay = document.getElementById('infoDisplay');
-
-    if (isConnected) {
-        statusElement.textContent = 'Status: Connected';
-        addressElement.textContent = 'Address: ' + address;
-        infoDisplay.style.display = 'block'; // Mostra o infoDisplay quando conectado
-    } else {
-        infoDisplay.style.display = 'none'; // Oculta quando não conectado
+        if (isConnected) {
+            statusElement.textContent = 'Status: Connected';
+            addressElement.textContent = 'Address: ' + address;
+            infoDisplay.style.display = 'block'; // Mostra o infoDisplay quando conectado
+        } else {
+            statusElement.textContent = 'Status: Not Connected';
+            addressElement.textContent = 'Address: ';
+            infoDisplay.style.display = 'none'; // Oculta quando não conectado
+        }
     }
-}
-
 
     // Listener para o botão
     button.addEventListener('click', async () => {
@@ -73,25 +74,25 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-   
-
-// Função para alternar a navegação em telas pequenas
-function toggleNav() {
-    var x = document.getElementById("nav-small");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
+    // Função para alternar a navegação em telas pequenas
+    function toggleNav() {
+        var x = document.getElementById("nav-small");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
     }
-}
 
-// Adicionando console.log para verificar o carregamento do JavaScript
-console.log("JavaScript carregado");
+    // Adiciona um evento de rolagem suave ao carregar a página
+    window.onload = function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
-// Adiciona um evento de rolagem suave ao carregar a página
-window.onload = function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-};
+    // Adicionando console.log para verificar o carregamento do JavaScript
+    console.log("JavaScript carregado");
+});
+
 
 
 
