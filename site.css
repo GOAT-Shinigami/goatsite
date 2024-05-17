@@ -43,6 +43,7 @@ h1, h2 {
 }
 
 .custom-navbar .w3-bar-item {
+    font-family: 'Sixtyfour', cursive; /* Define a fonte retro */
     color: #FE8029 !important; /* Cor do texto definida para #FE8029 */
     transition: all 0.3s ease; /* Adiciona uma transição suave para hover */
 }
