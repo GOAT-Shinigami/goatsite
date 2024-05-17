@@ -148,7 +148,7 @@ body {
 
 .wallet-details {
     font-size: 1.2em; /* Tamanho da fonte dos detalhes */
-    color: #333; /* Cor do texto */
+    color: #000; /* Cor do texto */
 }
 
 .wallet-details p {
