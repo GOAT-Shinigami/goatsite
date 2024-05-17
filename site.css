@@ -35,18 +35,18 @@ body {
 
 /* Estilo personalizado para a barra de navegação */
 .custom-navbar {
-    background-color: #BFFBD9; /* Fundo definido para #BFFBD9 */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Linha de borda inferior transparente */
+    background-color: #727272; /* Fundo definido para #BFFBD9 */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5); /* Linha de borda inferior transparente */
 }
 
 .custom-navbar .w3-bar-item {
-    color: #FE8029 /*!important;*/ /* Cor do texto definida para #FE8029 */
+    color: #FE8029 !important; /* Cor do texto definida para #FE8029 */
     
 }
 
 .custom-navbar .w3-bar-item:hover {
-    background-color: #24B39C; /* Cor de fundo ao passar o mouse */
-    color: #FE8029 !important; /* Mantém a cor do texto */
+    background-color: #24B39C !important; /* Cor de fundo ao passar o mouse */
+    /*color: #FE8029 !important; /* Mantém a cor do texto */
 }
 
 /* Estilo para o menu exibido após clicar no botão toggle */
@@ -70,7 +70,7 @@ body {
 }
 
 .intro-title {
-    font-size: 5em;
+    font-size: 5.2em;
     margin-bottom: 10px;
     color: #FE8029; /* Usando a cor principal do site */
     text-shadow: 
