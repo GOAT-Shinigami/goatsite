@@ -174,7 +174,7 @@ footer p {
     .about-title {
         text-align: center; /* Centraliza o título em telas pequenas */
         font-size: 2em;
-        margin: 20px 10px 10px 30px; /* Ajusta as margens para telas pequenas */
+        margin: 20px 10px 10px 50px; /* Ajusta as margens para telas pequenas */
     }
 
     .w3-row {
