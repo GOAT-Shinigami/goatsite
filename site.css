@@ -128,25 +128,26 @@ body {
     border-radius: 8px; /* Adiciona bordas arredondadas */
 }
 
-/* Estilo para o modal da carteira */
-#walletModal .w3-modal-content {
-    max-width: 600px; /* Largura máxima do modal */
-    margin: auto; /* Centraliza o modal horizontalmente */
+/* Estilo para o display das informações da carteira na barra de navegação */
+.wallet-info {
+    display: inline-block;
+    background-color: #FE8029; /* Fundo laranja */
+    color: white; /* Cor do texto branca */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-left: 20px; /* Margem à esquerda */
+    text-align: left; /* Alinhamento do texto à esquerda */
 }
 
-#walletModal header, #walletModal footer {
-    background-color: #FE8029; /* Cor de fundo do header e footer */
-    color: white; /* Cor do texto */
+.wallet-info span {
+    display: block; /* Exibir como bloco para quebra de linha */
+    margin-bottom: 5px; /* Margem inferior */
 }
 
-#walletModal .w3-container {
-    padding: 20px; /* Espaçamento interno */
+.w3-bar .w3-hide {
+    display: none !important;
 }
 
-#walletModal #status, #walletModal #walletAddress, #walletModal #wallet-balance {
-    font-size: 1.2em; /* Tamanho da fonte dos detalhes */
-    color: #333; /* Cor do texto */
-}
 
 /* Estilo para o rodapé */
 footer {
