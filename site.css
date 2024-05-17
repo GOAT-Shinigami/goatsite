@@ -199,6 +199,25 @@ footer p {
     }
 }
 
+/* Estilos para a seção de informações da carteira */
+#wallet-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#wallet-info h2 {
+    font-size: 2em;
+    color: #FE8029;
+    margin-bottom: 20px;
+}
+
+#wallet-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
 
 
 
