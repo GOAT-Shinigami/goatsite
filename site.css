@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap'); /* Exemplo de fonte retro */
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Silkscreen&display=swap');
 
 html {
     scroll-behavior: smooth; /* Adiciona rolagem suave */
 }
 
 body {
-    font-family: 'Sixtyfour', cursive; /* Aplicar a fonte retro ao corpo todo */
-    background-color: #BFFBD9; /* Adicionando um fundo preto para realçar o estilo retrô */
+    font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
+    background-color: #BFFBD9;
     color: #000;
+}
+
+h1, h2 {
+    font-family: 'Sixtyfour', cursive; /* Fonte para títulos */
 }
 
 .header-bg {
@@ -35,7 +39,6 @@ body {
 /* Estilo personalizado para a barra de navegação */
 .custom-navbar {
     background-color: #3d3d3d; /* Fundo definido para #BFFBD9 */
-    /*border-bottom: 1px solid rgba(255, 255, 255, 0.8); /* Linha de borda inferior transparente */
     box-shadow: 0 8px 6px rgb(255, 255, 255, 1); /* Adiciona uma sombra para profundidade */
 }
 
@@ -46,7 +49,6 @@ body {
 
 .custom-navbar .w3-bar-item:hover {
     background-color: #04A69F !important; /* Cor de fundo ao passar o mouse */
-    /*color: #FE8029 !important; /* Mantém a cor do texto */
     box-shadow: 0 6px 4px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra para profundidade ao passar o mouse */
 }
 
@@ -96,7 +98,6 @@ body {
 
 /* Ajustes para a seção About */
 .about-title {
-    font-family: 'Sixtyfour', cursive; /* Define a fonte */
     font-size: 4.3em; /* Aumenta o tamanho da fonte */
     color: #FE8029; /* Define a cor do texto */
     text-align: left; /* Alinha o texto à esquerda */
@@ -219,6 +220,7 @@ footer p {
 }
 
 #wallet-info p {
+    font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
     font-size: 1em;
     margin: 10px 0;
     color: #000; /* Cor do texto para melhor legibilidade */
