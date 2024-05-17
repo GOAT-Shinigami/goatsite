@@ -45,7 +45,7 @@ body {
 }
 
 .custom-navbar .w3-bar-item:hover {
-    background-color: #7a2ce0 !important; /* Cor de fundo ao passar o mouse */
+    background-color: #04A69F !important; /* Cor de fundo ao passar o mouse */
     /*color: #FE8029 !important; /* Mantém a cor do texto */
     box-shadow: 0 6px 4px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra para profundidade ao passar o mouse */
 }
