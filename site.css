@@ -36,7 +36,7 @@ body {
 .custom-navbar {
     background-color: #3d3d3d; /* Fundo definido para #BFFBD9 */
     /*border-bottom: 1px solid rgba(255, 255, 255, 0.8); /* Linha de borda inferior transparente */
-    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra para profundidade */
+    box-shadow: 0 8px 6px rgb(255, 255, 255, 1); /* Adiciona uma sombra para profundidade */
 }
 
 .custom-navbar .w3-bar-item {
@@ -71,7 +71,7 @@ body {
 }
 
 .intro-title {
-    font-size: 5.2em;
+    font-size: 5.6em;
     margin-bottom: 10px;
     color: #FE8029; /* Usando a cor principal do site */
     text-shadow: 
@@ -97,10 +97,10 @@ body {
 /* Ajustes para a seção About */
 .about-title {
     font-family: 'Sixtyfour', cursive; /* Define a fonte */
-    font-size: 4.5em; /* Aumenta o tamanho da fonte */
+    font-size: 4.3em; /* Aumenta o tamanho da fonte */
     color: #FE8029; /* Define a cor do texto */
     text-align: left; /* Alinha o texto à esquerda */
-    margin: 0 0 7px 0; /* Ajusta as margens: superior, direita, inferior, esquerda */
+    margin: 0 0 5px 0; /* Ajusta as margens: superior, direita, inferior, esquerda */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
     width: fit-content; /* Ajusta a largura do contêiner do título ao seu conteúdo */
     
