@@ -159,6 +159,10 @@ h1, h2 {
     line-height: 1.5;
 }
 
+#whyGoat {
+    margin-top: 70px; /* Adiciona margem superior para mover a seção para baixo */
+}
+
 #whyGoat h2 {
     font-family: 'Sixtyfour', cursive; /* Fonte para o título */
     font-size: 4.3em;
@@ -168,13 +172,22 @@ h1, h2 {
 }
 
 #whyGoat p {
-    font-family: 'Press Start 2P', cursive; /* Fonte para parágrafos */
-    font-size: 1.2em;
-    color: #333; /* Cor do texto para melhor legibilidade */
+    font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
+    font-size: 1.6em;
+    color: #000; /* Cor do texto para melhor legibilidade */
     line-height: 1.5;
     margin: 20px auto; /* Adiciona margem para espaçamento */
     max-width: 800px; /* Limita a largura máxima para melhorar a legibilidade */
     text-align: justify; /* Justifica o texto */
+}
+
+#whyGoat img {
+    width: 70%; /* Faz a imagem ocupar 100% da largura do contêiner */
+    max-width: 600px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 20px; /* Adiciona margem superior */
+    border-radius: 8px; /* Bordas arredondadas para a imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para efeito de flutuação */
 }
 
 /* Estilo para o rodapé */
