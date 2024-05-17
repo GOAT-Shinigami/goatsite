@@ -8,23 +8,10 @@ function toggleNav() {
     }
 }
 
-// Função para obter o saldo da carteira
-async function getWalletBalance(address) {
-    try {
-        const connection = new solanaWeb3.Connection(solanaWeb3.clusterApiUrl('mainnet-beta'), 'confirmed');
-        const balance = await connection.getBalance(new solanaWeb3.PublicKey(address));
-        return balance / solanaWeb3.LAMPORTS_PER_SOL; // Converte de lamports para SOL
-    } catch (error) {
-        console.error('Failed to get balance:', error);
-        return 0;
-    }
-}
-
 document.addEventListener('DOMContentLoaded', function () {
     const button = document.getElementById('connectBtn');
     const statusElement = document.getElementById('status');
     const addressElement = document.getElementById('walletAddress');
-    const balanceElement = document.getElementById('walletBalance');
     const walletInfo = document.getElementById('wallet-info');
 
     // Inicializa a interface com base nos dados do localStorage
@@ -33,13 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateUIFromStorage() {
         const connected = localStorage.getItem('isConnected') === 'true';
         const address = localStorage.getItem('walletAddress');
-        if (connected && address) {
-            getWalletBalance(address).then(balance => {
-                updateUI(connected, address, balance);
-            });
-        } else {
-            updateUI(false);
-        }
+        updateUI(connected, address);
         button.textContent = connected ? 'Disconnect from Phantom' : 'Connect Wallet';
     }
 
@@ -58,11 +39,10 @@ document.addEventListener('DOMContentLoaded', function () {
         try {
             const response = await window.solana.connect({ onlyIfTrusted: false });
             console.log('Connected to Phantom Wallet:', response.publicKey.toString());
-            const balance = await getWalletBalance(response.publicKey.toString());
             button.textContent = 'Disconnect from Phantom';
             localStorage.setItem('isConnected', 'true');
             localStorage.setItem('walletAddress', response.publicKey.toString());
-            updateUI(true, response.publicKey.toString(), balance);
+            updateUI(true, response.publicKey.toString());
         } catch (error) {
             if (error.message.includes("User rejected the request")) {
                 alert("Connection request was rejected. Please allow the connection in your Phantom wallet.");
@@ -83,16 +63,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Atualiza o status da carteira e o endereço na página
-    function updateUI(isConnected, address = null, balance = 0) {
+    function updateUI(isConnected, address = null) {
         if (isConnected) {
             statusElement.textContent = 'Status: Connected';
             addressElement.textContent = 'Address: ' + address;
-            balanceElement.textContent = 'Balance: ' + balance + ' SOL';
             walletInfo.style.display = 'block'; // Mostra as informações da carteira quando conectado
         } else {
             statusElement.textContent = 'Status: Not Connected';
             addressElement.textContent = 'Address: ';
-            balanceElement.textContent = 'Balance: ';
             walletInfo.style.display = 'none'; // Oculta as informações da carteira quando não conectado
         }
     }
