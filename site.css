@@ -201,27 +201,27 @@ footer p {
 
 /* Estilos para a seção de informações da carteira */
 #wallet-info {
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
     margin: 20px auto; /* Centraliza horizontalmente */
     max-width: 600px; /* Limita a largura máxima */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para efeito de flutuação */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Adiciona sombra para efeito de flutuação */
 }
 
 #wallet-info h2 {
     font-family: 'Sixtyfour', cursive; /* Define a fonte retro */
-    font-size: 4.3em; /* Mantém o tamanho da fonte como no restante do site */
+    font-size: 3em; /* Mantém o tamanho da fonte como no restante do site */
     color: #FE8029;
     margin-bottom: 20px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
 }
 
 #wallet-info p {
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 10px 0;
-    color: #333; /* Cor do texto para melhor legibilidade */
+    color: #000; /* Cor do texto para melhor legibilidade */
     line-height: 1.5;
 }
 
