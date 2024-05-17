@@ -21,6 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center; /* Centraliza o texto */
+    text-decoration: none;
 }
 
 .navbar-logo {
@@ -40,7 +41,7 @@ body {
 
 .custom-navbar .w3-bar-item {
     color: #FE8029 /*!important;*/ /* Cor do texto definida para #FE8029 */
-    text-decoration: none;
+    
 }
 
 .custom-navbar .w3-bar-item:hover {
