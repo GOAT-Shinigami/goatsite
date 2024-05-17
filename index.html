@@ -42,13 +42,23 @@
     </div>
 
  <!-- Seção da Carteira -->
-    <section id="wallet-info" class="w3-container w3-padding-64" style="display: none;">
-        <h2 class="wallet-title">Wallet Information</h2>
-        <div id="infoDisplay" class="wallet-details">
-            <p id="status">Status: Not Connected</p>
-            <p id="walletAddress">Address: </p>
+   <div id="walletModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal"> 
+                <span onclick="document.getElementById('walletModal').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Wallet Information</h2>
+            </header>
+            <div class="w3-container">
+                <p id="status">Status: Not Connected</p>
+                <p id="walletAddress">Address: </p>
+                <p><strong>Balance:</strong> <span id="wallet-balance"></span> SOL</p>
+            </div>
+            <footer class="w3-container w3-teal">
+                <p>Phantom Wallet Integration</p>
+            </footer>
         </div>
-    </section>
+    </div>
     
     <!-- Conteúdo do Site -->
     <div class="w3-container w3-center w3-padding-64 intro-section">
