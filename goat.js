@@ -50,18 +50,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Atualiza o status da carteira e o endereço na página
     function updateUI(isConnected, address = null) {
-    const statusElement = document.getElementById('status');
-    const addressElement = document.getElementById('walletAddress');    
-    const infoDisplay = document.getElementById('infoDisplay');
+        const statusElement = document.getElementById('status');
+        const addressElement = document.getElementById('walletAddress');    
+        const infoDisplay = document.getElementById('infoDisplay');
 
-    if (isConnected) {
-        statusElement.textContent = 'Status: Connected';
-        addressElement.textContent = 'Address: ' + address;
-        infoDisplay.style.display = 'block'; // Mostra o infoDisplay quando conectado
-    } else {
-        infoDisplay.style.display = 'none'; // Oculta quando não conectado
+        if (isConnected) {
+            statusElement.textContent = 'Status: Connected';
+            addressElement.textContent = 'Address: ' + address;
+            infoDisplay.style.display = 'block'; // Mostra o infoDisplay quando conectado
+        } else {
+            infoDisplay.style.display = 'none'; // Oculta quando não conectado
+        }
     }
-}
 
     // Listener para o botão
     button.addEventListener('click', async () => {
@@ -71,7 +71,8 @@ document.addEventListener('DOMContentLoaded', function () {
             await disconnectWallet();
         }
     });
-    });
+});
+
 
 
 
