@@ -84,18 +84,17 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    const carouselImages = document.querySelector('.carousel-images');
+    const carouselContainer = document.querySelector('.carousel-images');
 
-    const media = [
-        'dance.gif',
-        'marge.gif',
-        'goat1.gif',
-        'goat.gif'
+    const mediaFiles = [
+        'image1.gif',
+        'image2.gif',
+        'image3.gif',
+        'image4.gif'
         // Adicione os caminhos das imagens, GIFs e vídeos adicionais aqui
     ];
 
     let currentIndex = 0;
-    let autoSlideInterval;
 
     function updateCarousel() {
         carouselContainer.innerHTML = ''; // Limpa o conteúdo anterior
@@ -113,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setInterval(() => {
         currentIndex = (currentIndex + 1) % mediaFiles.length; // Incrementa ou volta ao início
         updateCarousel();
-    }, 5000);
+    }, 5000); // Altera a imagem/vídeo a cada 5 segundos
 
     // Insere as imagens, GIFs e vídeos no carrossel
     media.forEach((item) => {
