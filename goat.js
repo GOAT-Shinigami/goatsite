@@ -84,6 +84,71 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    const carouselImages = document.querySelector('.carousel-images');
+    const prevButton = document.querySelector('.carousel-button.prev');
+    const nextButton = document.querySelector('.carousel-button.next');
+
+    const media = [
+        'image1.jpg',
+        'image2.gif',
+        'video1.mp4',
+        'image3.jpg',
+        'video2.mp4'
+        // Adicione os caminhos das imagens, GIFs e vídeos adicionais aqui
+    ];
+
+    let currentIndex = 0;
+    let autoSlideInterval;
+
+    function updateCarousel() {
+        carouselImages.style.transform = `translateX(${-currentIndex * 100}%)`;
+        resetAutoSlide();
+    }
+
+    function showNextMedia() {
+        currentIndex = (currentIndex + 1) % media.length;
+        updateCarousel();
+    }
+
+    function showPrevMedia() {
+        currentIndex = (currentIndex - 1 + media.length) % media.length;
+        updateCarousel();
+    }
+
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+
+        const currentMediaElement = carouselImages.children[currentIndex];
+        if (currentMediaElement.tagName === 'VIDEO') {
+            currentMediaElement.play();
+            currentMediaElement.onended = function () {
+                autoSlideInterval = setInterval(showNextMedia, 5000);
+            };
+        } else {
+            autoSlideInterval = setInterval(showNextMedia, 5000);
+        }
+    }
+
+    // Insere as imagens, GIFs e vídeos no carrossel
+    media.forEach((item) => {
+        let mediaElement;
+        if (item.endsWith('.mp4')) {
+            mediaElement = document.createElement('video');
+            mediaElement.src = item;
+            mediaElement.controls = false;
+        } else {
+            mediaElement = document.createElement('img');
+            mediaElement.src = item;
+        }
+        carouselImages.appendChild(mediaElement);
+    });
+
+    nextButton.addEventListener('click', showNextMedia);
+    prevButton.addEventListener('click', showPrevMedia);
+
+    updateCarousel();
+    resetAutoSlide();
+
     // Adicionando console.log para verificar o carregamento do JavaScript
     console.log("JavaScript carregado");
 });
