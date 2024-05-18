@@ -229,7 +229,7 @@ footer p {
     }
 
     .intro-section h1 {
-        font-size: 2em;
+        font-size: 4em; /* Ajusta o tamanho da fonte para telas pequenas */
         letter-spacing: normal; /* Remove espaçamento extra entre letras */
     }
 
@@ -259,7 +259,24 @@ footer p {
     .about-image {
         margin-top: 20px; /* Adiciona um espaçamento acima da imagem */
     }
+
+    /* Ajustes para a seção Why Goat */
+    #whyGoat h2 {
+        font-size: 2.5em; /* Ajusta o tamanho do título para telas pequenas */
+    }
+
+    #whyGoat p {
+        font-size: 1.2em; /* Ajusta o tamanho da fonte para parágrafos em telas pequenas */
+        margin: 10px; /* Ajusta as margens para telas pequenas */
+    }
+
+    #whyGoat img {
+        width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+        max-width: none; /* Remove a limitação de largura máxima */
+        margin-top: 20px; /* Adiciona um espaçamento acima da imagem */
+    }
 }
+
 
 
 
