@@ -87,10 +87,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const carouselImages = document.querySelector('.carousel-images');
 
     const media = [
-        'image1.gif',
-        'image2.gif',
-        'image3.gif',
-        'image4.gif'
+        'marge.gif',
+        'dance.gif',
+        'goat1.gif',
+        'goat.gif'
         // Adicione os caminhos das imagens, GIFs e vídeos adicionais aqui
     ];
 
