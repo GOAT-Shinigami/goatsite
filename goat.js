@@ -85,15 +85,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const carouselImages = document.querySelector('.carousel-images');
-    const prevButton = document.querySelector('.carousel-button.prev');
-    const nextButton = document.querySelector('.carousel-button.next');
 
     const media = [
         'dance.gif',
-        'goat.gif',
-        'goat1.gif',
         'marge.gif',
-    
+        'goat1.gif',
+        'goat.gif'
         // Adicione os caminhos das imagens, GIFs e vídeos adicionais aqui
     ];
 
@@ -107,11 +104,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function showNextMedia() {
         currentIndex = (currentIndex + 1) % media.length;
-        updateCarousel();
-    }
-
-    function showPrevMedia() {
-        currentIndex = (currentIndex - 1 + media.length) % media.length;
         updateCarousel();
     }
 
@@ -142,9 +134,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         carouselImages.appendChild(mediaElement);
     });
-
-    nextButton.addEventListener('click', showNextMedia);
-    prevButton.addEventListener('click', showPrevMedia);
 
     updateCarousel();
     resetAutoSlide();
