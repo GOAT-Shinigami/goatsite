@@ -75,7 +75,7 @@ h1, h2 {
 }
 
 .intro-title {
-    font-size: 8em !important;
+    font-size: 5em !important;
     margin-bottom: 10px;
     color: #FE8029; /* Usando a cor principal do site */
     text-shadow: 
@@ -182,8 +182,8 @@ h1, h2 {
 }
 
 #whyGoat img {
-    width: 85%; /* Faz a imagem ocupar 100% da largura do contêiner */
-    max-width: 600px; /* Limita a largura máxima da imagem */
+    width: 90%; /* Faz a imagem ocupar 100% da largura do contêiner */
+    max-width: 700px; /* Limita a largura máxima da imagem */
     height: auto; /* Mantém a proporção da imagem */
     margin-top: 20px; /* Adiciona margem superior */
     border-radius: 8px; /* Bordas arredondadas para a imagem */
@@ -229,7 +229,7 @@ footer p {
     }
 
     .intro-section h1 {
-        font-size: 4em; /* Ajusta o tamanho da fonte para telas pequenas */
+        font-size: 2em; /* Ajusta o tamanho da fonte para telas pequenas */
         letter-spacing: normal; /* Remove espaçamento extra entre letras */
     }
 
@@ -262,7 +262,7 @@ footer p {
 
     /* Ajustes para a seção Why Goat */
     #whyGoat h2 {
-        font-size: 2.5em; /* Ajusta o tamanho do título para telas pequenas */
+        font-size: 2em; /* Ajusta o tamanho do título para telas pequenas */
     }
 
     #whyGoat p {
