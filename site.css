@@ -89,6 +89,7 @@ h1, h2 {
 }
 
 .subtitle {
+    font-size: 3.6em !important;
     color: #000 !important; /* Cor preta com !important para garantir prioridade */
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Adiciona um rebordo branco ao texto */
 }
@@ -118,6 +119,7 @@ h1, h2 {
     font-size: 1.6em;
     padding: 20px; /* Adiciona algum padding para garantir que o texto não toque nas bordas */
     flex: 1; /* Permite que o texto ocupe a largura disponível */
+    color: #000; /* Garante a cor preta para o texto */
 }
 
 .about-image {
@@ -175,7 +177,7 @@ h1, h2 {
 #whyGoat p {
     font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
     font-size: 1.6em;
-    color: #000; /* Cor do texto para melhor legibilidade */
+    color: #000 !important; /* Cor do texto para melhor legibilidade */
     line-height: 1.5;
     margin: 20px auto; /* Adiciona margem para espaçamento */
     text-align: justify; /* Justifica o texto */
@@ -262,12 +264,15 @@ footer p {
 
     /* Ajustes para a seção Why Goat */
     #whyGoat h2 {
-        font-size: 2em; /* Ajusta o tamanho do título para telas pequenas */
+        font-size: 2.5em; /* Ajusta o tamanho do título para telas pequenas */
     }
 
     #whyGoat p {
         font-size: 1.2em; /* Ajusta o tamanho da fonte para parágrafos em telas pequenas */
         margin: 10px; /* Ajusta as margens para telas pequenas */
+        text-align: center; /* Alinha o texto à esquerda para evitar espaçamento excessivo */
+        word-spacing: normal; /* Remove qualquer espaçamento extra entre palavras */
+        letter-spacing: normal; /* Remove qualquer espaçamento extra entre letras */
     }
 
     #whyGoat img {
