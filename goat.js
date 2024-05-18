@@ -87,10 +87,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const carouselImages = document.querySelector('.carousel-images');
 
     const media = [
-        'marge.gif',
-        'dance.gif',
-        'goat1.gif',
-        'goat.gif'
+        'image1.gif',
+        'image2.gif',
+        'image3.gif',
+        'image4.gif'
         // Adicione os caminhos das imagens, GIFs e vídeos adicionais aqui
     ];
 
@@ -133,6 +133,19 @@ document.addEventListener('DOMContentLoaded', function () {
             mediaElement.src = item;
         }
         carouselImages.appendChild(mediaElement);
+    });
+
+    // Adiciona um observador de mudança de transição
+    carouselImages.addEventListener('transitionend', () => {
+        if (currentIndex === media.length) {
+            carouselImages.style.transition = 'none';
+            currentIndex = 0;
+            carouselImages.style.transform = `translateX(0)`;
+            setTimeout(() => {
+                carouselImages.style.transition = 'transform 0.5s ease-in-out';
+                resetAutoSlide();
+            });
+        }
     });
 
     updateCarousel();
