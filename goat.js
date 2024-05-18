@@ -98,28 +98,22 @@ document.addEventListener('DOMContentLoaded', function () {
     let autoSlideInterval;
 
     function updateCarousel() {
-        carouselImages.style.transform = `translateX(${-currentIndex * 100}%)`;
-        resetAutoSlide();
-    }
-
-    function showNextMedia() {
-        currentIndex = (currentIndex + 1) % media.length;
-        updateCarousel();
-    }
-
-    function resetAutoSlide() {
-        clearInterval(autoSlideInterval);
-
-        const currentMediaElement = carouselImages.children[currentIndex];
-        if (currentMediaElement.tagName === 'VIDEO') {
-            currentMediaElement.play();
-            currentMediaElement.onended = function () {
-                autoSlideInterval = setInterval(showNextMedia, 5000);
-            };
-        } else {
-            autoSlideInterval = setInterval(showNextMedia, 5000);
+        carouselContainer.innerHTML = ''; // Limpa o conteúdo anterior
+        const fileElement = document.createElement(mediaFiles[currentIndex].endsWith('.mp4') ? 'video' : 'img');
+        fileElement.src = mediaFiles[currentIndex];
+        if (fileElement.nodeName === 'VIDEO') {
+            fileElement.autoplay = true;
+            fileElement.loop = true;
         }
+        carouselContainer.appendChild(fileElement);
     }
+
+    updateCarousel(); // Carrega o primeiro item
+
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % mediaFiles.length; // Incrementa ou volta ao início
+        updateCarousel();
+    }, 5000);
 
     // Insere as imagens, GIFs e vídeos no carrossel
     media.forEach((item) => {
