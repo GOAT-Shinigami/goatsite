@@ -223,31 +223,6 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: #fff;
-    font-size: 2em;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 50%;
-    z-index: 1000;
-}
-
-.carousel-button.prev {
-    left: 10px;
-}
-
-.carousel-button.next {
-    right: 10px;
-}
-
-.carousel-button:focus {
-    outline: none;
-}
 
 /* Estilo para o rodapé */
 footer {
