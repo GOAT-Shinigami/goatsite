@@ -192,6 +192,63 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para efeito de flutuação */
 }
 
+#gallery {
+    margin-top: 50px; /* Adiciona margem superior */
+}
+
+#gallery h2 {
+    font-family: 'Sixtyfour', cursive; /* Fonte para o título */
+    font-size: 4.3em;
+    color: #FE8029;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img, .carousel-images video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-button:focus {
+    outline: none;
+}
+
 /* Estilo para o rodapé */
 footer {
     background-color: #000; /* Fundo mais escuro */
