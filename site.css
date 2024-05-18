@@ -39,7 +39,7 @@ h1, h2 {
 /* Estilo personalizado para a barra de navegação */
 .custom-navbar {
     background-color: #3d3d3d; /* Fundo definido para #3d3d3d */
-    box-shadow: 0 8px 6px rgb(254, 128, 41, 1); /* Adiciona uma sombra para profundidade */
+    box-shadow: 0 8px 6px rgb(0, 0, 0, 1.5); /* Adiciona uma sombra para profundidade */
 }
 
 .custom-navbar .w3-bar-item {
@@ -89,7 +89,7 @@ h1, h2 {
 }
 
 .subtitle {
-    font-size: 3.6em !important;
+    font-size: 2em !important;
     color: #000 !important; /* Cor preta com !important para garantir prioridade */
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Adiciona um rebordo branco ao texto */
 }
