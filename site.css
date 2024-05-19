@@ -230,22 +230,6 @@ h1, h2 {
 /* Presale Styles */
 #presale {
     margin-top: 80px; /* Espaço da seção anterior */
-    position: relative;
-    z-index: 1;
-    overflow: visible;
-}
-
-#presale::before {
-    content: '';
-    position: absolute;
-    top: 20%;
-    left: -10%;
-    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 300px; /* Ajuste o tamanho da imagem conforme necessário */
-    background: url('wall.png') no-repeat;
-    background-size: contain;
-    z-index: -1;
-    opacity: 1; /* Ajuste a opacidade conforme necessário */
 }
 
 #presale h2 {
@@ -262,8 +246,7 @@ h1, h2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     max-width: 600px;
-    margin: 0 auto; /* Centraliza o conteúdo da pré-venda */
-    z-index: 2; /* Garante que o conteúdo esteja acima da imagem de fundo */
+    margin: 0 auto; /* Centraliza o conteúdo da pré-venda */  
 }
 
 .presale-content p {
