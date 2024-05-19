@@ -84,47 +84,38 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    const mediaFiles = ['goat.gif', 'goat1.gif', 'marge.gif', 'dance.gif'];
-    const carouselContainer = document.querySelector('.carousel-images');
-    let currentIndex = 0;
-    let autoSlideInterval;
+    
+    const carouselImages = document.querySelector('.carousel-images');
+    let index = 0;
 
-    function createMediaElement(src) {
-        const fileElement = document.createElement(src.endsWith('.mp4') ? 'video' : 'img');
-        fileElement.src = src;
-        if (fileElement.tagName === 'VIDEO') {
-            fileElement.autoplay = true;
-            fileElement.loop = true;
-            fileElement.muted = true; // Ensures videos play without user interaction
-        }
-        return fileElement;
-    }
+    const images = [
+        'goat.gif',
+        'goat1.gif',
+        'marge.gif',
+        'dance.gif'
+    ];
 
-    function updateCarousel() {
-        carouselContainer.innerHTML = ''; // Clear previous content
-        const fileElement = createMediaElement(mediaFiles[currentIndex]);
-        carouselContainer.appendChild(fileElement);
-        resetAutoSlide();
-    }
-
-    function showNextMedia() {
-        currentIndex = (currentIndex + 1) % mediaFiles.length;
-        updateCarousel();
-    }
-
-    function resetAutoSlide() {
-        clearInterval(autoSlideInterval);
-        const currentMediaElement = carouselContainer.children[0];
-        if (currentMediaElement.tagName === 'VIDEO') {
-            currentMediaElement.onended = function () {
-                autoSlideInterval = setTimeout(showNextMedia, 5000);
-            };
+    images.forEach(src => {
+        let element;
+        if (src.endsWith('.mp4')) {
+            element = document.createElement('video');
+            element.src = src;
+            element.autoplay = true;
+            element.loop = true;
+            element.muted = true;
         } else {
-            autoSlideInterval = setTimeout(showNextMedia, 5000);
+            element = document.createElement('img');
+            element.src = src;
         }
+        carouselImages.appendChild(element);
+    });
+
+    function showNextImage() {
+        index = (index + 1) % images.length;
+        carouselImages.style.transform = `translateX(-${index * 100}%)`;
     }
 
-    updateCarousel(); // Load the first item
+    setInterval(showNextImage, 5000); // Muda a cada 3 segundos
 
     // Adicionando console.log para verificar o carregamento do JavaScript
     console.log("JavaScript carregado");
