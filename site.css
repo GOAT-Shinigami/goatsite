@@ -215,7 +215,7 @@ h1, h2 {
 .carousel-images {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%;
+    width: 100%; /* Ajusta a largura total para garantir que todas as mídias são dimensionadas corretamente */
 }
 
 .carousel-images img, .carousel-images video {
