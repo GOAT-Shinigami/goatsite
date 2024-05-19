@@ -218,12 +218,12 @@ h1, h2 {
 }
 
 .carousel-images img, .carousel-images video {
-    max-width: 70%;
+    max-width: 80%; /* Reduzindo o tamanho máximo das imagens e vídeos */
+    max-height: 500px; /* Ajuste de altura máxima */
     height: auto;
-    flex: 0 0 70%;
-    border-radius: 15px;
+    flex: 0 0 auto;
+    margin: 0 auto; /* Centraliza as imagens */
 }
-
 /* Estilo para o rodapé */
 footer {
     background-color: #000; /* Fundo mais escuro */
