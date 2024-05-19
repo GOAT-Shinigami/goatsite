@@ -480,6 +480,11 @@ footer p {
         font-size: 1em;
     }
 
+    #how-to-buy h2 {
+        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
+        margin-bottom: 15px; /* Reduz o espaço do título */
+    }
+    
     .how-to-buy-steps {
         flex-direction: column;
         align-items: center;
