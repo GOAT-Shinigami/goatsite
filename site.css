@@ -296,7 +296,7 @@ h1, h2 {
 
 /* Estilo para a seção How to Buy */
 #how-to-buy {
-    margin-top: 90px;
+    margin-top: 15rem;
 }
 
 #how-to-buy h2 {
@@ -394,15 +394,15 @@ h1, h2 {
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
-    margin-top: 20rem;
+    margin-top: 18rem;
 }
 
 .roadmap-img {
     width: 50%;
     max-width: 65rem;
     height: auto;
-    margin-right: 1rem;
-    margin-left: 7rem;
+    margin-right: 3rem;
+    margin-left: 6rem;
     order: -1;
 }
 
@@ -414,6 +414,7 @@ h1, h2 {
     text-align: center;
     flex: 1;
     max-width: 50%;
+    margin-left: 2rem;
     margin-right: 3rem;
 }
 
@@ -590,7 +591,31 @@ footer p {
     .step img {
         max-width: 100%;
     }
-    
+
+    #roadmap {
+        flex-direction: column;
+        margin-top: 12rem; /* Adjust the margin-top as needed */
+    }
+
+    .roadmap-img {
+        width: 80%; /* Adjusted width for smaller screens */
+        max-width: none;
+        margin: 0 auto 2rem; /* Center the image and add margin at the bottom */
+        order: 1; /* Make the image appear after the text */
+    }
+
+    #roadmap div {
+        max-width: 100%;
+        margin: 0 1rem; /* Adjust the margin for smaller screens */
+    }
+
+    #roadmap h2 {
+        font-size: 2em; /* Adjust the font size for smaller screens */
+    }
+
+    #roadmap p {
+        font-size: 1.2em; /* Adjust the font size for smaller screens */
+    }
 }
 
 
