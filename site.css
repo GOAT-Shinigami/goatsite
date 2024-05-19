@@ -230,6 +230,23 @@ h1, h2 {
 /* Presale Styles */
 #presale {
     margin-top: 80px; /* Espaço da seção anterior */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#presale::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: url('wall.png') no-repeat;
+    background-size: cover;
+    transform: rotate(-45deg);
+    z-index: -1;
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
 }
 
 #presale h2 {
@@ -241,12 +258,13 @@ h1, h2 {
 }
 
 .presale-content {
-    background-color: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
+    background-color: rgba(255, 255, 255, 0.4); /* Fundo branco com transparência */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     max-width: 600px;
     margin: 0 auto; /* Centraliza o conteúdo da pré-venda */
+    z-index: 2; /* Garante que o conteúdo esteja acima da imagem de fundo */
 }
 
 .presale-content p {
@@ -316,11 +334,11 @@ h1, h2 {
 }
 
 .step {
-    background-color: rgba(255, 255, 255, 0.2); /* Levemente mais opaco para melhor contraste */
+    /*background-color: rgba(255, 255, 255, 0.2); /* Levemente mais opaco para melhor contraste */
     padding: 16px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombra mais suave */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombra mais suave */
     width: 250px; /* Define uma largura fixa para os passos */
     text-align: center;
 }
