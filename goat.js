@@ -84,72 +84,27 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    const carouselImages = document.querySelector('.carousel-images');
-
-    const media = [
-        'dance.gif',
-        'goat1.gif',
-        'goat.gif',
-        'marge.gif'
-        // Adicione os caminhos das imagens, GIFs e vídeos adicionais aqui
-    ];
-
+    const mediaFiles = ['goat.gif', 'goat1.gif'];
+    const carouselContainer = document.querySelector('.carousel-images');
     let currentIndex = 0;
-    let autoSlideInterval;
 
     function updateCarousel() {
-        carouselImages.style.transform = `translateX(${-currentIndex * 100}%)`;
-        resetAutoSlide();
+        carouselContainer.innerHTML = ''; // Limpa o conteúdo anterior
+        const fileElement = document.createElement(mediaFiles[currentIndex].endsWith('.mp4') ? 'video' : 'img');
+        fileElement.src = mediaFiles[currentIndex];
+        if (fileElement.nodeName === 'VIDEO') {
+            fileElement.autoplay = true;
+            fileElement.loop = true;
+        }
+        carouselContainer.appendChild(fileElement);
     }
 
-    function showNextMedia() {
-        currentIndex = (currentIndex + 1) % media.length;
+    updateCarousel(); // Carrega o primeiro item
+
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % mediaFiles.length; // Incrementa ou volta ao início
         updateCarousel();
-    }
-
-    function resetAutoSlide() {
-        clearInterval(autoSlideInterval);
-
-        const currentMediaElement = carouselImages.children[currentIndex];
-        if (currentMediaElement.tagName === 'VIDEO') {
-            currentMediaElement.play();
-            currentMediaElement.onended = function () {
-                autoSlideInterval = setTimeout(showNextMedia, 5000);
-            };
-        } else {
-            autoSlideInterval = setTimeout(showNextMedia, 5000);
-        }
-    }
-
-    // Insere as imagens, GIFs e vídeos no carrossel
-    media.forEach((item) => {
-        let mediaElement;
-        if (item.endsWith('.mp4')) {
-            mediaElement = document.createElement('video');
-            mediaElement.src = item;
-            mediaElement.controls = false;
-        } else {
-            mediaElement = document.createElement('img');
-            mediaElement.src = item;
-        }
-        carouselImages.appendChild(mediaElement);
-    });
-
-    // Adiciona um observador de mudança de transição
-    carouselImages.addEventListener('transitionend', () => {
-        if (currentIndex === media.length) {
-            carouselImages.style.transition = 'none';
-            currentIndex = 0;
-            carouselImages.style.transform = `translateX(0)`;
-            setTimeout(() => {
-                carouselImages.style.transition = 'transform 0.5s ease-in-out';
-                resetAutoSlide();
-            });
-        }
-    });
-
-    updateCarousel();
-    resetAutoSlide();
+    }, 5000); // Altera a imagem/vídeo a cada 5 segundos
 
     // Adicionando console.log para verificar o carregamento do JavaScript
     console.log("JavaScript carregado");
