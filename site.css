@@ -224,6 +224,7 @@ h1, h2 {
     width: 100%;
     height: auto;
     flex: 0 0 100%; /* Garantir que cada imagem ocupe 100% do carrossel */
+    border-radius: 12px; /* Adiciona bordas arredondadas */
 }
 
 /* Estilo para o rodapé */
