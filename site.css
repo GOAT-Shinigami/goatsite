@@ -294,6 +294,47 @@ h1, h2 {
     margin-top: 10px;
 }
 
+#how-to-buy h2 {
+    font-family: 'Sixtyfour', cursive;
+    font-size: 4.3em;
+    color: #FE8029;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom: 20px;
+}
+
+.how-to-buy-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.step h3 {
+    font-family: 'Sixtyfour', cursive;
+    font-size: 2em;
+    color: #FE8029;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom: 10px;
+}
+
+.step img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
 /* Estilo para o rodapé */
 footer {
     background-color: #000; /* Fundo mais escuro */
