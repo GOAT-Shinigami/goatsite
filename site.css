@@ -193,15 +193,23 @@ h1, h2 {
 }
 
 /* Carousel Styles */
+#gallery h2 {
+    font-family: 'Sixtyfour', cursive; /* Fonte para o título */
+    font-size: 4.3em;
+    color: #FE8029;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .carousel {
+    margin-top:50px;
     position: relative;
     width: 80%;
-    max-width: 800px;
+    /*max-width: 800px;*/
     margin: 0 auto;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 
 .carousel-images {
