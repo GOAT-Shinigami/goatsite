@@ -340,12 +340,14 @@ h1, h2 {
 
 
 /* Style for the news ticker section */
+/* Style for the news ticker section */
 .news-ticker-section {
     width: 100%;
     background-color: #FE8029; /* Orange background color */
     overflow: hidden;
     position: relative;
-    border: 2px solid #000; /* Black border for visibility */
+    border-top: 2px solid #000; /* Black border on top */
+    border-bottom: 2px solid #000; /* Black border on bottom */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adds some shadow for depth */
     padding: 0; /* Removes padding to make it full-width */
 }
@@ -364,13 +366,14 @@ h1, h2 {
 
 .ticker {
     display: flex;
-    animation: ticker 10s linear infinite; /* Controls the scrolling animation */
+    animation: ticker 20s linear infinite; /* Controls the scrolling animation */
 }
 
 .ticker p {
     font-family: 'Silkscreen', cursive;
     font-size: 1.5em; /* Adjust font size as needed */
     color: #fff; /* White text color */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin: 0;
     white-space: nowrap;
     padding-right: 100%; /* Spacing between repetitions of the text */
@@ -381,6 +384,7 @@ h1, h2 {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
+
 
 /* Estilo para o rodapé */
 footer {
