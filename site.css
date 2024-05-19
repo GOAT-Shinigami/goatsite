@@ -233,9 +233,11 @@ h1, h2 {
 }
 
 #presale h2 {
-    font-family: 'Sixtyfour', sans-serif;
+    font-family: 'Sixtyfour', cursive;
     font-size: 4.3em;
-    margin-bottom: 20px; /* Espaço considerável do título */
+    color: #FE8029;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom: 10px; /* Espaço considerável do título */
 }
 
 .presale-content {
@@ -397,6 +399,37 @@ footer p {
 
     .carousel-images img, .carousel-images video {
         max-height: 300px; /* Altura máxima reduzida para telas menores */
+    }
+
+     #presale {
+        margin-top: 30px; /* Reduz o espaço da seção anterior */
+    }
+
+    #presale h2 {
+        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
+        margin-bottom: 15px; /* Reduz o espaço do título */
+    }
+
+    .presale-content {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .presale-timer {
+        font-size: 1.5em;
+    }
+
+    .presale-live {
+        font-size: 1.2em;
+    }
+
+    #presaleLink {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+
+    #remainingTime {
+        font-size: 1em;
     }
 }
 
