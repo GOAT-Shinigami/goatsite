@@ -241,10 +241,10 @@ h1, h2 {
 }
 
 .presale-content {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     max-width: 600px;
     margin: 0 auto; /* Centraliza o conteúdo da pré-venda */
 }
@@ -253,7 +253,7 @@ h1, h2 {
     font-family: 'Silkscreen', cursive;
     font-size: 1.2em;
     margin: 10px 0;
-    color: #333;
+    color: #000;
 }
 
 .presale-timer {
@@ -275,6 +275,7 @@ h1, h2 {
     padding: 10px 20px;
     background-color: #FE8029;
     color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-decoration: none;
     font-family: 'Silkscreen', cursive;
     font-size: 1.2em;
