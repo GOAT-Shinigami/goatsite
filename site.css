@@ -304,7 +304,7 @@ h1, h2 {
     content: '';
     position: absolute;
     top: 50%;
-    left: -150px; /* Ajuste conforme necessário para a imagem ficar espreitando */
+    left: -100px; /* Ajuste conforme necessário para a imagem ficar espreitando */
     width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
     height: 200px; /* Ajuste o tamanho da imagem conforme necessário */
     background: url('wall.png') no-repeat;
@@ -314,8 +314,6 @@ h1, h2 {
     opacity: 1; /* Ajuste a opacidade conforme necessário */
 }
 
-
-/* Estilo para a seção How to Buy */
 #how-to-buy h2 {
     font-family: 'Sixtyfour', cursive;
     font-size: 4.3em;
