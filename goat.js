@@ -115,43 +115,45 @@ document.addEventListener('DOMContentLoaded', function () {
         carouselImages.style.transform = `translateX(-${index * 100}%)`;
     }
 
-    const startTime = new Date("May 07, 2024 23:46:00").getTime();
-            const endTime = new Date("Jun 3, 2024 15:00:00").getTime();
-            const timerElement = document.getElementById('timer');
-            const presaleLiveElement = document.getElementById('presaleLive');
-            const linkElement = document.getElementById('presaleLink');
-            const remainingTimeElement = document.getElementById('remainingTime');
-            const startsInMessageElement = document.getElementById('startsInMessage');
-
-            const interval = setInterval(function() {
-                const now = new Date().getTime();
-                let distance = startTime - now;
-
-                if (distance > 0) {
-                    // Before presale starts
-                    timerElement.textContent = formatTime(distance);
-                    startsInMessageElement.style.display = "block";
-                } else {
-                    // After presale starts
-                    distance = endTime - now;
-                    if (distance > 0) {
-                        startsInMessageElement.style.display = "none";
-                        presaleLiveElement.style.display = "block";
-                        linkElement.style.display = "block";
-                        remainingTimeElement.style.display = "block";
-                        remainingTimeElement.textContent = "Ends in: " + formatTime(distance);
-                        timerElement.style.display = "none"; // Ensure the initial timer is hidden
-                    } else {
-                        clearInterval(interval);
-                        presaleLiveElement.textContent = "The presale is now offline.";
-                        linkElement.style.display = "none";
-                        remainingTimeElement.textContent = "Presale has ended.";
-                        remainingTimeElement.style.display = "none";
-                    }
-                }
-            }, 1000);
-    
     setInterval(showNextImage, 3000); // Muda a cada 3 segundos
+
+    const startTime = new Date("May 07, 2024 23:46:00").getTime();
+    const endTime = new Date("may 19, 2024 16:57:00").getTime();
+    const timerElement = document.getElementById('timer');
+    const presaleLiveElement = document.getElementById('presaleLive');
+    const linkElement = document.getElementById('presaleLink');
+    const remainingTimeElement = document.getElementById('remainingTime');
+    const startsInMessageElement = document.getElementById('startsInMessage');
+    const presaleSection = document.getElementById('presale');
+
+    const interval = setInterval(function() {
+        const now = new Date().getTime();
+        let distance = startTime - now;
+
+        if (distance > 0) {
+            // Before presale starts
+            timerElement.textContent = formatTime(distance);
+            startsInMessageElement.style.display = "block";
+        } else {
+            // After presale starts
+            distance = endTime - now;
+            if (distance > 0) {
+                startsInMessageElement.style.display = "none";
+                presaleLiveElement.style.display = "block";
+                linkElement.style.display = "block";
+                remainingTimeElement.style.display = "block";
+                remainingTimeElement.textContent = "Ends in: " + formatTime(distance);
+                timerElement.style.display = "none"; // Ensure the initial timer is hidden
+            } else {
+                clearInterval(interval);
+                presaleLiveElement.textContent = "The presale is now offline.";
+                linkElement.style.display = "none";
+                remainingTimeElement.style.display = "none";
+                presaleSection.style.display = "none"; // Oculta a seção de pré-venda
+            }
+        }
+    }, 1000);
+    
 
     // Adicionando console.log para verificar o carregamento do JavaScript
     console.log("JavaScript carregado");
