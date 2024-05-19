@@ -366,6 +366,7 @@ h1, h2 {
 
 .ticker {
     display: flex;
+    width: 100%;
     animation: ticker 20s linear infinite; /* Controls the scrolling animation */
 }
 
@@ -376,13 +377,13 @@ h1, h2 {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin: 0;
     white-space: nowrap;
-    padding-right: 100%; /* Spacing between repetitions of the text */
+    padding-right: 2rem; /* Spacing between repetitions of the text */
 }
 
 /* Keyframes for the scrolling animation */
 @keyframes ticker {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
 }
 
 
