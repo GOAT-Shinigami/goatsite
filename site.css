@@ -194,7 +194,7 @@ h1, h2 {
 
 /* Carousel Styles */
 #gallery {
-    margin-top: 50px; /* Espaço da seção anterior */
+    margin-top: 60px; /* Espaço da seção anterior */
 }
 
 #gallery h2 {
@@ -229,7 +229,7 @@ h1, h2 {
 
 /* Presale Styles */
 #presale {
-    margin-top: 50px; /* Espaço da seção anterior */
+    margin-top: 80px; /* Espaço da seção anterior */
 }
 
 #presale h2 {
@@ -295,6 +295,10 @@ h1, h2 {
 }
 
 /* Estilo para a seção How to Buy */
+#how-to-buy {
+    margin-top: 80px;
+}
+
 #how-to-buy h2 {
     font-family: 'Sixtyfour', cursive;
     font-size: 4.3em;
