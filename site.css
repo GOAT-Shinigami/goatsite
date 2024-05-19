@@ -305,10 +305,10 @@ h1, h2 {
     position: absolute;
     top: 10%; /* Ajuste conforme necessário */
     left: -100px; /* Ajuste conforme necessário */
-    width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
+    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
     height: auto;
-    transform: rotate(-15deg);
-    z-index: 0;
+    transform: rotate(-35deg);
+    z-index: 1;
 }
 
 #how-to-buy h2 {
