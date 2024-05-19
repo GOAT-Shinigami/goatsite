@@ -294,6 +294,7 @@ h1, h2 {
     margin-top: 10px;
 }
 
+/* Estilo para a seção How to Buy */
 #how-to-buy h2 {
     font-family: 'Sixtyfour', cursive;
     font-size: 4.3em;
@@ -304,24 +305,24 @@ h1, h2 {
 
 .how-to-buy-steps {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adiciona um espaço entre os passos */
 }
 
 .step {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
-    margin: 10px 0;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    width: 80%;
-    max-width: 600px;
+    width: 250px; /* Define uma largura fixa para os passos */
     text-align: center;
 }
 
 .step h3 {
     font-family: 'Sixtyfour', cursive;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin-bottom: 10px;
@@ -329,7 +330,7 @@ h1, h2 {
 
 .step img {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -473,6 +474,21 @@ footer p {
     #remainingTime {
         font-size: 1em;
     }
+
+    .how-to-buy-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 100%;
+        max-width: none;
+    }
+
+    .step img {
+        max-width: 100%;
+    }
+    
 }
 
 
