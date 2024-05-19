@@ -297,21 +297,18 @@ h1, h2 {
 /* Estilo para a seção How to Buy */
 #how-to-buy {
     margin-top: 90px;
+    position: relative;
     z-index: 1;
 }
 
-#how-to-buy::before {
-    content: '';
+.mascote-espreitando {
     position: absolute;
-    top: 50%;
-    left: -20px; /* Ajuste conforme necessário para a imagem ficar espreitando */
+    top: 10%; /* Ajuste conforme necessário */
+    left: -100px; /* Ajuste conforme necessário */
     width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 200px; /* Ajuste o tamanho da imagem conforme necessário */
-    background: url('wall.png') no-repeat;
-    background-size: contain;
-    transform: rotate(-20deg) translateY(-50%);
-    z-index: -1;
-    opacity: 1; /* Ajuste a opacidade conforme necessário */
+    height: auto;
+    transform: rotate(-15deg);
+    z-index: 0;
 }
 
 #how-to-buy h2 {
