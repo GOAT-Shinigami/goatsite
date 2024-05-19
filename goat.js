@@ -84,27 +84,47 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    const mediaFiles = ['goat.gif', 'goat1.gif'];
+    const mediaFiles = ['goat.gif', 'goat1.gif', 'marge.gif', 'dance.gif'];
     const carouselContainer = document.querySelector('.carousel-images');
     let currentIndex = 0;
+    let autoSlideInterval;
 
-    function updateCarousel() {
-        carouselContainer.innerHTML = ''; // Limpa o conteúdo anterior
-        const fileElement = document.createElement(mediaFiles[currentIndex].endsWith('.mp4') ? 'video' : 'img');
-        fileElement.src = mediaFiles[currentIndex];
-        if (fileElement.nodeName === 'VIDEO') {
+    function createMediaElement(src) {
+        const fileElement = document.createElement(src.endsWith('.mp4') ? 'video' : 'img');
+        fileElement.src = src;
+        if (fileElement.tagName === 'VIDEO') {
             fileElement.autoplay = true;
             fileElement.loop = true;
+            fileElement.muted = true; // Ensures videos play without user interaction
         }
-        carouselContainer.appendChild(fileElement);
+        return fileElement;
     }
 
-    updateCarousel(); // Carrega o primeiro item
+    function updateCarousel() {
+        carouselContainer.innerHTML = ''; // Clear previous content
+        const fileElement = createMediaElement(mediaFiles[currentIndex]);
+        carouselContainer.appendChild(fileElement);
+        resetAutoSlide();
+    }
 
-    setInterval(() => {
-        currentIndex = (currentIndex + 1) % mediaFiles.length; // Incrementa ou volta ao início
+    function showNextMedia() {
+        currentIndex = (currentIndex + 1) % mediaFiles.length;
         updateCarousel();
-    }, 5000); // Altera a imagem/vídeo a cada 5 segundos
+    }
+
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+        const currentMediaElement = carouselContainer.children[0];
+        if (currentMediaElement.tagName === 'VIDEO') {
+            currentMediaElement.onended = function () {
+                autoSlideInterval = setTimeout(showNextMedia, 5000);
+            };
+        } else {
+            autoSlideInterval = setTimeout(showNextMedia, 5000);
+        }
+    }
+
+    updateCarousel(); // Load the first item
 
     // Adicionando console.log para verificar o carregamento do JavaScript
     console.log("JavaScript carregado");
