@@ -200,6 +200,8 @@ h1, h2 {
 #gallery h2 {
     font-family: 'Sixtyfour', cursive;
     font-size: 4.3em;
+    color: #FE8029;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin-bottom: 10px; /* Espaço considerável do título */
 }
 
@@ -216,9 +218,10 @@ h1, h2 {
 }
 
 .carousel-images img, .carousel-images video {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
-    flex: 0 0 100%;
+    flex: 0 0 70%;
+    border-radius: 15px;
 }
 
 /* Estilo para o rodapé */
