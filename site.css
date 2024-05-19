@@ -193,18 +193,21 @@ h1, h2 {
 }
 
 /* Carousel Styles */
+#gallery {
+    margin-top: 100px; /* Aumenta o espaço entre a galeria e a seção anterior */
+}
+
 #gallery h2 {
-    margin-top:60px;
     font-family: 'Sixtyfour', cursive; /* Fonte para o título */
     font-size: 4.3em;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-botttom:10px;
 }
 
 .carousel {
     position: relative;
-    width: 100%;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 15px;    
@@ -326,7 +329,9 @@ footer p {
  .carousel-images {
                 height: 300px;
             }
-  
+  #gallery {
+        margin-top: 50px; /* Ajusta o espaço entre a galeria e a seção anterior para telas pequenas */
+    }
 }
 
 
