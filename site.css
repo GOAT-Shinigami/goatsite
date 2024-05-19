@@ -317,19 +317,22 @@ footer p {
         margin-top: 20px; /* Adiciona um espaçamento acima da imagem */
     }
 
-    h2 {
-                font-size: 2rem;
-            }
+    #gallery {
+        margin-top: 30px; /* Reduz o espaço da seção anterior */
+    }
 
-  .carousel {
-                width: 90%;
-            }
+    #gallery h2 {
+        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
+        margin-bottom: 15px; /* Reduz o espaço do título */
+    }
 
- .carousel-images {
-                height: 300px;
-            }
-  #gallery {
-        margin-top: 50px; /* Ajusta o espaço entre a galeria e a seção anterior para telas pequenas */
+    .carousel {
+        width: 100%;
+        max-width: 100%; /* Garantir que o carrossel ocupe toda a largura disponível */
+    }
+
+    .carousel-images img, .carousel-images video {
+        max-height: 300px; /* Altura máxima reduzida para telas menores */
     }
 }
 
