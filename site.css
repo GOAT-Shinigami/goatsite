@@ -309,7 +309,7 @@ h1, h2 {
     height: 200px; /* Ajuste o tamanho da imagem conforme necessário */
     background: url('wall.png') no-repeat;
     background-size: contain;
-    transform: rotate(-25deg) translateY(-50%);
+    transform: rotate(-20deg) translateY(-50%);
     z-index: -1;
     opacity: 1; /* Ajuste a opacidade conforme necessário */
 }
