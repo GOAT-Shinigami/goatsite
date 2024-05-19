@@ -200,14 +200,17 @@ h1, h2 {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.carousel {
+.gallery {
     margin-top:90px;
+}
+
+.carousel {
     position: relative;
-    /*width: 80%;*/
-    /*max-width: 800px;*/
+    width: 80%;
+    max-width: 600px;
     margin: 0 auto;
     overflow: hidden;
-    /*border-radius: 15px;*/    
+    border-radius: 15px;    
 }
 
 .carousel-images {
