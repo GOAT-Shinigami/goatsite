@@ -232,21 +232,20 @@ h1, h2 {
     margin-top: 80px; /* Espaço da seção anterior */
     position: relative;
     z-index: 1;
-    overflow: hidden;
+    overflow: visible;
 }
 
 #presale::before {
     content: '';
     position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
+    top: 20%;
+    left: -10%;
+    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 300px; /* Ajuste o tamanho da imagem conforme necessário */
     background: url('wall.png') no-repeat;
-    background-size: cover;
-    transform: rotate(-45deg);
+    background-size: contain;
     z-index: -1;
-    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+    opacity: 1; /* Ajuste a opacidade conforme necessário */
 }
 
 #presale h2 {
