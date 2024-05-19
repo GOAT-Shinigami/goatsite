@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setInterval(showNextImage, 3000); // Muda a cada 3 segundos
 
     const startTime = new Date("May 07, 2024 23:46:00").getTime();
-    const endTime = new Date("may 19, 2024 16:57:00").getTime();
+    const endTime = new Date("jun 2, 2024 23:59:00").getTime();
     const timerElement = document.getElementById('timer');
     const presaleLiveElement = document.getElementById('presaleLive');
     const linkElement = document.getElementById('presaleLink');
