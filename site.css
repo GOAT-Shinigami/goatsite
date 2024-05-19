@@ -386,6 +386,52 @@ h1, h2 {
     100% { transform: translateX(-50%); }
 }
 
+/* Roadmap Section Styling */
+#roadmap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin-top: 24rem;
+}
+
+.roadmap-img {
+    width: 50%;
+    max-width: 65rem;
+    height: auto;
+    margin-right: 1rem;
+    margin-left: 13rem;
+    order: -1;
+}
+
+#roadmap div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    max-width: 50%;
+    margin-right: 3rem;
+}
+
+#roadmap h2 {
+    font-family: 'Sixtyfour', cursive; /* Update to existing font */
+    color: #FE8029;
+    font-size: 4.3rem;
+    margin-bottom: 2rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#roadmap p {
+    font-family: 'Silkscreen', cursive; /* Update to existing font */
+    color: #000;
+    font-size: 2.5rem;
+    max-width: 80%;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
 
 /* Estilo para o rodapé */
 footer {
