@@ -394,7 +394,7 @@ h1, h2 {
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
-    margin-top: 24rem;
+    margin-top: 20rem;
 }
 
 .roadmap-img {
@@ -402,7 +402,7 @@ h1, h2 {
     max-width: 65rem;
     height: auto;
     margin-right: 1rem;
-    margin-left: 13rem;
+    margin-left: 7rem;
     order: -1;
 }
 
@@ -420,7 +420,7 @@ h1, h2 {
 #roadmap h2 {
     font-family: 'Sixtyfour', cursive; /* Update to existing font */
     color: #FE8029;
-    font-size: 4.3rem;
+    font-size: 4.3em;
     margin-bottom: 2rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -428,7 +428,7 @@ h1, h2 {
 #roadmap p {
     font-family: 'Silkscreen', cursive; /* Update to existing font */
     color: #000;
-    font-size: 2.5rem;
+    font-size: 1.6em;
     max-width: 80%;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
