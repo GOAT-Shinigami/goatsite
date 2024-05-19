@@ -204,6 +204,7 @@ h1, h2 {
 .carousel {
     position: relative;
     width: 100%;
+    max-width: 900px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 15px;    
@@ -318,14 +319,14 @@ footer p {
                 font-size: 2rem;
             }
 
-            .carousel {
+  .carousel {
                 width: 90%;
             }
 
-            .carousel-images {
+ .carousel-images {
                 height: 300px;
             }
-    
+  
 }
 
 
