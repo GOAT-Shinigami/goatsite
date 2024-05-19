@@ -227,6 +227,70 @@ h1, h2 {
     border-radius: 12px; /* Adiciona bordas arredondadas */
 }
 
+/* Presale Styles */
+#presale {
+    margin-top: 50px; /* Espaço da seção anterior */
+}
+
+#presale h2 {
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 4.3em;
+    margin-bottom: 20px; /* Espaço considerável do título */
+}
+
+.presale-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o conteúdo da pré-venda */
+}
+
+.presale-content p {
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.presale-timer {
+    font-family: 'Silkscreen', cursive;
+    font-size: 2em;
+    color: #FE8029;
+    margin: 20px 0;
+}
+
+.presale-live {
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.5em;
+    color: green;
+    margin: 20px 0;
+}
+
+#presaleLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FE8029;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#presaleLink:hover {
+    background-color: #ff9933;
+}
+
+#remainingTime {
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
 /* Estilo para o rodapé */
 footer {
     background-color: #000; /* Fundo mais escuro */
