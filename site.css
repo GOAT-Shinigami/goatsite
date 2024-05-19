@@ -304,7 +304,7 @@ h1, h2 {
     content: '';
     position: absolute;
     top: 50%;
-    left: -70px; /* Ajuste conforme necessário para a imagem ficar espreitando */
+    left: -40px; /* Ajuste conforme necessário para a imagem ficar espreitando */
     width: 200px; /* Ajuste o tamanho da imagem conforme necessário */
     height: 200px; /* Ajuste o tamanho da imagem conforme necessário */
     background: url('wall.png') no-repeat;
