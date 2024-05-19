@@ -296,7 +296,7 @@ h1, h2 {
 
 /* Estilo para a seção How to Buy */
 #how-to-buy {
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 /* Estilo para a seção How to Buy */
@@ -312,15 +312,15 @@ h1, h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px; /* Aumenta o espaço entre os passos */
+    gap: 45px; /* Aumenta o espaço entre os passos */
 }
 
 .step {
-    background-color: rgba(255, 255, 255, 0.8); /* Levemente mais opaco para melhor contraste */
+    background-color: rgba(255, 255, 255, 0.2); /* Levemente mais opaco para melhor contraste */
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombra mais suave */
     width: 250px; /* Define uma largura fixa para os passos */
     text-align: center;
 }
