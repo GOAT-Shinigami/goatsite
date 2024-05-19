@@ -338,6 +338,50 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
+
+/* Style for the news ticker section */
+.news-ticker-section {
+    width: 100%;
+    background-color: #FE8029; /* Orange background color */
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #000; /* Black border for visibility */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adds some shadow for depth */
+    padding: 0; /* Removes padding to make it full-width */
+}
+
+.news-ticker {
+    display: flex;
+    align-items: center;
+    height: 50px; /* Adjust the height as needed */
+}
+
+.ticker-wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.ticker {
+    display: flex;
+    animation: ticker 10s linear infinite; /* Controls the scrolling animation */
+}
+
+.ticker p {
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.5em; /* Adjust font size as needed */
+    color: #fff; /* White text color */
+    margin: 0;
+    white-space: nowrap;
+    padding-right: 100%; /* Spacing between repetitions of the text */
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes ticker {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
 /* Estilo para o rodapé */
 footer {
     background-color: #000; /* Fundo mais escuro */
