@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
         carouselImages.style.transform = `translateX(-${index * 100}%)`;
     }
 
-    setInterval(showNextImage, 5000); // Muda a cada 3 segundos
+    setInterval(showNextImage, 3000); // Muda a cada 3 segundos
 
     // Adicionando console.log para verificar o carregamento do JavaScript
     console.log("JavaScript carregado");
