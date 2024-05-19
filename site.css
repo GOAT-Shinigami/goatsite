@@ -104,7 +104,7 @@ h1, h2 {
     font-size: 4.3em; /* Aumenta o tamanho da fonte */
     color: #FE8029; /* Define a cor do texto */
     text-align: left; /* Alinha o texto à esquerda */
-    margin: 0 0 5px 0; /* Ajusta as margens: superior, direita, inferior, esquerda */
+    margin: 0 0 5px 15px; /* Ajusta as margens: superior, direita, inferior, esquerda */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
     width: fit-content; /* Ajusta a largura do contêiner do título ao seu conteúdo */
     
@@ -325,8 +325,8 @@ h1, h2 {
 .step h3 {
     font-family: 'Sixtyfour', cursive;
     font-size: 1.5em;
-    color: #FE8029;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #000;
+    text-shadow: -1px -1px 0 #FE8029, 1px -1px 0 #FE8029, -1px 1px 0 #FE8029, 1px 1px 0 #FE8029;
     margin-bottom: 20px; /* Aumenta o espaço abaixo do subtítulo */
 }
 
@@ -367,7 +367,7 @@ h1, h2 {
 .ticker {
     display: flex;
     width: 100%;
-    animation: ticker 20s linear infinite; /* Controls the scrolling animation */
+    animation: ticker 15s linear infinite; /* Controls the scrolling animation */
 }
 
 .ticker p {
