@@ -475,6 +475,7 @@ footer p {
         font-size: 2em; /* Ajusta o tamanho da fonte para telas pequenas */
         text-align: center;
         letter-spacing: normal; /* Remove espaçamento extra entre letras */
+        width: 100%;
     }
 
     .intro-section .subtitle {
@@ -498,6 +499,7 @@ footer p {
         text-align: center; /* Centraliza o título em telas pequenas */
         font-size: 2em;
         margin: 1rem 0; /* Ajusta as margens para telas pequenas */
+        width: 100%;
     }
 
     .about-image {
