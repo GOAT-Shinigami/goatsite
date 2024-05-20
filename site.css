@@ -472,7 +472,7 @@ footer p {
     }
 
     .intro-section h1 {
-        font-size: 1.8em; /* Ajusta o tamanho da fonte para telas pequenas */
+        font-size: 1.6em; /* Ajusta o tamanho da fonte para telas pequenas */
         text-align: center;
         letter-spacing: normal; /* Remove espaçamento extra entre letras */
     }
@@ -488,7 +488,7 @@ footer p {
     .about-text {
         font-size: 1.2em; /* Ajustar o tamanho da fonte */
         line-height: 1.4; /* Ajustar o espaçamento entre linhas */
-        text-align: left; /* Alinhar o texto à esquerda para evitar espaçamento irregular */
+        text-align: center; /* Alinhar o texto à esquerda para evitar espaçamento irregular */
         margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
         width: calc(100% - 2rem); /* Ocupa a largura total do dispositivo menos a margem */
     }
