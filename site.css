@@ -122,6 +122,11 @@ h1, h2 {
     color: #000; /* Garante a cor preta para o texto */
 }
 
+.w3-row {
+        flex-direction: column; /* Empilha as colunas verticalmente */
+        text-align: center; /* Centraliza o texto */
+    }
+
 .about-image {
     flex: 1; /* Permite que a imagem ocupe a largura disponível */
     display: flex;
