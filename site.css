@@ -475,6 +475,7 @@ footer p {
 
     .intro-section h1 {
         font-size: 1.8em; /* Ajusta o tamanho da fonte para telas pequenas */
+        text-align: center;
         letter-spacing: normal; /* Remove espaçamento extra entre letras */
     }
 
