@@ -492,7 +492,7 @@ footer p {
         line-height: 1; /* Melhorar o espaçamento entre linhas */
         text-align: justify; /* Justificar o texto para melhor legibilidade */
         margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
-        width: 100%; /* Ocupa a largura total do dispositivo */
+        width: calc(100% - 2rem); /* Ocupa a largura total do dispositivo menos a margem */
     }
 
     .about-title {
@@ -504,7 +504,8 @@ footer p {
     .about-image {
         margin: 2rem 0; /* Espaçamento extra em cima e embaixo da imagem */
         width:100%;
-        text-align:center;
+        margin-left: auto;
+        margin-right: auto; /* Centralizar a imagem */
     }
 
     .w3-row {
