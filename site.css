@@ -399,8 +399,8 @@ h1, h2 {
     width: 50%;
     max-width: 65rem;
     height: auto;
-    margin-right: 12rem; /* Increased margin-right for more space between image and text */
-    margin-left: 2rem; /* Adjusted margin-left to move the image more to the left */
+    margin-right: 16rem; /* Increased margin-right for more space between image and text */
+    margin-left: 1.2rem; /* Adjusted margin-left to move the image more to the left */
     order: -1;
 }
 
@@ -412,7 +412,7 @@ h1, h2 {
     text-align: left;
     flex: 1;
     max-width: 50%;
-    margin-left: 2rem; /* Added margin-left for more space between text and image */
+    margin-left: 4rem; /* Added margin-left for more space between text and image */
     margin-right: 3rem;
 }
 
@@ -603,6 +603,7 @@ footer p {
         flex-direction: column;
         margin-top: 10rem; /* Adjust the margin-top as needed */
         align-items: center; /* Centralizar conteúdo */
+        text-align: center; /* Center align text */
     }
 
     .roadmap-img {
@@ -615,6 +616,7 @@ footer p {
     #roadmap div {
         max-width: 100%;
         margin: 0 1rem; /* Adjust the margin for smaller screens */
+        align-items: center; /* Center align items */
     }
 
     #roadmap h2 {
