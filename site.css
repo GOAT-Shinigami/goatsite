@@ -497,6 +497,7 @@ footer p {
         line-height: 1.5; /* Melhorar o espaçamento entre linhas */
         text-align: left; /* Alinhar o texto à esquerda para melhor legibilidade */
         margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
+        width:100%;
     }
 
     .about-title {
@@ -507,6 +508,8 @@ footer p {
 
     .about-image {
         margin: 2rem 0; /* Espaçamento extra em cima e embaixo da imagem */
+        width:100%;
+        text-align:center;
     }
     
 
