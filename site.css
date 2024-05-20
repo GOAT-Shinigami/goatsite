@@ -601,7 +601,7 @@ footer p {
 
     #roadmap {
         flex-direction: column;
-        margin-top: 10rem; /* Adjust the margin-top as needed */
+        margin-top: 6rem; /* Adjust the margin-top as needed */
         align-items: center; /* Centralizar conteúdo */
         text-align: center; /* Center align text */
     }
@@ -609,7 +609,7 @@ footer p {
     .roadmap-img {
         width: 80%; /* Adjusted width for smaller screens */
         max-width: none;
-        margin: 0 auto 2rem; /* Center the image and add margin at the bottom */
+        margin: 1rem auto 1rem; /* Center the image and add margin at the bottom */
         order: 1; /* Make the image appear after the text */
     }
 
@@ -625,6 +625,7 @@ footer p {
 
     #roadmap p {
         font-size: 1.2rem; /* Adjust the font size for smaller screens */
+        text-align: center; /* Center align text */
     }
 }
 
