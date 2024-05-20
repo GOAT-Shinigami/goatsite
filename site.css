@@ -487,8 +487,8 @@ footer p {
 
     .about-text {
         font-size: 1.2em; /* Ajustar o tamanho da fonte */
-        line-height: 1; /* Melhorar o espaçamento entre linhas */
-        text-align: justify; /* Justificar o texto para melhor legibilidade */
+        line-height: 1.4; /* Ajustar o espaçamento entre linhas */
+        text-align: left; /* Alinhar o texto à esquerda para evitar espaçamento irregular */
         margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
         width: calc(100% - 2rem); /* Ocupa a largura total do dispositivo menos a margem */
     }
@@ -496,12 +496,12 @@ footer p {
     .about-title {
         text-align: center; /* Centraliza o título em telas pequenas */
         font-size: 2em;
-        margin: 20px 10px 10px 60px; /* Ajusta as margens para telas pequenas */
+        margin: 1rem 0; /* Ajusta as margens para telas pequenas */
     }
 
     .about-image {
         margin: 2rem 0; /* Espaçamento extra em cima e embaixo da imagem */
-        width:100%;
+        width: 80%; /* Ajustar a largura da imagem */
         margin-left: auto;
         margin-right: auto; /* Centralizar a imagem */
     }
@@ -514,7 +514,7 @@ footer p {
 
     /* Ajustes para a seção Why Goat */
     #whyGoat h2 {
-        font-size: 2.5em; /* Ajusta o tamanho do título para telas pequenas */
+        font-size: 2em; /* Ajusta o tamanho do título para telas pequenas */
     }
 
     #whyGoat p {
