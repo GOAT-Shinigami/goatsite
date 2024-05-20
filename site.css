@@ -296,7 +296,7 @@ h1, h2 {
 
 /* Estilo para a seção How to Buy */
 #how-to-buy {
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 #how-to-buy h2 {
@@ -304,7 +304,7 @@ h1, h2 {
     font-size: 4.3em;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .how-to-buy-steps {
@@ -394,15 +394,15 @@ h1, h2 {
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
-    margin-top: 18rem;
+    margin-top: 12rem;
 }
 
 .roadmap-img {
     width: 50%;
     max-width: 65rem;
     height: auto;
-    margin-right: 3rem;
-    margin-left: 6rem;
+    margin-right: 5rem;
+    margin-left: 4rem;
     order: -1;
 }
 
@@ -414,7 +414,7 @@ h1, h2 {
     text-align: center;
     flex: 1;
     max-width: 50%;
-    margin-left: 2rem;
+    margin-left: 4rem;
     margin-right: 3rem;
 }
 
