@@ -75,7 +75,7 @@ h1, h2 {
 }
 
 .intro-title {
-    font-size: 5em !important;
+    font-size: 5.5em !important;
     margin-bottom: 10px;
     color: #FE8029; /* Usando a cor principal do site */
     text-shadow: 
@@ -343,7 +343,7 @@ h1, h2 {
 /* Style for the news ticker section */
 .news-ticker-section {
     width: 100%;
-    background-color: #FE8029; /* Orange background color */
+    background-color: #F4013B; /* Orange background color */
     overflow: hidden;
     position: relative;
     border-top: 2px solid #000; /* Black border on top */
@@ -394,34 +394,34 @@ h1, h2 {
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
-    margin-top: 12rem;
+    margin-top: 24rem;
 }
 
 .roadmap-img {
     width: 50%;
     max-width: 65rem;
     height: auto;
-    margin-right: 5rem;
-    margin-left: 4rem;
+    margin-right: 2rem; /* Increased margin-right for more space between image and text */
+    margin-left: 8rem; /* Adjusted margin-left to move the image more to the left */
     order: -1;
 }
 
 #roadmap div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Align items to the start for better alignment with image */
     justify-content: center;
-    text-align: center;
+    text-align: left;
     flex: 1;
     max-width: 50%;
-    margin-left: 4rem;
+    margin-left: 2rem; /* Added margin-left for more space between text and image */
     margin-right: 3rem;
 }
 
 #roadmap h2 {
     font-family: 'Sixtyfour', cursive; /* Update to existing font */
     color: #FE8029;
-    font-size: 4.3em;
+    font-size: 4rem;
     margin-bottom: 2rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -429,7 +429,7 @@ h1, h2 {
 #roadmap p {
     font-family: 'Silkscreen', cursive; /* Update to existing font */
     color: #000;
-    font-size: 1.6em;
+    font-size: 1.8rem;
     max-width: 80%;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
@@ -603,7 +603,7 @@ footer p {
 
     #roadmap {
         flex-direction: column;
-        margin-top: 12rem; /* Adjust the margin-top as needed */
+        margin-top: 10rem; /* Adjust the margin-top as needed */
     }
 
     .roadmap-img {
@@ -623,7 +623,7 @@ footer p {
     }
 
     #roadmap p {
-        font-size: 1.2em; /* Adjust the font size for smaller screens */
+        font-size: 1.2rem; /* Adjust the font size for smaller screens */
     }
 }
 
