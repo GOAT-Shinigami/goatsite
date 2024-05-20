@@ -495,15 +495,15 @@ footer p {
     .about-text {
         font-size: 1.2em; /* Ajustar o tamanho da fonte */
         line-height: 1.5; /* Melhorar o espaçamento entre linhas */
-        text-align: left; /* Alinhar o texto à esquerda para melhor legibilidade */
+        text-align: justify; /* Justificar o texto para melhor legibilidade */
         margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
-        width:100%;
+        width: 100%; /* Ocupa a largura total do dispositivo */
     }
 
     .about-title {
-        font-size: 2.5em; /* Ajustar o tamanho do título */
-        text-align: center; /* Centralizar o título */
-        margin: 1rem 0; /* Margem acima e abaixo do título */
+        text-align: center; /* Centraliza o título em telas pequenas */
+        font-size: 2em;
+        margin: 20px 10px 10px 60px; /* Ajusta as margens para telas pequenas */
     }
 
     .about-image {
