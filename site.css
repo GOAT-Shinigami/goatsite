@@ -110,6 +110,11 @@ h1, h2 {
     
 }
 
+.w3-row {
+    display: flex; /* Torna o contêiner flexível */
+    align-items: center; /* Alinha o conteúdo ao início (topo) */
+}
+
 .about-text {
     font-size: 1.6em;
     padding: 20px; /* Adiciona algum padding para garantir que o texto não toque nas bordas */
