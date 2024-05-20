@@ -472,13 +472,14 @@ footer p {
     }
 
     .intro-section h1 {
-        font-size: 1.6em; /* Ajusta o tamanho da fonte para telas pequenas */
+        font-size: 2em; /* Ajusta o tamanho da fonte para telas pequenas */
         text-align: center;
         letter-spacing: normal; /* Remove espaçamento extra entre letras */
     }
 
     .intro-section .subtitle {
-        font-size: 1.2em;
+        font-size: 1.5em; /* Ajusta o tamanho da fonte para subtítulo */
+        text-align: center;
     }
 
     .w3-col {
@@ -486,16 +487,16 @@ footer p {
     }
 
     .about-text {
-        font-size: 1.2rem; /* Ajustar o tamanho da fonte */
+        font-size: 1.2em; /* Ajustar o tamanho da fonte */
         line-height: 1.4; /* Ajustar o espaçamento entre linhas */
-        /*text-align: center; /* Alinhar o texto à esquerda para evitar espaçamento irregular */
+        text-align: center; /* Alinhar o texto ao centro */
         margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
         width: calc(100% - 2rem); /* Ocupa a largura total do dispositivo menos a margem */
     }
 
     .about-title {
         text-align: center; /* Centraliza o título em telas pequenas */
-        font-size: 2rem;
+        font-size: 2em;
         margin: 1rem 0; /* Ajusta as margens para telas pequenas */
     }
 
@@ -507,24 +508,24 @@ footer p {
     }
 
     .w3-row {
-        /*display: flex;*/
         flex-direction: column;
         align-items: center; /* Centralizar conteúdo */
     }
 
     /* Ajustes para a seção Why Goat */
-    #whyGoat{
-        margin-top:10px;
+    #whyGoat {
+        margin-top: 10px;
     }
     
     #whyGoat h2 {
         font-size: 2em; /* Ajusta o tamanho do título para telas pequenas */
+        text-align: center; /* Centralizar o título */
     }
 
     #whyGoat p {
         font-size: 1.2em; /* Ajusta o tamanho da fonte para parágrafos em telas pequenas */
         margin: 10px; /* Ajusta as margens para telas pequenas */
-        text-align: center; /* Alinha o texto à esquerda para evitar espaçamento excessivo */
+        text-align: center; /* Alinha o texto ao centro */
         word-spacing: normal; /* Remove qualquer espaçamento extra entre palavras */
         letter-spacing: normal; /* Remove qualquer espaçamento extra entre letras */
     }
@@ -542,6 +543,7 @@ footer p {
     #gallery h2 {
         font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
         margin-bottom: 15px; /* Reduz o espaço do título */
+        text-align: center; /* Centralizar o título */
     }
 
     .carousel {
@@ -553,13 +555,14 @@ footer p {
         max-height: 300px; /* Altura máxima reduzida para telas menores */
     }
 
-     #presale {
+    #presale {
         margin-top: 30px; /* Reduz o espaço da seção anterior */
     }
 
     #presale h2 {
         font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
         margin-bottom: 15px; /* Reduz o espaço do título */
+        text-align: center; /* Centralizar o título */
     }
 
     .presale-content {
@@ -587,6 +590,7 @@ footer p {
     #how-to-buy h2 {
         font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
         margin-bottom: 15px; /* Reduz o espaço do título */
+        text-align: center; /* Centralizar o título */
     }
     
     .how-to-buy-steps {
@@ -607,29 +611,30 @@ footer p {
         flex-direction: column;
         margin-top: 6rem; /* Adjust the margin-top as needed */
         align-items: center; /* Centralizar conteúdo */
-        text-align: center; /* Center align text */
+        text-align: center; /* Centralizar o texto */
     }
 
     .roadmap-img {
-        width: 80%; /* Adjusted width for smaller screens */
+        width: 80%; /* Ajustada a largura para telas menores */
         max-width: none;
-        margin: 1rem auto 1rem; /* Center the image and add margin at the bottom */
-        order: 1; /* Make the image appear after the text */
+        margin: 1rem auto; /* Centralizar a imagem e adicionar margem inferior */
+        order: 1; /* Faz a imagem aparecer após o texto */
     }
 
     #roadmap div {
         max-width: 100%;
-        margin: 0 1rem; /* Adjust the margin for smaller screens */
-        align-items: center; /* Center align items */
+        margin: 0 1rem; /* Ajustar a margem para telas menores */
+        align-items: center; /* Centralizar itens */
     }
 
     #roadmap h2 {
-        font-size: 2em; /* Adjust the font size for smaller screens */
+        font-size: 2em; /* Ajustar o tamanho da fonte para telas menores */
+        text-align: center; /* Centralizar o título */
     }
 
     #roadmap p {
-        font-size: 1.2rem; /* Adjust the font size for smaller screens */
-        text-align: center; /* Center align text */
+        font-size: 1.2em; /* Ajustar o tamanho da fonte para telas menores */
+        text-align: center; /* Centralizar o texto */
     }
 }
 
