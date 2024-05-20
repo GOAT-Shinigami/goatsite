@@ -494,7 +494,7 @@ footer p {
 
     .about-text {
         font-size: 1.2em; /* Ajustar o tamanho da fonte */
-        line-height: 1.5; /* Melhorar o espaçamento entre linhas */
+        line-height: 1; /* Melhorar o espaçamento entre linhas */
         text-align: justify; /* Justificar o texto para melhor legibilidade */
         margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
         width: 100%; /* Ocupa a largura total do dispositivo */
@@ -511,7 +511,12 @@ footer p {
         width:100%;
         text-align:center;
     }
-    
+
+    .w3-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centralizar conteúdo */
+    }
 
     /* Ajustes para a seção Why Goat */
     #whyGoat h2 {
