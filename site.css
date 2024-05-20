@@ -338,8 +338,6 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
-
-/* Style for the news ticker section */
 /* Style for the news ticker section */
 .news-ticker-section {
     width: 100%;
@@ -394,15 +392,15 @@ h1, h2 {
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
-    margin-top: 24rem;
+    margin-top: 18rem;
 }
 
 .roadmap-img {
     width: 50%;
     max-width: 65rem;
     height: auto;
-    margin-right: 2rem; /* Increased margin-right for more space between image and text */
-    margin-left: 8rem; /* Adjusted margin-left to move the image more to the left */
+    margin-right: 8rem; /* Increased margin-right for more space between image and text */
+    margin-left: 4rem; /* Adjusted margin-left to move the image more to the left */
     order: -1;
 }
 
