@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Função para conectar à carteira Phantom
     async function connectWallet() {
-        if (isMobile()) {
-            // Redirecionar para o deep link no dispositivo móvel
+        if (isMobile() && !isPhantomInstalled()) {
+            // Tente redirecionar para a aplicação Phantom se estiver em um dispositivo móvel
             window.location.href = 'https://phantom.app/ul/browse/';
             return;
         }
@@ -101,6 +101,10 @@ document.addEventListener('DOMContentLoaded', function () {
             await disconnectWallet();
         }
     });
+
+    // Adicionando logs para verificar a disponibilidade da Phantom wallet
+    console.log('Phantom installed:', isPhantomInstalled());
+    console.log('Is Mobile:', isMobile());
 
     
     const carouselImages = document.querySelector('.carousel-images');
