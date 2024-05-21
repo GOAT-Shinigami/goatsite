@@ -468,45 +468,46 @@ footer p {
     }
 
     .about-text {
-        font-size: 1.2rem; /* Ajustar o tamanho da fonte */
+        font-size: 3vw; /* Ajustar o tamanho da fonte */
         line-height: 1.4; /* Ajustar o espaçamento entre linhas */
-        /*text-align: center; /* Alinhar o texto à esquerda para evitar espaçamento irregular */
-        margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
-        width: calc(100% - 2rem); /* Ocupa a largura total do dispositivo menos a margem */
+        margin: 0 2vw; /* Margem para evitar que o texto encoste nas bordas */
+        width: calc(100% - 4vw); /* Ocupa a largura total do dispositivo menos a margem */
+        text-align: center; /* Centraliza o texto */
     }
 
     .about-title {
         text-align: center; /* Centraliza o título em telas pequenas */
-        font-size: 2rem;
-        margin: 1rem 0; /* Ajusta as margens para telas pequenas */
+        font-size: 5vw; /* Ajustar tamanho do título */
+        margin: 2vw 0; /* Ajusta as margens para telas pequenas */
     }
 
     .about-image {
-        margin: 2rem 0; /* Espaçamento extra em cima e embaixo da imagem */
-        width: 80%; /* Ajustar a largura da imagem */
+        margin: 4vw 0; /* Espaçamento extra em cima e embaixo da imagem */
+        width: 80vw; /* Ajustar a largura da imagem */
         margin-left: auto;
         margin-right: auto; /* Centralizar a imagem */
     }
 
     .w3-row {
-        /*display: flex;*/
+        display: flex;
         flex-direction: column;
         align-items: center; /* Centralizar conteúdo */
     }
 
     /* Ajustes para a seção Why Goat */
-    #whyGoat{
-        margin-top:10px;
+    #whyGoat {
+        margin-top: 2vw;
+        text-align: center; /* Centraliza o conteúdo */
     }
-    
+
     #whyGoat h2 {
-        font-size: 2em; /* Ajusta o tamanho do título para telas pequenas */
+        font-size: 5vw; /* Ajusta o tamanho do título para telas pequenas */
     }
 
     #whyGoat p {
-        font-size: 1.2em; /* Ajusta o tamanho da fonte para parágrafos em telas pequenas */
-        margin: 10px; /* Ajusta as margens para telas pequenas */
-        text-align: center; /* Alinha o texto à esquerda para evitar espaçamento excessivo */
+        font-size: 3vw; /* Ajusta o tamanho da fonte para parágrafos em telas pequenas */
+        margin: 2vw; /* Ajusta as margens para telas pequenas */
+        text-align: center; /* Alinha o texto ao centro */
         word-spacing: normal; /* Remove qualquer espaçamento extra entre palavras */
         letter-spacing: normal; /* Remove qualquer espaçamento extra entre letras */
     }
@@ -514,16 +515,17 @@ footer p {
     #whyGoat img {
         width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
         max-width: none; /* Remove a limitação de largura máxima */
-        margin-top: 20px; /* Adiciona um espaçamento acima da imagem */
+        margin-top: 4vw; /* Adiciona um espaçamento acima da imagem */
     }
 
     #gallery {
-        margin-top: 20px;
+        margin-top: 4vw;
+        text-align: center; /* Centraliza o conteúdo */
     }
 
     #gallery h2 {
-        font-size: 1.8em;
-        margin-bottom: 10px;
+        font-size: 4.5vw; /* Ajusta o tamanho do título */
+        margin-bottom: 2vw; /* Ajusta a margem inferior */
     }
 
     .carousel {
@@ -532,43 +534,49 @@ footer p {
     }
 
     .carousel-images img, .carousel-images video {
-        max-height: 300px; /* Altura máxima reduzida para telas menores */
+        max-height: 30vh; /* Altura máxima reduzida para telas menores */
     }
 
-     #presale {
-        margin-top: 20px;
+    #presale {
+        margin-top: 4vw;
+        text-align: center; /* Centraliza o conteúdo */
     }
 
     #presale h2 {
-        font-size: 1.8em;
-        margin-bottom: 10px;
+        font-size: 4.5vw; /* Ajusta o tamanho do título */
+        margin-bottom: 2vw; /* Ajusta a margem inferior */
     }
 
     .presale-content {
-        padding: 15px;
-        max-width: 90%;
+        padding: 3vw;
+        max-width: 90vw;
+        text-align: center; /* Centraliza o conteúdo */
     }
 
     .presale-timer {
-        font-size: 1.5em;
+        font-size: 3.5vw;
     }
 
     .presale-live {
-        font-size: 1.2em;
+        font-size: 3vw;
     }
 
     #presaleLink {
-        font-size: 1em;
-        padding: 8px 16px;
+        font-size: 2.5vw;
+        padding: 1.5vw 3vw;
     }
 
     #remainingTime {
-        font-size: 1em;
+        font-size: 2.5vw;
+    }
+
+    #how-to-buy {
+        text-align: center; /* Centraliza o conteúdo */
     }
 
     #how-to-buy h2 {
-        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
-        margin-bottom: 15px; /* Reduz o espaço do título */
+        font-size: 5vw; /* Ajuste do tamanho da fonte para telas menores */
+        margin-bottom: 3vw; /* Reduz o espaço do título */
     }
     
     .how-to-buy-steps {
@@ -585,32 +593,33 @@ footer p {
         max-width: 100%;
     }
 
-   #roadmap {
+    #roadmap {
+        display: flex;
         flex-direction: column;
-        margin-top: 4rem;
+        margin-top: 8vw;
         align-items: center;
         text-align: center;
     }
 
     .roadmap-img {
-        width: 80%; /* Adjusted width for smaller screens */
+        width: 80vw; /* Adjusted width for smaller screens */
         max-width: none;
-        margin: 1rem auto 1rem; /* Center the image and add margin at the bottom */
+        margin: 2vw auto; /* Center the image and add margin at the bottom */
         order: 1; /* Make the image appear after the text */
     }
 
-     #roadmap div {
+    #roadmap div {
         max-width: 100%;
-        margin: 0 1rem;
+        margin: 0 2vw;
         align-items: center;
     }
 
     #roadmap h2 {
-        font-size: 1.8em;
+        font-size: 4.5vw;
     }
 
     #roadmap p {
-        font-size: 1rem;
+        font-size: 2.5vw;
         text-align: center;
     }  
 
