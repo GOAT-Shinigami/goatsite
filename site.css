@@ -435,7 +435,90 @@ footer p {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .header-bg {
+        height: 22vh; /* Ocupa toda a altura da viewport */
+        background-size: cover; /* Garante que a imagem cubra a área */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */
+        background-position: center; /* Centraliza a imagem */
+    }
 
+    .w3-bar-item {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .connect-wallet {
+        margin: 10px 0;
+    }
+
+    .intro-title {
+        font-size: 2.5rem !important;
+    }
+
+    .subtitle {
+        font-size: 1rem !important;
+    }
+
+    .about-title, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .about-text, #whyGoat p, #roadmap p {
+        font-size: 1rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .w3-row {
+        flex-direction: column;
+    }
+
+    .about-image img, #whyGoat img, .step img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .how-to-buy-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-ticker {
+        height: 2rem;
+    }
+
+    .ticker p {
+        font-size: 1rem;
+        padding-right: 1rem;
+    }
+
+    .carousel {
+        max-width: 100%;
+    }
+
+    .roadmap-img {
+        width: 100%;
+        margin: 0;
+    }
+
+    #roadmap div {
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .presale-content {
+        padding: 1rem;
+    }
+
+    footer {
+        padding: 2rem 1rem;
+    }
+}
 
 
 
