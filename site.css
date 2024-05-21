@@ -479,7 +479,7 @@ footer p {
 
     .about-title {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin: 1rem 0;
         width: 100%;
     }
@@ -501,8 +501,9 @@ footer p {
     }
 
     #whyGoat h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-align: center;
+        letter-spacing: normal;
     }
 
     #whyGoat p {
@@ -524,9 +525,10 @@ footer p {
     }
 
     #gallery h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-bottom: 15px;
         text-align: center;
+        letter-spacing: normal;
     }
 
     .carousel {
@@ -543,9 +545,10 @@ footer p {
     }
 
     #presale h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-bottom: 15px;
         text-align: center;
+        letter-spacing: normal;
     }
 
     .presale-content {
@@ -571,9 +574,10 @@ footer p {
     }
 
     #how-to-buy h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-bottom: 15px;
         text-align: center;
+        letter-spacing: normal;
     }
 
     .how-to-buy-steps {
@@ -611,18 +615,21 @@ footer p {
     }
 
     #roadmap h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-align: center;
+        letter-spacing: normal;
     }
 
     #roadmap p {
         font-size: 1.2rem;
         text-align: center;
+        letter-spacing: normal;
     }
 
     @media screen and (min-width: 601px) and (max-width: 1366px) {
     #roadmap h2 {
-        font-size: 5rem; /* Adjust the font size for laptops */
+        font-size: 4rem; /* Adjust the font size for laptops */
+        letter-spacing: normal;
     }
 
     #roadmap {
@@ -635,8 +642,8 @@ footer p {
     }
 
     #roadmap div {
-        margin-left: 2rem; /* Adjust the margin-left for text */
-        margin-right: 2rem; /* Adjust the margin-right for text */
+        margin-left: 1.7rem; /* Adjust the margin-left for text */
+        margin-right: 2.3rem; /* Adjust the margin-right for text */
     }
     }
 
