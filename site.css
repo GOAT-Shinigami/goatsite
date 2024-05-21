@@ -503,11 +503,17 @@ footer p {
     .roadmap-img {
         width: 100%;
         margin: 0;
+        order: 1;
+    }
+
+    #roadmap {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
     }
 
     #roadmap div {
-        align-items: center;
-        text-align: center;
         margin: 0;
     }
 
