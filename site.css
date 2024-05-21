@@ -437,10 +437,10 @@ footer p {
 
 @media screen and (max-width: 600px) {
     .header-bg {
-        height: 22vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        height: 22vh; /* Ocupa toda a altura da viewport */
+        background-size: cover; /* Garante que a imagem cubra a área */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */
+        background-position: center; /* Centraliza a imagem */
     }
 
     .w3-bar-item {
@@ -450,105 +450,98 @@ footer p {
     }
 
     .connect-wallet {
-        margin: 0.625rem 0;
+        margin: 10px 0;
     }
 
     .intro-section h1 {
-        font-size: 1.8rem;
+        font-size: 1.6em; /* Ajusta o tamanho da fonte para telas pequenas */
         text-align: center;
-        letter-spacing: normal;
-        width: 100%;
+        letter-spacing: normal; /* Remove espaçamento extra entre letras */
     }
 
     .intro-section .subtitle {
-        font-size: 1.3rem;
-        text-align: center;
+        font-size: 1.2em;
     }
 
     .w3-col {
-        width: 100% !important;
+        width: 100% !important; /* Assegura que as colunas ocupem 100% da largura em telas pequenas */
     }
 
     .about-text {
-        font-size: 1rem;
-        line-height: 1.4;
-        text-align: center;
-        margin: 0 1rem;
-        width: calc(100% - 2rem);
+        font-size: 1.2rem; /* Ajustar o tamanho da fonte */
+        line-height: 1.4; /* Ajustar o espaçamento entre linhas */
+        /*text-align: center; /* Alinhar o texto à esquerda para evitar espaçamento irregular */
+        margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
+        width: calc(100% - 2rem); /* Ocupa a largura total do dispositivo menos a margem */
     }
 
     .about-title {
-        text-align: center;
-        font-size: 1.4rem;
-        margin: 1rem 0;
-        width: 100%;
+        text-align: center; /* Centraliza o título em telas pequenas */
+        font-size: 2rem;
+        margin: 1rem 0; /* Ajusta as margens para telas pequenas */
     }
 
     .about-image {
-        margin: 2rem 0;
-        width: 80%;
+        margin: 2rem 0; /* Espaçamento extra em cima e embaixo da imagem */
+        width: 80%; /* Ajustar a largura da imagem */
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; /* Centralizar a imagem */
     }
 
     .w3-row {
+        /*display: flex;*/
         flex-direction: column;
-        align-items: center;
+        align-items: center; /* Centralizar conteúdo */
     }
 
-    #whyGoat {
-        margin-top: 10px;
+    /* Ajustes para a seção Why Goat */
+    #whyGoat{
+        margin-top:10px;
     }
-
+    
     #whyGoat h2 {
-        font-size: 1.4rem;
-        text-align: center;
-        letter-spacing: normal;
+        font-size: 2em; /* Ajusta o tamanho do título para telas pequenas */
     }
 
     #whyGoat p {
-        font-size: 1rem;
-        margin: 10px;
-        text-align: center;
-        word-spacing: normal;
-        letter-spacing: normal;
+        font-size: 1.2em; /* Ajusta o tamanho da fonte para parágrafos em telas pequenas */
+        margin: 10px; /* Ajusta as margens para telas pequenas */
+        text-align: center; /* Alinha o texto à esquerda para evitar espaçamento excessivo */
+        word-spacing: normal; /* Remove qualquer espaçamento extra entre palavras */
+        letter-spacing: normal; /* Remove qualquer espaçamento extra entre letras */
     }
 
     #whyGoat img {
-        width: 100%;
-        max-width: none;
-        margin-top: 20px;
+        width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+        max-width: none; /* Remove a limitação de largura máxima */
+        margin-top: 20px; /* Adiciona um espaçamento acima da imagem */
     }
 
     #gallery {
-        margin-top: 30px;
+        margin-top: 30px; /* Reduz o espaço da seção anterior */
     }
 
     #gallery h2 {
-        font-size: 1.4rem;
-        margin-bottom: 15px;
-        text-align: center;
-        letter-spacing: normal;
+        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
+        margin-bottom: 15px; /* Reduz o espaço do título */
     }
 
     .carousel {
         width: 100%;
-        max-width: 100%;
+        max-width: 100%; /* Garantir que o carrossel ocupe toda a largura disponível */
     }
 
     .carousel-images img, .carousel-images video {
-        max-height: 300px;
+        max-height: 300px; /* Altura máxima reduzida para telas menores */
     }
 
-    #presale {
-        margin-top: 30px;
+     #presale {
+        margin-top: 30px; /* Reduz o espaço da seção anterior */
     }
 
     #presale h2 {
-        font-size: 1.4rem;
-        margin-bottom: 15px;
-        text-align: center;
-        letter-spacing: normal;
+        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
+        margin-bottom: 15px; /* Reduz o espaço do título */
     }
 
     .presale-content {
@@ -557,29 +550,27 @@ footer p {
     }
 
     .presale-timer {
-        font-size: 1.5rem;
+        font-size: 1.5em;
     }
 
     .presale-live {
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
 
     #presaleLink {
-        font-size: 1rem;
+        font-size: 1em;
         padding: 8px 16px;
     }
 
     #remainingTime {
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     #how-to-buy h2 {
-        font-size: 1.4rem;
-        margin-bottom: 15px;
-        text-align: center;
-        letter-spacing: normal;
+        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
+        margin-bottom: 15px; /* Reduz o espaço do título */
     }
-
+    
     .how-to-buy-steps {
         flex-direction: column;
         align-items: center;
@@ -596,35 +587,32 @@ footer p {
 
     #roadmap {
         flex-direction: column;
-        margin-top: 6rem;
-        align-items: center;
-        text-align: center;
+        margin-top: 6rem; /* Adjust the margin-top as needed */
+        align-items: center; /* Centralizar conteúdo */
+        text-align: center; /* Center align text */
     }
 
     .roadmap-img {
-        width: 80%;
+        width: 80%; /* Adjusted width for smaller screens */
         max-width: none;
-        margin: 1rem auto;
-        order: 1;
+        margin: 1rem auto 1rem; /* Center the image and add margin at the bottom */
+        order: 1; /* Make the image appear after the text */
     }
 
     #roadmap div {
         max-width: 100%;
-        margin: 0 1rem;
-        align-items: center;
+        margin: 0 1rem; /* Adjust the margin for smaller screens */
+        align-items: center; /* Center align items */
     }
 
     #roadmap h2 {
-        font-size: 1.4rem;
-        text-align: center;
-        letter-spacing: normal;
+        font-size: 2em; /* Adjust the font size for smaller screens */
     }
 
     #roadmap p {
-        font-size: 1rem;
-        text-align: center;
-        letter-spacing: normal;
-    }
+        font-size: 1.2rem; /* Adjust the font size for smaller screens */
+        text-align: center; /* Center align text */
+    }  
 
 }
 
