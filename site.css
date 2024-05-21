@@ -621,13 +621,19 @@ footer p {
 
     @media screen and (min-width: 600px) and (max-width: 1024px) {
     #roadmap h2 {
-        font-size: 6rem; /* Reduzir o tamanho da fonte do título */
+        font-size: 4rem; /* Reduzir o tamanho da fonte do título */
     }
 
     .roadmap-img {
-        margin-left: 4rem; /* Reduzir a margem esquerda para dar mais espaço ao título */
-        margin
-}
+        margin-left: 4rem; /* Adjust the margin-left for laptops */
+        margin-right: 2rem; /* Adjust the margin-right for laptops */
+    }
+
+    #roadmap div {
+        margin-left: 2rem; /* Adjust the margin-left for text */
+        margin-right: 2rem; /* Adjust the margin-right for text */
+    }
+    }
 
 
 
