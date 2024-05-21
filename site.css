@@ -518,12 +518,12 @@ footer p {
     }
 
     #gallery {
-        margin-top: 30px; /* Reduz o espaço da seção anterior */
+        margin-top: 20px;
     }
 
     #gallery h2 {
-        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
-        margin-bottom: 15px; /* Reduz o espaço do título */
+        font-size: 1.8em;
+        margin-bottom: 10px;
     }
 
     .carousel {
@@ -536,12 +536,12 @@ footer p {
     }
 
      #presale {
-        margin-top: 30px; /* Reduz o espaço da seção anterior */
+        margin-top: 20px;
     }
 
     #presale h2 {
-        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
-        margin-bottom: 15px; /* Reduz o espaço do título */
+        font-size: 1.8em;
+        margin-bottom: 10px;
     }
 
     .presale-content {
@@ -585,11 +585,11 @@ footer p {
         max-width: 100%;
     }
 
-    #roadmap {
+   #roadmap {
         flex-direction: column;
-        margin-top: 6rem; /* Adjust the margin-top as needed */
-        align-items: center; /* Centralizar conteúdo */
-        text-align: center; /* Center align text */
+        margin-top: 4rem;
+        align-items: center;
+        text-align: center;
     }
 
     .roadmap-img {
@@ -599,19 +599,19 @@ footer p {
         order: 1; /* Make the image appear after the text */
     }
 
-    #roadmap div {
+     #roadmap div {
         max-width: 100%;
-        margin: 0 1rem; /* Adjust the margin for smaller screens */
-        align-items: center; /* Center align items */
+        margin: 0 1rem;
+        align-items: center;
     }
 
     #roadmap h2 {
-        font-size: 2em; /* Adjust the font size for smaller screens */
+        font-size: 1.8em;
     }
 
     #roadmap p {
-        font-size: 1.2rem; /* Adjust the font size for smaller screens */
-        text-align: center; /* Center align text */
+        font-size: 1rem;
+        text-align: center;
     }  
 
 }
