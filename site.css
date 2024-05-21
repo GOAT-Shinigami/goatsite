@@ -428,93 +428,102 @@ footer p {
     color: #fff;
 }
 
-.mobile .header-bg {
+@media screen and (min-width: 601px) {
+    .header-bg {
+        height: 80vh;
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-bg {
         height: 22vh; /* Ocupa toda a altura da viewport */
         background-size: cover; /* Garante que a imagem cubra a área */
         background-repeat: no-repeat; /* Impede a repetição da imagem */
         background-position: center; /* Centraliza a imagem */
     }
 
-.mobile .w3-bar-item {
+    .w3-bar-item {
         display: block;
         width: 100%;
         text-align: center;
     }
 
-.mobile .connect-wallet {
+    .connect-wallet {
         margin: 10px 0;
     }
 
-.mobile .intro-title {
-    font-size: 2.5rem !important;
-}
+    .intro-title {
+        font-size: 2.5rem !important;
+    }
 
-.mobile .subtitle {
-    font-size: 1rem !important;
-}
+    .subtitle {
+        font-size: 1rem !important;
+    }
 
-.mobile .about-title, .mobile #whyGoat h2, .mobile #gallery h2, .mobile #presale h2, .mobile #how-to-buy h2, .mobile #roadmap h2 {
-    font-size: 2rem !important;
-    text-align: center;
-}
+    .about-title, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
 
-.mobile .about-text, .mobile #whyGoat p, .mobile #roadmap p {
-    font-size: 1rem;
-    text-align: center;
-    padding: 1rem;
-}
+    .about-text, #whyGoat p, #roadmap p {
+        font-size: 1rem;
+        text-align: center;
+        padding: 1rem;
+    }
 
-.mobile .w3-row {
-    flex-direction: column;
-}
+    .w3-row {
+        flex-direction: column;
+    }
 
-.mobile .about-image img, .mobile #whyGoat img, .mobile .step img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
+    .about-image img, #whyGoat img, .step img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
 
-.mobile .how-to-buy-steps {
-    flex-direction: column;
-    align-items: center;
-}
+    .how-to-buy-steps {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.mobile .news-ticker {
-    height: 2rem;
-}
+    .news-ticker {
+        height: 2rem;
+    }
 
-.mobile .ticker p {
-    font-size: 1rem;
-    padding-right: 1rem;
-}
+    .ticker p {
+        font-size: 1rem;
+        padding-right: 1rem;
+    }
 
-.mobile .carousel {
-    max-width: 100%;
-}
+    .carousel {
+        max-width: 100%;
+    }
 
-.mobile .roadmap-img {
-    width: 100%;
-    margin: 0;
-    order: 1;
-}
+    .roadmap-img {
+        width: 100%;
+        margin: 0;
+        order: 1;
+    }
 
-.mobile #roadmap {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 2rem;
-}
+    #roadmap {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
 
-.mobile #roadmap div {
-    margin: 0;
-}
+    #roadmap div {
+        margin: 0;
+    }
 
-.mobile .presale-content {
-    padding: 1rem;
-}
+    .presale-content {
+        padding: 1rem;
+    }
 
-.mobile footer {
-    padding: 2rem 1rem;
+    footer {
+        padding: 2rem 1rem;
+    }
 }
 
 
