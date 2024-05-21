@@ -175,7 +175,22 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     }, 1000);
-    
+
+     function adjustLayout() {
+        const isDesktopView = window.innerWidth >= 1024;
+
+        const container = document.querySelector('.container');
+        if (isDesktopView) {
+            container.style.flexDirection = 'row';
+            container.style.justifyContent = 'space-around';
+        } else {
+            container.style.flexDirection = 'column';
+            container.style.alignItems = 'center';
+        }
+    }
+
+    adjustLayout();
+    window.addEventListener('resize', adjustLayout);
 
     // Adicionando console.log para verificar o carregamento do JavaScript
     console.log("JavaScript carregado");
