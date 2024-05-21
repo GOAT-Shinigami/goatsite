@@ -33,8 +33,18 @@ document.addEventListener('DOMContentLoaded', function () {
         return window.solana && window.solana.isPhantom;
     }
 
+    function isMobile() {
+        return /Mobi|Android/i.test(navigator.userAgent);
+    }
+
     // Função para conectar à carteira Phantom
     async function connectWallet() {
+        if (isMobile()) {
+            // Redirecionar para o deep link no dispositivo móvel
+            window.location.href = 'https://phantom.app/ul/browse/';
+            return;
+        }
+
         if (!isPhantomInstalled()) {
             console.error('Phantom wallet is not installed.');
             alert('Please install Phantom wallet.');
