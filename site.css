@@ -16,201 +16,192 @@ h1, h2 {
 
 .header-bg {
     background-image: url('goatland.png');
-    background-size: cover; /* Ajuste a imagem para cobrir o contêiner */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* Evitar repetição da imagem */
-    padding: 50px 0;
-    height: 100vh; /* Ocupa toda a altura da viewport */
+    background-repeat: no-repeat;
+    padding: 5em 0;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center; /* Centraliza o texto */
+    text-align: center;
 }
 
 .navbar-logo {
-    max-width: 180px; /* Aumente o tamanho para o desejado, por exemplo, 150px */
+    max-width: 12rem;
     margin: 0 auto;
 }
 
 .connect-wallet {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
-/* Estilo personalizado para a barra de navegação */
 .custom-navbar {
-    background-color: #3d3d3d; /* Fundo definido para #3d3d3d */
-    box-shadow: 0 8px 6px rgb(0, 0, 0, 1.5); /* Adiciona uma sombra para profundidade */
+    background-color: #3d3d3d;
+    box-shadow: 0 0.5em 0.375em rgba(0, 0, 0, 0.15);
 }
 
 .custom-navbar .w3-bar-item {
-    font-size:1em;
-    font-family: 'Sixtyfour', cursive; /* Define a fonte retro */
-    color: #FE8029 !important; /* Cor do texto definida para #FE8029 */
-    transition: all 0.3s ease; /* Adiciona uma transição suave para hover */
+    font-size: 1em;
+    font-family: 'Sixtyfour', cursive;
+    color: #FE8029 !important;
+    transition: all 0.3s ease;
 }
 
 .custom-navbar .w3-bar-item:hover {
-    background-color: #04A69F !important; /* Cor de fundo ao passar o mouse */
-    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra para profundidade ao passar o mouse */
+    background-color: #04A69F !important;
+    box-shadow: 0 0.375em 0.25em rgba(0, 0, 0, 0.8);
 }
 
-/* Estilo para o menu exibido após clicar no botão toggle */
 #nav-small {
-    background-color: #BFFBD9; /* Cor de fundo do menu */
+    background-color: #BFFBD9;
 }
 
 #nav-small .w3-bar-item {
-    color: #FE8029 !important; /* Cor do texto dos itens do menu */
+    color: #FE8029 !important;
 }
 
 #nav-small .w3-bar-item:hover {
-    background-color: ##BFFBD9; /* Cor de fundo ao passar o mouse */
-    color: #FE8029 !important; /* Mantém a cor do texto */
+    background-color: #BFFBD9;
+    color: #FE8029 !important;
 }
 
-/* Estilo para a seção de introdução */
 .intro-section {
-    padding: 50px 0;
-    margin-bottom: 90px; /* Adiciona um espaço de 50px abaixo da seção de introdução */
+    padding: 5em 0;
+    margin-bottom: 9rem;
 }
 
 .intro-title {
-    font-size: 5.5em !important;
-    margin-bottom: 10px;
-    color: #FE8029; /* Usando a cor principal do site */
+    font-size: 5.5rem !important;
+    margin-bottom: 0.625rem;
+    color: #FE8029;
     text-shadow: 
-        1px 1px 0 #000,   /* Sombra múltipla para efeito 3D */
+        1px 1px 0 #000,
         2px 2px 0 #000,
         3px 3px 0 #000,
         4px 4px 0 #000,
         5px 5px 0 #000;
-    transform: translateZ(0); /* Habilita a aceleração de hardware para suavizar as sombras */
-    font-family: 'Sixtyfour', cursive; /* Define a fonte */
+    transform: translateZ(0);
+    font-family: 'Sixtyfour', cursive;
 }
 
 .subtitle {
-    font-size: 2em !important;
-    color: #000 !important; /* Cor preta com !important para garantir prioridade */
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Adiciona um rebordo branco ao texto */
+    font-size: 2rem !important;
+    color: #000 !important;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
-/* Estilo para as seções do conteúdo */
 .w3-container {
-    padding: 64px;
+    padding: 4rem;
 }
 
-/* Ajustes para a seção About */
 .about-title {
-    font-size: 4.3em; /* Aumenta o tamanho da fonte */
-    color: #FE8029; /* Define a cor do texto */
-    text-align: left; /* Alinha o texto à esquerda */
-    margin: 0 0 5px 15px; /* Ajusta as margens: superior, direita, inferior, esquerda */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
-    width: fit-content; /* Ajusta a largura do contêiner do título ao seu conteúdo */
-    
+    font-size: 4.3rem;
+    color: #FE8029;
+    text-align: left;
+    margin: 0 0 0.3125rem 0.9375rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    width: fit-content;
 }
 
 .w3-row {
-    display: flex; /* Torna o contêiner flexível */
-    align-items: center; /* Alinha o conteúdo ao início (topo) */
+    display: flex;
+    align-items: center;
 }
 
 .about-text {
-    font-size: 1.6em;
-    padding: 20px; /* Adiciona algum padding para garantir que o texto não toque nas bordas */
-    flex: 1; /* Permite que o texto ocupe a largura disponível */
-    color: #000; /* Garante a cor preta para o texto */
+    font-size: 1.6rem;
+    padding: 1.25rem;
+    flex: 1;
+    color: #000;
 }
 
 .about-image {
-    flex: 1; /* Permite que a imagem ocupe a largura disponível */
+    flex: 1;
     display: flex;
-    justify-content: center; /* Centraliza a imagem horizontalmente */
+    justify-content: center;
 }
 
 .about-image img {
     width: 75%;
     height: auto;
-    border-radius: 8px; /* Adiciona bordas arredondadas */
+    border-radius: 0.5rem;
 }
 
-/* Estilos para a seção de informações da carteira */
 #wallet-info {
-    background-color: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
+    background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid #ddd;
-    border-radius: 16px;
-    padding: 20px;
-    margin: 20px auto; /* Centraliza horizontalmente */
-    max-width: 600px; /* Limita a largura máxima */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Adiciona sombra para efeito de flutuação */
+    border-radius: 1rem;
+    padding: 1.25rem;
+    margin: 1.25rem auto;
+    max-width: 37.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.7);
 }
 
 #wallet-info h2 {
-    font-family: 'Sixtyfour', cursive; /* Define a fonte retro */
-    font-size: 2.4em; /* Mantém o tamanho da fonte como no restante do site */
+    font-family: 'Sixtyfour', cursive;
+    font-size: 2.4rem;
     color: #FE8029;
-    margin-bottom: 20px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona sombra ao texto */
+    margin-bottom: 1.25rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #wallet-info p {
-    font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
-    font-size: 1em;
-    margin: 10px 0;
-    color: #000; /* Cor do texto para melhor legibilidade */
+    font-family: 'Silkscreen', cursive;
+    font-size: 1rem;
+    margin: 0.625rem 0;
+    color: #000;
     line-height: 1.5;
 }
 
-/* Ajustes para a seção Why Goat */
 #whyGoat {
-    margin-top: 70px; /* Adiciona margem superior para mover a seção para baixo */
+    margin-top: 4.375rem;
 }
 
 #whyGoat h2 {
-    font-family: 'Sixtyfour', cursive; /* Fonte para o título */
-    font-size: 4.3em;
+    font-family: 'Sixtyfour', cursive;
+    font-size: 4.3rem;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 #whyGoat p {
-    font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
-    font-size: 1.6em;
-    color: #000 !important; /* Cor do texto para melhor legibilidade */
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.6rem;
+    color: #000 !important;
     line-height: 1.5;
-    margin: 20px auto; /* Adiciona margem para espaçamento */
-    text-align: justify; /* Justifica o texto */
+    margin: 1.25rem auto;
+    text-align: justify;
 }
 
 #whyGoat img {
-    width: 90%; /* Faz a imagem ocupar 100% da largura do contêiner */
-    max-width: 700px; /* Limita a largura máxima da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-top: 20px; /* Adiciona margem superior */
-    border-radius: 8px; /* Bordas arredondadas para a imagem */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para efeito de flutuação */
+    width: 90%;
+    max-width: 43.75rem;
+    height: auto;
+    margin-top: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-/* Carousel Styles */
 #gallery {
-    margin-top: 60px; /* Espaço da seção anterior */
+    margin-top: 3.75rem;
 }
 
 #gallery h2 {
     font-family: 'Sixtyfour', cursive;
-    font-size: 4.3em;
+    font-size: 4.3rem;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-bottom: 10px; /* Espaço considerável do título */
+    margin-bottom: 0.625rem;
 }
 
 .carousel {
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 600px; /* Limite de largura do carrossel */
-    margin: 0 auto; /* Centralizar o carrossel */
+    max-width: 37.5rem;
+    margin: 0 auto;
 }
 
 .carousel-images {
@@ -220,67 +211,66 @@ h1, h2 {
 
 .carousel-images img, .carousel-images video {
     max-width: 100%;
-    max-height: 500px; /* Ajuste de altura máxima */
+    max-height: 31.25rem;
     width: 100%;
     height: auto;
-    flex: 0 0 100%; /* Garantir que cada imagem ocupe 100% do carrossel */
-    border-radius: 12px; /* Adiciona bordas arredondadas */
+    flex: 0 0 100%;
+    border-radius: 0.75rem;
 }
 
-/* Presale Styles */
 #presale {
-    margin-top: 80px; /* Espaço da seção anterior */
+    margin-top: 5rem;
 }
 
 #presale h2 {
     font-family: 'Sixtyfour', cursive;
-    font-size: 4.3em;
+    font-size: 4.3rem;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-bottom: 10px; /* Espaço considerável do título */
+    margin-bottom: 0.625rem;
 }
 
 .presale-content {
-    background-color: rgba(255, 255, 255, 0.4); /* Fundo branco com transparência */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    max-width: 600px;
-    margin: 0 auto; /* Centraliza o conteúdo da pré-venda */  
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.8);
+    max-width: 37.5rem;
+    margin: 0 auto;
 }
 
 .presale-content p {
     font-family: 'Silkscreen', cursive;
-    font-size: 1.2em;
-    margin: 10px 0;
+    font-size: 1.2rem;
+    margin: 0.625rem 0;
     color: #000;
 }
 
 .presale-timer {
     font-family: 'Silkscreen', cursive;
-    font-size: 2em;
+    font-size: 2rem;
     color: #FE8029;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .presale-live {
     font-family: 'Silkscreen', cursive;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: green;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 #presaleLink {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     background-color: #FE8029;
     color: #fff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-decoration: none;
     font-family: 'Silkscreen', cursive;
-    font-size: 1.2em;
-    border-radius: 5px;
-    margin-top: 20px;
+    font-size: 1.2rem;
+    border-radius: 0.3125rem;
+    margin-top: 1.25rem;
 }
 
 #presaleLink:hover {
@@ -289,71 +279,68 @@ h1, h2 {
 
 #remainingTime {
     font-family: 'Silkscreen', cursive;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: #333;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
-/* Estilo para a seção How to Buy */
 #how-to-buy {
     margin-top: 8rem;
 }
 
 #how-to-buy h2 {
     font-family: 'Sixtyfour', cursive;
-    font-size: 4.3em;
+    font-size: 4.3rem;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 .how-to-buy-steps {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 45px; /* Aumenta o espaço entre os passos */
+    gap: 2.8125rem;
 }
 
 .step {
-    padding: 16px;
-    margin: 10px;
-    border-radius: 10px;
-    width: 250px; /* Define uma largura fixa para os passos */
+    padding: 1rem;
+    margin: 0.625rem;
+    border-radius: 0.625rem;
+    width: 15.625rem;
     text-align: center;
 }
 
 .step h3 {
     font-family: 'Silkscreen', cursive;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #000;
-    /*text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;*/
-    margin-bottom: 20px; /* Aumenta o espaço abaixo do subtítulo */
+    margin-bottom: 1.25rem;
 }
 
 .step img {
     width: 100%;
-    max-width: 200px;
+    max-width: 12.5rem;
     height: auto;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 0.9375rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.8);
 }
 
-/* Style for the news ticker section */
 .news-ticker-section {
     width: 100%;
-    background-color: #F4013B; /* Orange background color */
+    background-color: #F4013B;
     overflow: hidden;
     position: relative;
-    border-top: 2px solid #000; /* Black border on top */
-    border-bottom: 2px solid #000; /* Black border on bottom */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adds some shadow for depth */
-    padding: 0; /* Removes padding to make it full-width */
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+    padding: 0;
 }
 
 .news-ticker {
     display: flex;
     align-items: center;
-    height: 50px; /* Adjust the height as needed */
+    height: 3.125rem;
 }
 
 .ticker-wrap {
@@ -365,26 +352,24 @@ h1, h2 {
 .ticker {
     display: flex;
     width: 100%;
-    animation: ticker 15s linear infinite; /* Controls the scrolling animation */
+    animation: ticker 15s linear infinite;
 }
 
 .ticker p {
     font-family: 'Silkscreen', cursive;
-    font-size: 1.5em; /* Adjust font size as needed */
-    color: #fff; /* White text color */
+    font-size: 1.5rem;
+    color: #fff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin: 0;
     white-space: nowrap;
-    padding-right: 2rem; /* Spacing between repetitions of the text */
+    padding-right: 2rem;
 }
 
-/* Keyframes for the scrolling animation */
 @keyframes ticker {
     0% { transform: translateX(0%); }
     100% { transform: translateX(-50%); }
 }
 
-/* Roadmap Section Styling */
 #roadmap {
     display: flex;
     align-items: center;
@@ -399,25 +384,25 @@ h1, h2 {
     width: 50%;
     max-width: 65rem;
     height: auto;
-    margin-right: 16rem; /* Increased margin-right for more space between image and text */
-    margin-left: 1.2rem; /* Adjusted margin-left to move the image more to the left */
+    margin-right: 16rem;
+    margin-left: 1.2rem;
     order: -1;
 }
 
 #roadmap div {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the start for better alignment with image */
+    align-items: flex-start;
     justify-content: center;
     text-align: left;
     flex: 1;
     max-width: 50%;
-    margin-left: 4rem; /* Added margin-left for more space between text and image */
+    margin-left: 4rem;
     margin-right: 3rem;
 }
 
 #roadmap h2 {
-    font-family: 'Sixtyfour', cursive; /* Update to existing font */
+    font-family: 'Sixtyfour', cursive;
     color: #FE8029;
     font-size: 4rem;
     margin-bottom: 2rem;
@@ -425,40 +410,36 @@ h1, h2 {
 }
 
 #roadmap p {
-    font-family: 'Silkscreen', cursive; /* Update to existing font */
+    font-family: 'Silkscreen', cursive;
     color: #000;
     font-size: 1.8rem;
     max-width: 80%;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
-/* Estilo para o rodapé */
 footer {
-    background-color: #000; /* Fundo mais escuro */
-    padding: 64px 16px;
+    background-color: #000;
+    padding: 4rem 1rem;
 }
 
 footer p {
-    margin: 8px 0;
-    color: #fff; /* Define a cor do texto para branco */
+    margin: 0.5rem 0;
+    color: #fff;
 }
 
-/* Ajuste para telas médias e grandes */
 @media screen and (min-width: 601px) {
     .header-bg {
-        height: 80vh; /* Ocupa toda a altura da viewport */
-        background-attachment: scroll; /* Para evitar que a imagem se mova */
+        height: 80vh;
+        background-attachment: scroll;
     }
-
 }
 
-/* Ajuste para telas pequenas (smartphones) */
 @media screen and (max-width: 600px) {
     .header-bg {
-        height: 22vh; /* Ocupa toda a altura da viewport */
-        background-size: cover; /* Garante que a imagem cubra a área */
-        background-repeat: no-repeat; /* Impede a repetição da imagem */
-        background-position: center; /* Centraliza a imagem */
+        height: 22vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .w3-bar-item {
@@ -468,103 +449,102 @@ footer p {
     }
 
     .connect-wallet {
-        margin: 10px 0;
+        margin: 0.625rem 0;
     }
 
     .intro-section h1 {
-        font-size: 2em; /* Ajusta o tamanho da fonte para telas pequenas */
+        font-size: 2rem;
         text-align: center;
-        letter-spacing: normal; /* Remove espaçamento extra entre letras */
+        letter-spacing: normal;
         width: 100%;
     }
 
     .intro-section .subtitle {
-        font-size: 1.5em; /* Ajusta o tamanho da fonte para subtítulo */
+        font-size: 1.5rem;
         text-align: center;
     }
 
     .w3-col {
-        width: 100% !important; /* Assegura que as colunas ocupem 100% da largura em telas pequenas */
+        width: 100% !important;
     }
 
     .about-text {
-        font-size: 1.2em; /* Ajustar o tamanho da fonte */
-        line-height: 1.4; /* Ajustar o espaçamento entre linhas */
-        text-align: center; /* Alinhar o texto ao centro */
-        margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
-        width: calc(100% - 2rem); /* Ocupa a largura total do dispositivo menos a margem */
+        font-size: 1.2rem;
+        line-height: 1.4;
+        text-align: center;
+        margin: 0 1rem;
+        width: calc(100% - 2rem);
     }
 
     .about-title {
-        text-align: center; /* Centraliza o título em telas pequenas */
-        font-size: 2em;
-        margin: 1rem 0; /* Ajusta as margens para telas pequenas */
+        text-align: center;
+        font-size: 2rem;
+        margin: 1rem 0;
         width: 100%;
     }
 
     .about-image {
-        margin: 2rem 0; /* Espaçamento extra em cima e embaixo da imagem */
-        width: 80%; /* Ajustar a largura da imagem */
+        margin: 2rem 0;
+        width: 80%;
         margin-left: auto;
-        margin-right: auto; /* Centralizar a imagem */
+        margin-right: auto;
     }
 
     .w3-row {
         flex-direction: column;
-        align-items: center; /* Centralizar conteúdo */
+        align-items: center;
     }
 
-    /* Ajustes para a seção Why Goat */
     #whyGoat {
         margin-top: 10px;
     }
-    
+
     #whyGoat h2 {
-        font-size: 2em; /* Ajusta o tamanho do título para telas pequenas */
-        text-align: center; /* Centralizar o título */
+        font-size: 2rem;
+        text-align: center;
     }
 
     #whyGoat p {
-        font-size: 1.2em; /* Ajusta o tamanho da fonte para parágrafos em telas pequenas */
-        margin: 10px; /* Ajusta as margens para telas pequenas */
-        text-align: center; /* Alinha o texto ao centro */
-        word-spacing: normal; /* Remove qualquer espaçamento extra entre palavras */
-        letter-spacing: normal; /* Remove qualquer espaçamento extra entre letras */
+        font-size: 1.2rem;
+        margin: 10px;
+        text-align: center;
+        word-spacing: normal;
+        letter-spacing: normal;
     }
 
     #whyGoat img {
-        width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
-        max-width: none; /* Remove a limitação de largura máxima */
-        margin-top: 20px; /* Adiciona um espaçamento acima da imagem */
+        width: 100%;
+        max-width: none;
+        margin-top: 20px;
     }
 
     #gallery {
-        margin-top: 30px; /* Reduz o espaço da seção anterior */
+        margin-top: 30px;
     }
 
     #gallery h2 {
-        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
-        margin-bottom: 15px; /* Reduz o espaço do título */
-        text-align: center; /* Centralizar o título */
+        font-size: 2rem;
+        margin-bottom: 15px;
+        text-align: center;
     }
 
     .carousel {
         width: 100%;
-        max-width: 100%; /* Garantir que o carrossel ocupe toda a largura disponível */
+        max-width: 100%;
     }
 
     .carousel-images img, .carousel-images video {
-        max-height: 300px; /* Altura máxima reduzida para telas menores */
+        max-height: 300px;
     }
 
     #presale {
-        margin-top: 30px; /* Reduz o espaço da seção anterior */
+        margin-top: 30px;
     }
 
     #presale h2 {
-        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
-        margin-bottom: 15px; /* Reduz o espaço do título */
-        text-align: center; /* Centralizar o título */
+        font-size: 2rem;
+        margin-bottom: 15px;
+        text-align: center;
     }
 
     .presale-content {
@@ -573,28 +553,28 @@ footer p {
     }
 
     .presale-timer {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 
     .presale-live {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 
     #presaleLink {
-        font-size: 1em;
+        font-size: 1rem;
         padding: 8px 16px;
     }
 
     #remainingTime {
-        font-size: 1em;
+        font-size: 1rem;
     }
 
     #how-to-buy h2 {
-        font-size: 2em; /* Ajuste do tamanho da fonte para telas menores */
-        margin-bottom: 15px; /* Reduz o espaço do título */
-        text-align: center; /* Centralizar o título */
+        font-size: 2rem;
+        margin-bottom: 15px;
+        text-align: center;
     }
-    
+
     .how-to-buy-steps {
         flex-direction: column;
         align-items: center;
@@ -611,34 +591,35 @@ footer p {
 
     #roadmap {
         flex-direction: column;
-        margin-top: 6rem; /* Adjust the margin-top as needed */
-        align-items: center; /* Centralizar conteúdo */
-        text-align: center; /* Centralizar o texto */
+        margin-top: 6rem;
+        align-items: center;
+        text-align: center;
     }
 
     .roadmap-img {
-        width: 80%; /* Ajustada a largura para telas menores */
+        width: 80%;
         max-width: none;
-        margin: 1rem auto; /* Centralizar a imagem e adicionar margem inferior */
-        order: 1; /* Faz a imagem aparecer após o texto */
+        margin: 1rem auto;
+        order: 1;
     }
 
     #roadmap div {
         max-width: 100%;
-        margin: 0 1rem; /* Ajustar a margem para telas menores */
-        align-items: center; /* Centralizar itens */
+        margin: 0 1rem;
+        align-items: center;
     }
 
     #roadmap h2 {
-        font-size: 2em; /* Ajustar o tamanho da fonte para telas menores */
-        text-align: center; /* Centralizar o título */
+        font-size: 2rem;
+        text-align: center;
     }
 
     #roadmap p {
-        font-size: 1.2em; /* Ajustar o tamanho da fonte para telas menores */
-        text-align: center; /* Centralizar o texto */
+        font-size: 1.2rem;
+        text-align: center;
     }
 }
+
 
 
 
