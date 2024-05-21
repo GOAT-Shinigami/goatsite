@@ -397,7 +397,7 @@ h1, h2 {
     text-align: left;
     flex: 1;
     max-width: 50%;
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-right: 3rem;
 }
 
@@ -412,7 +412,7 @@ h1, h2 {
 #roadmap p {
     font-family: 'Silkscreen', cursive;
     color: #000;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     max-width: 80%;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
@@ -618,6 +618,15 @@ footer p {
         font-size: 1.2rem;
         text-align: center;
     }
+
+    @media screen and (min-width: 600px) and (max-width: 1024px) {
+    #roadmap h2 {
+        font-size: 6rem; /* Reduzir o tamanho da fonte do título */
+    }
+
+    .roadmap-img {
+        margin-left: 4rem; /* Reduzir a margem esquerda para dar mais espaço ao título */
+        margin
 }
 
 
