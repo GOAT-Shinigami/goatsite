@@ -454,22 +454,22 @@ footer p {
     }
 
     .intro-title {
-        font-size: 2.5rem !important;
+        font-size: 3rem !important;
     }
 
     .subtitle {
         font-size: 1rem !important;
     }
 
-    .about-title, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
-        font-size: 2rem !important;
+    #about h2, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
+        font-size: 2.2rem !important;
         text-align: center;
     }
 
     .about-text, #whyGoat p, #roadmap p {
-        font-size: 1rem;
+        font-size: 1.4rem;
         text-align: center;
-        padding: 1rem;
+        /*padding: 1rem;*/
     }
 
     .w3-row {
