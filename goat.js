@@ -14,6 +14,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const addressElement = document.getElementById('walletAddress');
     const walletInfo = document.getElementById('wallet-info');
 
+    if (!button) {
+        console.error('Connect button not found');
+        return;
+    }
+
     // Inicializa a interface com base nos dados do localStorage
     updateUIFromStorage();
 
@@ -54,8 +59,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Função para desconectar da carteira Phantom
     async function disconnectWallet() {
-        await window.solana.disconnect();
-        console.log('Disconnected from Phantom Wallet');
+        if (isPhantomInstalled()) {
+            await window.solana.disconnect();
+            console.log('Disconnected from Phantom Wallet');
+        }
         button.textContent = 'Connect Wallet';
         localStorage.removeItem('isConnected');
         localStorage.removeItem('walletAddress');
@@ -77,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Listener para o botão
     button.addEventListener('click', async () => {
+        console.log('Button clicked');
         if (button.textContent === 'Connect Wallet') {
             await connectWallet();
         } else {
