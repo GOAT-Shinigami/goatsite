@@ -176,6 +176,16 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }, 1000);
 
+    function isMobile() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    if (isMobile()) {
+        document.body.classList.add("mobile");
+    } else {
+        document.body.classList.add("desktop");
+    }
+
     // Adicionando console.log para verificar o carregamento do JavaScript
     console.log("JavaScript carregado");
 });
