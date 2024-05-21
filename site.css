@@ -626,26 +626,7 @@ footer p {
         letter-spacing: normal;
     }
 
-    @media screen and (min-width: 601px) and (max-width: 1366px) {
-    #roadmap h2 {
-        font-size: 2rem; /* Adjust the font size for laptops */
-        letter-spacing: normal;
-    }
-
-    #roadmap {
-        margin-top: 12rem; /* Adjust the margin-top as needed */
-    }
-
-    .roadmap-img {
-        margin-left: 4rem; /* Adjust the margin-left for laptops */
-        margin-right: 2rem; /* Adjust the margin-right for laptops */
-    }
-
-    #roadmap div {
-        margin-left: 1.7rem; /* Adjust the margin-left for text */
-        margin-right: 2.3rem; /* Adjust the margin-right for text */
-    }
-    }
+}
 
 
 
