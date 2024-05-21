@@ -72,7 +72,7 @@ h1, h2 {
 }
 
 .intro-title {
-    font-size: 5.5rem !important;
+    font-size: 5.2rem !important;
     margin-bottom: 0.625rem;
     color: #FE8029;
     text-shadow: 
@@ -96,7 +96,7 @@ h1, h2 {
 }
 
 .about-title {
-    font-size: 4.3rem;
+    font-size: 4.2rem !important;
     color: #FE8029;
     text-align: left;
     margin: 0 0 0.3125rem 0.9375rem;
@@ -160,7 +160,7 @@ h1, h2 {
 
 #whyGoat h2 {
     font-family: 'Sixtyfour', cursive;
-    font-size: 4.3rem;
+    font-size: 4.2rem !important;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin-bottom: 1.25rem;
@@ -190,7 +190,7 @@ h1, h2 {
 
 #gallery h2 {
     font-family: 'Sixtyfour', cursive;
-    font-size: 4.3rem;
+    font-size: 4.2rem !important;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin-bottom: 0.625rem;
@@ -220,11 +220,12 @@ h1, h2 {
 
 #presale {
     margin-top: 5rem;
+    margin-bottom:5rem;
 }
 
 #presale h2 {
     font-family: 'Sixtyfour', cursive;
-    font-size: 4.3rem;
+    font-size: 4.2rem !important;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin-bottom: 0.625rem;
@@ -285,12 +286,12 @@ h1, h2 {
 }
 
 #how-to-buy {
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 
 #how-to-buy h2 {
     font-family: 'Sixtyfour', cursive;
-    font-size: 4.3rem;
+    font-size: 4.3rem !important;
     color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     margin-bottom: 0.75rem;
@@ -404,7 +405,7 @@ h1, h2 {
 #roadmap h2 {
     font-family: 'Sixtyfour', cursive;
     color: #FE8029;
-    font-size: 4rem;
+    font-size: 4.2rem !important;
     margin-bottom: 2rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
