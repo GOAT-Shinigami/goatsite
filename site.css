@@ -439,7 +439,7 @@ footer p {
     margin-top: 0;
     margin-bottom: 2rem;
     font-size: 4.2rem;  /* Ajustado para manter consistência com outros títulos */
-    color: #FE8029;
+    color:  #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -454,12 +454,12 @@ footer p {
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .social-links img {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
     transition: transform 0.3s ease;
 }
 
@@ -678,7 +678,7 @@ img:hover {
     }
 
     .social-links img {
-        width: 15%;
+        width: 20%;
         height: auto;
     }
 
