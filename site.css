@@ -428,10 +428,82 @@ footer p {
     color: #fff;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     .header-bg {
         height: 80vh;
-        background-attachment: scroll;
+        padding: 2em 0;
+    }
+
+    .intro-title {
+        font-size: 4rem !important;
+    }
+
+    .subtitle {
+        font-size: 1.5rem !important;
+    }
+
+    .about-title, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
+        font-size: 3rem !important;
+        text-align: center;
+    }
+
+    .about-text, #whyGoat p, #roadmap p {
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .w3-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-image img, #whyGoat img, .step img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .how-to-buy-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-ticker {
+        height: 2.5rem;
+    }
+
+    .ticker p {
+        font-size: 1.2rem;
+        padding-right: 1rem;
+    }
+
+    .carousel {
+        max-width: 100%;
+    }
+
+    .roadmap-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #roadmap {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #roadmap div {
+        margin: 0;
+    }
+
+    .presale-content {
+        padding: 1.5rem;
+    }
+
+    footer {
+        padding: 2rem 1rem;
     }
 }
 
