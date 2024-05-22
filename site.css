@@ -443,7 +443,7 @@ footer p {
     }
 
     .about-title, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
-        font-size: 2.7rem !important;
+        font-size: 2.2rem !important;
         text-align: center;
     }
 
@@ -459,7 +459,7 @@ footer p {
     }
 
     .about-image img, #whyGoat img, .step img {
-        width: 100%;
+        max-width: 100%;
         height: auto;
         margin: 0 auto;
     }
@@ -487,17 +487,17 @@ footer p {
     align-items: center;
     justify-content: space-between;
     max-width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     box-sizing: border-box;
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 
 .roadmap-img {
     width: 40%;
     max-width: 55rem;
     height: auto;
-    margin-right: 16rem;
-    margin-left: 1.2rem;
+    margin-right: 10rem;
+    margin-left: 1rem;
     order: -1;
 }
 
@@ -508,8 +508,8 @@ footer p {
     justify-content: center;
     text-align: left;
     flex: 1;
-    max-width: 100%;
-    margin-left: 3rem;
+    max-width: 70%;
+    margin-left: 2rem;
     margin-right: 2rem;
 }
 
