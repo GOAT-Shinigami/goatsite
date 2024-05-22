@@ -482,36 +482,23 @@ footer p {
         max-width: 100%;
     }
 
+    .roadmap-img {
+        width: 45%; /* Ajuste para melhor caber ao lado do texto */
+        margin-right: 2rem; /* Ajuste para espaçamento */
+        order: -1;
+    }
+
     #roadmap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
-    padding: 1rem;
-    box-sizing: border-box;
-    margin-top: 12rem;
-}
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        margin-top: 5rem; /* Ajuste para espaçamento */
+    }
 
-.roadmap-img {
-    width: 40%;
-    max-width: 55rem;
-    height: auto;
-    margin-right: 10rem;
-    margin-left: 1rem;
-    order: -1;
-}
-
-#roadmap div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: left;
-    flex: 1;
-    max-width: 70%;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
+    #roadmap div {
+        margin-left: 2rem; /* Ajuste para espaçamento */
+        max-width: 45%; /* Ajuste para melhor caber ao lado da imagem */
+    }
 
 
     .presale-content {
