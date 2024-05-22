@@ -378,11 +378,11 @@ h1, h2 {
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
-    margin-top: 18rem;
+    margin-top: 15rem;
 }
 
 .roadmap-img {
-    width: 50%;
+    width: 60%;
     max-width: 65rem;
     height: auto;
     margin-right: 16rem;
@@ -482,21 +482,37 @@ footer p {
         max-width: 100%;
     }
 
-    .roadmap-img {
-        width: 80%;
-        margin: 0 auto;
-    }
-
     #roadmap {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 2rem;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin-top: 15rem;
+}
 
-    #roadmap div {
-        margin: 0;
-    }
+.roadmap-img {
+    width: 40%;
+    max-width: 65rem;
+    height: auto;
+    margin-right: 16rem;
+    margin-left: 1.2rem;
+    order: -1;
+}
+
+#roadmap div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex: 1;
+    max-width: 50%;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
 
     .presale-content {
         padding: 1.5rem;
