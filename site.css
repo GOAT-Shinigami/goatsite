@@ -428,6 +428,53 @@ footer p {
     color: #fff;
 }
 
+#socials {
+    margin-top: 10rem;
+    text-align: center;
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+}
+
+#socials h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 4.2rem;  /* Ajustado para manter consistência com outros títulos */
+    color: #FE8029;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#socials p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;  /* Ajustado para manter consistência com outros parágrafos */
+    color: #000;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-links img {
+    width: 10%;
+    height: 10%;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;   
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
 @media screen and (max-width: 600px) {
     .header-bg {
         height: 22vh; /* Ocupa toda a altura da viewport */
