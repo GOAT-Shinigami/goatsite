@@ -451,6 +451,7 @@ h1, h2 {
     width: 30%;
     height: auto;
     transition: transform 0.3s ease;
+    gap: 0.5rem;
 }
 
 .social-links img:hover {
