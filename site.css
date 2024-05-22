@@ -458,8 +458,8 @@ footer p {
 }
 
 .social-links img {
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 30%;
     transition: transform 0.3s ease;
 }
 
@@ -501,7 +501,7 @@ img:hover {
         font-size: 1rem !important;
     }
 
-    #about h2, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
+    #about h2, #whyGoat h2, #gallery h2, #presale h2, /*#how-to-buy h2,*/ #roadmap h2 {
         font-size: 2.2rem !important;
         text-align: center;
     }
@@ -522,10 +522,10 @@ img:hover {
         margin: 0 auto;
     }
 
-    .how-to-buy-steps {
+    /*.how-to-buy-steps {
         flex-direction: column;
         align-items: center;
-    }
+    }*/
 
     .news-ticker {
         height: 2rem;
@@ -561,6 +561,31 @@ img:hover {
         padding: 1rem;
     }
 
+    #socials {
+        margin-top: 5rem;
+        padding: 2rem 1rem;
+    }
+
+    #socials h2 {
+        font-size: 2.2rem !important;
+        margin-bottom: 1rem;
+    }
+
+    #socials p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .social-links img {
+        width: 20%;
+        height: auto;
+    }
+
     footer {
         padding: 2rem 1rem;
     }
@@ -580,7 +605,7 @@ img:hover {
         font-size: 1.5rem !important;
     }
 
-    .about-title, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
+    .about-title, #whyGoat h2, #gallery h2, #presale h2, /*#how-to-buy h2,*/ #roadmap h2 {
         font-size: 3rem !important;
     }
 
@@ -635,6 +660,26 @@ img:hover {
 
     .presale-content {
         padding: 1.5rem;
+    }
+
+        #socials {
+        margin-top: 7rem;
+        padding: 3rem 1.5rem;
+    }
+
+    #socials h2 {
+        font-size: 3rem !important;
+        margin-bottom: 1.5rem;
+    }
+
+    #socials p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .social-links img {
+        width: 15%;
+        height: auto;
     }
 
     footer {
