@@ -602,7 +602,7 @@ footer p {
     }
 }
 
-    @media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
     .header-bg {
         height: 90vh;
         padding: 2em 0;
@@ -676,29 +676,20 @@ footer p {
     }
 
     #socials {
-        margin-top: 7rem;
-        padding: 3rem 1.5rem;
+        padding: 40px 20px; /* Aumenta o espaçamento interno */
     }
 
     #socials h2 {
-        font-size: 3rem !important;
-        margin-bottom: 1.5rem;
+        font-size: 3rem; /* Aumenta o tamanho da fonte do título */
     }
 
     #socials p {
-        font-size: 1.4rem;
-        margin-bottom: 2rem;
+        font-size: 1.4em; /* Aumenta o tamanho da fonte do parágrafo */
     }
 
-    .social-links {
-        display: flex;
-        justify-content: center;
-        /*gap: 0.3rem;*/
-}
-
-    .social-links img {
-        width: 30%;
-        height: auto;
+    #socials .social img.social {
+        width: 50px; /* Aumenta a largura das imagens */
+        height: auto; /* Aumenta a altura das imagens */
     }
 
     footer {
