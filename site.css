@@ -582,12 +582,12 @@ footer p {
 
     #socials .social-links {
         flex-direction: column; /* Coloca os links em coluna */
-        gap: 20px; /* Aumenta o espaçamento entre os itens */
+        gap: 10px; /* Aumenta o espaçamento entre os itens */
     }
 
     #socials .social img.social {
-        width: 30px; /* Reduz a largura das imagens */
-        height: 30px; /* Reduz a altura das imagens */
+        width: 5px; /* Reduz a largura das imagens */
+        height: 5px; /* Reduz a altura das imagens */
     }
 
     footer {
@@ -681,8 +681,8 @@ footer p {
     }
 
     #socials .social img.social {
-        width: 40px; /* Ajusta a largura das imagens */
-        height: 40px; /* Ajusta a altura das imagens */
+        width: 20px; /* Ajusta a largura das imagens */
+        height: 20px; /* Ajusta a altura das imagens */
     }
 
     footer {
