@@ -445,18 +445,20 @@ h1, h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;  /* Definindo gap pequeno para manter as imagens próximas */
+    gap: 0;  /* Removendo qualquer gap */
 }
 
 .social-links a {
-    margin: 0;  /* Removendo margem */
-    padding: 0;  /* Removendo padding */
+    margin: 0;  /* Removendo margem dos links */
+    padding: 0;  /* Removendo padding dos links */
 }
 
 .social-links img {
-    width: 50px;  /* Definindo largura fixa */
+    width: 50px;  /* Tamanho fixo */
     height: auto;
     transition: transform 0.3s ease;
+    margin: 0;  /* Removendo margens das imagens */
+    padding: 0;  /* Removendo padding das imagens */
 }
 
 .social-links img:hover {
