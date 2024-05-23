@@ -453,7 +453,7 @@ h1, h2 {
 /* Estilo para as imagens das redes sociais */
 #socials .social img.social {
     width: 20%; /* Largura das imagens */
-    height: auto; /* Altura das imagens */
+    height: 20%; /* Altura das imagens */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
     cursor: pointer; /* Indica que é clicável */
     /*border-radius: 50%;*/ /* Imagens circulares */
@@ -569,32 +569,26 @@ footer p {
     }
 
     #socials {
-        margin-top: 5rem;
-        padding: 2rem 1rem;
+        padding: 40px 10px; /* Reduz o espaçamento interno */
     }
 
     #socials h2 {
-        font-size: 2.2rem !important;
-        margin-bottom: 1rem;
+        font-size: 2em; /* Reduz o tamanho da fonte do título */
     }
 
     #socials p {
-        font-size: 1.2rem;
-        margin-bottom: 1.5rem;
+        font-size: 1em; /* Reduz o tamanho da fonte do parágrafo */
+        margin-bottom: 20px; /* Reduz o espaçamento abaixo do parágrafo */
     }
 
-    .social-links {
-        flex-direction: row; /* Mantém as imagens lado a lado */
-        gap: 0;  /* Removendo gap em telas menores */
+    #socials .social-links {
+        flex-direction: column; /* Coloca os links em coluna */
+        gap: 20px; /* Aumenta o espaçamento entre os itens */
     }
 
-    .social-links a {
-        margin: 0 0.25rem;  /* Ajustando margem mínima para telas menores */
-    }
-
-    .social-links img {
-        width: 20%; /* Ajuste de tamanho para telas menores */
-        height: auto;
+    #socials .social img.social {
+        width: 15%; /* Reduz a largura das imagens */
+        height: 15%; /* Reduz a altura das imagens */
     }
 
     footer {
