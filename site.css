@@ -42,7 +42,7 @@ h1, h2 {
 }
 
 .custom-navbar .w3-bar-item {
-    font-size: 2.2em;
+    font-size: 1.3em;
     font-family: 'Sixtyfour', cursive;
     color: #FE8029 !important;
     transition: all 0.3s ease;
@@ -418,51 +418,64 @@ h1, h2 {
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
-/* Estilo geral para a seção */
+/* Resetar margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizar a seção principal */
 #socials {
-    color: #000; /* Cor do texto */
-    padding: 64px 20px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 64px 20px;
+    text-align: center;
 }
 
-/* Estilo para o título */
+/* Estilizar o título */
 #socials h2 {
-    font-family: 'Sixtyfour', cursive;
-    font-size: 4.3rem !important; /* Tamanho da fonte */
-    color: #FE8029;
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
 }
 
-/* Estilo para o parágrafo */
+/* Estilizar o parágrafo */
 #socials p {
-    font-size: 1.2em; /* Tamanho da fonte */
-    margin-bottom: 40px; /* Espaçamento abaixo do parágrafo */
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #7f8c8d;
 }
 
-/* Estilo para os links das redes sociais */
-#socials .social-links {
-    display: flex; /* Usa flexbox para alinhar os itens */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 5px; /* Espaçamento entre os itens */
+/* Estilizar os links sociais */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
-/* Estilo para as imagens das redes sociais */
-#socials .social img.social {
-    width: 10px; /* Largura das imagens */
-    height: 10px; /* Altura das imagens */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
-    cursor: pointer; /* Indica que é clicável */
+.social-links a {
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Estilo para o efeito de hover nas imagens */
-#socials .social img.social:hover {
-    transform: scale(1.1); /* Aumenta ligeiramente o tamanho */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+.social-links a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+.social {
+    width: 40px;
+    height: 40px;
+}
+
+/* Efeito de hover nos ícones sociais */
+.social-links a:hover img {
+    filter: brightness(1.2);
+}
+
 
 img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;   
