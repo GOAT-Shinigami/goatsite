@@ -446,18 +446,19 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     gap: 0;  /* Removendo gap */
-    margin: 0;  /* Removendo margens */
-    padding: 0;  /* Removendo padding */
 }
 
 .social-links a {
-    margin: 0 0.5rem;  /* Adicionando uma margem mínima para manter alguma distância */
+    margin: 0 0.5rem;  /* Margem mínima para manter alguma distância */
+    display: flex; /* Adicionando flex para os links */
 }
+
 .social-links img {
-    width: 30%;
+    width: 10%;
     height: auto;
     transition: transform 0.3s ease;
-    
+    margin: 0; /* Removendo margem das imagens */
+    padding: 0; /* Removendo padding das imagens */
 }
 
 .social-links img:hover {
@@ -583,12 +584,16 @@ footer p {
     }
 
     .social-links {
-        flex-direction: row;
-        /*gap: 0.3rem;*/
+        flex-direction: row; /* Mantém as imagens lado a lado */
+        gap: 0;  /* Removendo gap em telas menores */
+    }
+
+    .social-links a {
+        margin: 0 0.25rem;  /* Ajustando margem mínima para telas menores */
     }
 
     .social-links img {
-        width: 35%;
+        width: 20%; /* Ajuste de tamanho para telas menores */
         height: auto;
     }
 
