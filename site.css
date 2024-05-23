@@ -452,8 +452,8 @@ h1, h2 {
 
 /* Estilo para as imagens das redes sociais */
 #socials .social img.social {
-    width: 15px; /* Largura das imagens */
-    height: 15px; /* Altura das imagens */
+    width: 15px !important; /* Largura das imagens */
+    height: 15px !important; /* Altura das imagens */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
     cursor: pointer; /* Indica que é clicável */
     /*border-radius: 50%;*/ /* Imagens circulares */
@@ -682,8 +682,8 @@ footer p {
     }
 
     #socials .social img.social {
-        width: 20%; /* Aumenta a largura das imagens */
-        height: auto; /* Aumenta a altura das imagens */
+        width: 15px !important; /* Aumenta a largura das imagens */
+        height: 15px !important; /* Aumenta a altura das imagens */
     }
 
     footer {
