@@ -444,9 +444,15 @@ h1, h2 {
 .social-links {
     display: flex;
     justify-content: center;
-    /*gap: 0.1rem;*/
+    align-items: center;
+    gap: 0;  /* Removendo gap */
+    margin: 0;  /* Removendo margens */
+    padding: 0;  /* Removendo padding */
 }
 
+.social-links a {
+    margin: 0 0.5rem;  /* Adicionando uma margem mínima para manter alguma distância */
+}
 .social-links img {
     width: 30%;
     height: auto;
