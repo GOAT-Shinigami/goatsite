@@ -456,7 +456,7 @@ h1, h2 {
     height: auto; /* Altura das imagens */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
     cursor: pointer; /* Indica que é clicável */
-    border-radius: 50%; /* Imagens circulares */
+    /*border-radius: 50%;*/ /* Imagens circulares */
 }
 
 /* Estilo para o efeito de hover nas imagens */
