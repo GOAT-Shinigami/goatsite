@@ -427,7 +427,7 @@ h1, h2 {
 
 /* Estilizar a seção principal */
 #socials {
-    margin-top: 14rem;
+    margin-top: 12rem;
     padding: 64px 20px;
     text-align: center;
 }
@@ -468,8 +468,8 @@ h1, h2 {
 }
 
 .social {
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
 }
 
 /* Efeito de hover nos ícones sociais */
@@ -581,26 +581,27 @@ footer p {
     }
 
     #socials {
-        padding: 40px 10px; /* Reduz o espaçamento interno */
+        padding: 32px 10px;
     }
 
     #socials h2 {
-        font-size: 2em; /* Reduz o tamanho da fonte do título */
+        font-size: 2em;
+        margin-bottom: 15px;
     }
 
     #socials p {
-        font-size: 1em; /* Reduz o tamanho da fonte do parágrafo */
-        margin-bottom: 20px; /* Reduz o espaçamento abaixo do parágrafo */
+        font-size: 1em;
+        margin-bottom: 30px;
     }
 
-    #socials .social-links {
-        flex-direction: column; /* Coloca os links em coluna */
-        gap: 10px; /* Aumenta o espaçamento entre os itens */
+    .social-links {
+        flex-direction: column;
+        gap: 20px;
     }
 
-    #socials .social img.social {
-        width: 5px; /* Reduz a largura das imagens */
-        height: 5px; /* Reduz a altura das imagens */
+    .social {
+        width: 40px;
+        height: 40px;
     }
 
     footer {
