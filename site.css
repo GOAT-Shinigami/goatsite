@@ -449,12 +449,12 @@ h1, h2 {
 }
 
 .social-links a {
-    margin: 0 0.5rem;  /* Margem mínima para manter alguma distância */
-    display: flex; /* Adicionando flex para os links */
+    margin: 0 0.1rem;  /* Margem mínima para manter alguma distância */
+    display: block; /* Adicionando flex para os links */
 }
 
 .social-links img {
-    width: 10%;
+    width: 30%;
     height: auto;
     transition: transform 0.3s ease;
     margin: 0; /* Removendo margem das imagens */
