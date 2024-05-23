@@ -447,13 +447,13 @@ h1, h2 {
 #socials .social-links {
     display: flex; /* Usa flexbox para alinhar os itens */
     justify-content: center; /* Centraliza os itens horizontalmente */
-    gap: 10px; /* Espaçamento entre os itens */
+    gap: 5px; /* Espaçamento entre os itens */
 }
 
 /* Estilo para as imagens das redes sociais */
 #socials .social img.social {
-    width: 50px; /* Largura das imagens */
-    height: 50px; /* Altura das imagens */
+    width: 10px; /* Largura das imagens */
+    height: 10px; /* Altura das imagens */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
     cursor: pointer; /* Indica que é clicável */
     border-radius: 50%; /* Imagens circulares */
