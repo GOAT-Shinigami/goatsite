@@ -421,22 +421,22 @@ h1, h2 {
 #socials {
     margin-top: 10rem;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 4rem 2rem;
     box-sizing: border-box;
 }
 
 #socials h2 {
     margin-top: 0;
     margin-bottom: 2rem;
-    font-size: 4.2rem;  /* Ajustado para manter consistência com outros títulos */
-    color:  #FE8029;
+    font-size: 4.2rem;
+    color: #FE8029;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #socials p {
     margin-top: 0;
     margin-bottom: 3rem;
-    font-size: 1.6rem;  /* Ajustado para manter consistência com outros parágrafos */
+    font-size: 1.6rem;
     color: #000;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
@@ -445,20 +445,18 @@ h1, h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0;  /* Removendo gap */
+    gap: 1rem;  /* Definindo gap pequeno para manter as imagens próximas */
 }
 
 .social-links a {
-    margin: 0 0.1rem;  /* Margem mínima para manter alguma distância */
-    display: block; /* Adicionando flex para os links */
+    margin: 0;  /* Removendo margem */
+    padding: 0;  /* Removendo padding */
 }
 
 .social-links img {
-    width: 30%;
+    width: 50px;  /* Definindo largura fixa */
     height: auto;
     transition: transform 0.3s ease;
-    margin: 0; /* Removendo margem das imagens */
-    padding: 0; /* Removendo padding das imagens */
 }
 
 .social-links img:hover {
