@@ -452,11 +452,10 @@ h1, h2 {
 
 /* Estilo para as imagens das redes sociais */
 #socials .social img.social {
-    width: 5px !important; /* Largura das imagens */
-    height: 5px !important; /* Altura das imagens */
+    width: 10%!important; /* Largura das imagens */
+    height: 10% !important; /* Altura das imagens */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
     cursor: pointer; /* Indica que é clicável */
-    /*border-radius: 50%;*/ /* Imagens circulares */
 }
 
 /* Estilo para o efeito de hover nas imagens */
