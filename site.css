@@ -575,7 +575,7 @@ footer p {
     }
 
     #socials {
-        padding: 32px 10px;
+        padding: 28px 10px;
     }
 
     #socials h2 {
@@ -589,13 +589,13 @@ footer p {
     }
 
     .social-links {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
     }
 
     .social {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
     }
 
     footer {
