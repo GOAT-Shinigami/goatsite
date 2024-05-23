@@ -508,7 +508,7 @@ footer p {
     }
 
     .intro-title {
-        font-size: 3rem !important;
+        font-size: 3.6rem !important;
     }
 
     .subtitle {
@@ -523,6 +523,10 @@ footer p {
     .about-text, #whyGoat p, #roadmap p {
         font-size: 1.4rem;
         text-align: center;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .w3-row {
