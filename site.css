@@ -454,10 +454,11 @@ h1, h2 {
 }
 
 .social-links img {
-    width: 35%;  /* Tamanho fixo */
+    width: 30%;  /* Tamanho fixo */
     height: auto;
     transition: transform 0.3s ease;
-    margin: 0;  /* Removendo margens das imagens */
+    margin-left: 30px;  /* Removendo margens das imagens */
+    margin-right: 30px;
     padding: 0;  /* Removendo padding das imagens */
 }
 
