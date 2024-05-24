@@ -562,7 +562,7 @@ footer p {
 
     /* Ajustar a estrutura da seção "about" */
     .about-section .w3-row {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
