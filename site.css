@@ -491,68 +491,237 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
-    .header-bg {
-        height: 22vh; /* Ocupa toda a altura da viewport */
-        background-size: cover; /* Garante que a imagem cubra a área */
-        background-repeat: no-repeat; /* Impede a repetição da imagem */
-        background-position: center; /* Centraliza a imagem */
+    html {
+        scroll-behavior: smooth; /* Adiciona rolagem suave */
     }
 
-    .w3-bar-item {
-        display: block;
-        width: 100%;
-        text-align: center;
+    body {
+        font-family: 'Silkscreen', cursive; /* Fonte para parágrafos */
+        background-color: #BFFBD9;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    h1, h2 {
+        font-family: 'Sixtyfour', cursive; /* Fonte para títulos */
+    }
+
+    .header-bg {
+        padding: 2em 0;
+        height: auto;
+        background-size: contain;
+    }
+
+    .navbar-logo {
+        max-width: 8rem;
     }
 
     .connect-wallet {
-        margin: 10px 0;
+        margin-left: 0.5rem;
+    }
+
+    .custom-navbar .w3-bar-item {
+        font-size: 1em;
+        padding: 0.5rem;
+    }
+
+    .intro-section {
+        padding: 2em 1em;
+        margin-bottom: 5rem;
     }
 
     .intro-title {
-        font-size: 3.6rem !important;
+        font-size: 3.5rem !important;
+        margin-bottom: 0.5rem;
     }
 
     .subtitle {
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
     }
 
-    #about {
-        text-align: center;
-        padding: 1.25em;
+    .w3-container {
+        padding: 1.5rem;
     }
 
-    #about .about-title {
-        font-size: 1.5em;
-        margin-bottom: 1.25em;
+    .about-title {
+        font-size: 2.5rem !important;
+        margin: 0 0 0.2rem 0.5rem;
     }
 
-    #about .w3-row {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .about-text {
+        font-size: 1.2rem;
+        padding: 1rem;
     }
 
-    #about .about-text,
-    #about .about-image {
-        width: 100%;
-        padding: 0.625em 0;
-    }
-
-    #about .about-text p {
-        font-size: 1em;
-        margin-bottom: 1.25em;
-    }
-
-    #about .about-image img {
+    .about-image img {
         width: 100%;
         height: auto;
     }
 
-    /* Ajustar rodapé */
+    #wallet-info {
+        padding: 1rem;
+        margin: 1rem auto;
+        max-width: 100%;
+    }
+
+    #wallet-info h2 {
+        font-size: 1.8rem;
+    }
+
+    #wallet-info p {
+        font-size: 0.9rem;
+    }
+
+    #whyGoat h2 {
+        font-size: 2.5rem !important;
+    }
+
+    #whyGoat p {
+        font-size: 1.2rem;
+    }
+
+    #whyGoat img {
+        width: 100%;
+    }
+
+    #gallery h2 {
+        font-size: 2.5rem !important;
+    }
+
+    .carousel-images img, .carousel-images video {
+        max-height: 20rem;
+    }
+
+    #presale h2 {
+        font-size: 2.5rem !important;
+    }
+
+    .presale-content {
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    .presale-content p {
+        font-size: 1rem;
+    }
+
+    .presale-timer {
+        font-size: 1.5rem;
+    }
+
+    .presale-live {
+        font-size: 1.2rem;
+    }
+
+    #presaleLink {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    #remainingTime {
+        font-size: 1rem;
+    }
+
+    #how-to-buy h2 {
+        font-size: 2.5rem !important;
+    }
+
+    .how-to-buy-steps {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .step {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .step h3 {
+        font-size: 1.2rem;
+    }
+
+    .step img {
+        max-width: 100%;
+    }
+
+    .news-ticker {
+        height: 2.5rem;
+    }
+
+    .ticker p {
+        font-size: 1.2rem;
+    }
+
+    #roadmap {
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+
+    .roadmap-img {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        order: 0;
+    }
+
+    #roadmap div {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    #roadmap h2 {
+        font-size: 2.5rem !important;
+    }
+
+    #roadmap p {
+        font-size: 1.2rem;
+    }
+
+    #socials {
+        margin-top: 8rem;
+        padding: 32px 10px;
+        margin-bottom: 8rem;
+    }
+
+    #socials h2 {
+        font-size: 2.5rem !important;
+    }
+
+    #socials p {
+        font-size: 1.2rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .social {
+        width: 80px;
+        height: 80px;
+    }
+
+    img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;   
+    }
+
+    img:hover {
+        transform: scale(1.05);
+    }
+
+    footer {
+        background-color: #000;
+        padding: 2rem 1rem;
+    }
+
     footer p {
-        font-size: 14px;
+        margin: 0.5rem 0;
+        color: #fff;
     }
 }
+
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     .header-bg {
