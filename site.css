@@ -544,7 +544,8 @@ footer p {
     .about-title {
         text-align: center; /* Centraliza o título em telas pequenas */
         font-size: 2.5rem !important;
-        margin: 1rem 0; /* Ajusta as margens para telas pequenas */
+        margin: 1rem auto; /* Ajusta as margens para telas pequenas */
+        width: 100%; /* Garante que o elemento ocupe toda a largura disponível */
     }
 
     .about-text {
