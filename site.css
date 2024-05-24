@@ -515,10 +515,22 @@ footer p {
         font-size: 1rem !important;
     }
     
-    #about h2, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
+    #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2 {
         font-size: 2.2rem !important;
         text-align: center;
         margin: 0 auto; /* Adicionado para garantir centralização */
+    }
+
+    about-title {
+        text-align: center; /* Centraliza o título em telas pequenas */
+        font-size: 2.2rem;
+        margin: 1rem 0; /* Ajusta as margens para telas pequenas */
+    }
+
+    #roadmap h2 {
+        font-size: 2.2rem; /* Adjust the font size for smaller screens */
+        text-align: center; /* Centraliza o título em telas pequenas */
+        margin: 1rem 0; /* Ajusta as margens para telas pequenas */
     }
 
     .about-text, #whyGoat p, #roadmap p {
@@ -534,7 +546,7 @@ footer p {
     .about-image img, #whyGoat img, .step img {
         width: 100%;
         height: auto;
-        margin: 0 auto;
+        margin: 1.2rem auto;
     }
 
     .how-to-buy-steps {
