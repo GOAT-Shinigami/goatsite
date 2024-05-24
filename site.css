@@ -491,6 +491,31 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
+
+    .header-bg {
+        height: 22vh; /* Ocupa toda a altura da viewport */
+        background-size: cover; /* Garante que a imagem cubra a área */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */
+        background-position: center; /* Centraliza a imagem */
+    }
+
+    .w3-bar-item {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .connect-wallet {
+        margin: 10px 0;
+    }
+
+    .intro-title {
+        font-size: 3.8rem !important;
+    }
+
+    .subtitle {
+        font-size: 1rem !important;
+    }
     html {
         scroll-behavior: smooth; /* Adiciona rolagem suave */
     }
@@ -508,37 +533,8 @@ footer p {
         font-family: 'Sixtyfour', cursive; /* Fonte para títulos */
     }
 
-    .header-bg {
-        padding: 2em 0;
-        height: auto;
-        background-size: contain;
-    }
-
     .navbar-logo {
         max-width: 8rem;
-    }
-
-    .connect-wallet {
-        margin-left: 0.5rem;
-    }
-
-    .custom-navbar .w3-bar-item {
-        font-size: 1em;
-        padding: 0.5rem;
-    }
-
-    .intro-section {
-        padding: 2em 1em;
-        margin-bottom: 5rem;
-    }
-
-    .intro-title {
-        font-size: 3.5rem !important;
-        margin-bottom: 0.5rem;
-    }
-
-    .subtitle {
-        font-size: 1.2rem !important;
     }
 
     .w3-container {
@@ -547,31 +543,17 @@ footer p {
 
     .about-title {
         font-size: 2.5rem !important;
-        margin: 0 0 0.2rem 0.5rem;
+        text-align: center;
     }
 
     .about-text {
         font-size: 1.2rem;
-        padding: 1rem;
+        letter-spacing: -0.5px; /* Ajuste conforme necessário */
+        word-spacing: -1px; /* Ajuste conforme necessário */
     }
 
     .about-image img {
         width: 100%;
-        height: auto;
-    }
-
-    #wallet-info {
-        padding: 1rem;
-        margin: 1rem auto;
-        max-width: 100%;
-    }
-
-    #wallet-info h2 {
-        font-size: 1.8rem;
-    }
-
-    #wallet-info p {
-        font-size: 0.9rem;
     }
 
     #whyGoat h2 {
@@ -580,6 +562,8 @@ footer p {
 
     #whyGoat p {
         font-size: 1.2rem;
+        letter-spacing: -0.5px; /* Ajuste conforme necessário */
+        word-spacing: -1px; /* Ajuste conforme necessário */
     }
 
     #whyGoat img {
@@ -667,16 +651,18 @@ footer p {
     }
 
     #roadmap div {
-        margin: 1rem 0;
+        /*margin: 1rem 0;*/
         text-align: center;
     }
 
     #roadmap h2 {
         font-size: 2.5rem !important;
+        text-align: center;
     }
 
     #roadmap p {
         font-size: 1.2rem;
+        text-align: center;
     }
 
     #socials {
@@ -694,7 +680,7 @@ footer p {
     }
 
     .social-links {
-        flex-direction: column;
+        flex-direction: row;
         gap: 5px;
     }
 
