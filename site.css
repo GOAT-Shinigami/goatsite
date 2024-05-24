@@ -514,70 +514,122 @@ footer p {
     .subtitle {
         font-size: 1rem !important;
     }
+
+    body {
+        text-align: center;
+    }
     
-    .about-title, h2 {
-        font-size: 2.2rem !important;
-        margin: 16px 0;
+    .w3-container {
+        padding: 20px;
     }
 
-    .about-text {
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    p {
         font-size: 16px;
-        padding: 8px;
+        margin-bottom: 20px;
     }
 
-    .about-image img, .roadmap-img, .social-links img {
+    /* Ajustar a largura das colunas */
+    .w3-col {
+        width: 100% !important;
+        padding: 10px 0;
+    }
+
+    .about-text,
+    .about-image {
+        padding: 10px;
+    }
+
+    .about-image img,
+    .about-text img {
         width: 100%;
         height: auto;
     }
 
+    /* Ajustar imagens e conteúdos da seção 'Why GOAT?' */
+    #whyGoat img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /* Ajustar conteúdo da seção 'Gallery' */
     .carousel-images {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
+    .carousel img,
+    .carousel video {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    /* Ajustar ticker de notícias */
     .news-ticker {
         overflow: hidden;
+        white-space: nowrap;
+        padding: 10px;
     }
 
-    .ticker {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .news-ticker p {
+        display: inline-block;
+        padding: 0 5px;
+        font-size: 14px;
     }
 
-    .ticker p {
-        font-size: 16px;
-        margin: 0;
+    /* Ajustar seção 'Presale' */
+    .presale-content {
+        text-align: center;
     }
 
-    .presale-content p, .how-to-buy-steps h3 {
-        font-size: 18px;
-        margin: 8px 0;
+    #timer {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
-    .presale-timer, .how-to-buy-steps img {
+    /* Ajustar imagens da seção 'How to Buy' */
+    .how-to-buy-steps .step img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    /* Ajustar imagem da seção 'Roadmap' */
+    .roadmap-img {
         width: 100%;
         height: auto;
     }
 
-    .how-to-buy-steps .step {
-        margin-bottom: 16px;
-    }
-
+    /* Ajustar links sociais */
     .social-links {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 20px;
     }
 
     .social-links a {
-        margin: 8px 0;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
     }
 
-    footer {
+    .social-links img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Ajustar rodapé */
+    footer p {
         font-size: 14px;
-        padding: 16px;
     }
 }
 
