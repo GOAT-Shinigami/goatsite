@@ -514,20 +514,11 @@ footer p {
     .subtitle {
         font-size: 1rem !important;
     }
-
-    #about h2{
-        font-size: 2.2rem !important;
-        text-align: center !important;
-    } 
-
-    #roadmap h2 {
-        font-size: 2.2rem !important;
-        text-align: center !important;
-    }
     
-    #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2 {
+    #about h2, #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2, #roadmap h2 {
         font-size: 2.2rem !important;
         text-align: center;
+        margin: 0 auto; /* Adicionado para garantir centralização */
     }
 
     .about-text, #whyGoat p, #roadmap p {
