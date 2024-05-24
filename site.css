@@ -541,26 +541,23 @@ footer p {
         padding: 1.5rem;
     }
 
-   .about-title {
-        font-size: 2.5rem !important;
-        margin: 0 0 0.2rem 0.5rem;
+   .about-title, .about-text, .about-image {
+        text-align: center;
+    }
+
+    .about-image {
+        margin-top: 1rem;
     }
 
     .about-text {
         font-size: 1.2rem;
         padding: 1rem;
-        text-align: center;
-        word-spacing: -1.5px; /* Ajuste conforme necessário */
-    }
-
-    .about-image {
-        text-align: center;
-        margin-top: 1rem;
     }
 
     .about-image img {
         width: 100%;
         height: auto;
+        margin-top: 1rem;
     }
 
     #whyGoat h2 {
