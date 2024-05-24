@@ -535,7 +535,6 @@ footer p {
         text-align: center;
         display: flex;
         white-space: nowrap;
-        flex-direction: row;
     }
 
     .w3-row {
