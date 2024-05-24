@@ -533,10 +533,15 @@ footer p {
         margin: 1rem 0; /* Ajusta as margens para telas pequenas */
     }
 
-    .about-text, #whyGoat p, #roadmap p {
+    .about-text, #whyGoat p {
         font-size: 1.4rem;
         text-align: center;
-        display: flex;
+        /*display: flex;*/
+    }
+
+    #roadmap p {
+        font-size: 1.4rem; /* Adjust the font size for smaller screens */
+        text-align: center; /* Center align text */
     }
 
     .w3-row {
