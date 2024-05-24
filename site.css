@@ -541,29 +541,31 @@ footer p {
         padding: 1.5rem;
     }
 
-    .about-title, .about-text, .about-image {
-        text-align: center;
+    .about-text {
+        font-size: 1.2rem; /* Ajustar o tamanho da fonte */
+        line-height: 1.4; /* Ajustar o espaçamento entre linhas */
+        /*text-align: center; /* Alinhar o texto à esquerda para evitar espaçamento irregular */
+        margin: 0 1rem; /* Margem para evitar que o texto encoste nas bordas */
+        width: calc(100% - 2rem); /* Ocupa a largura total do dispositivo menos a margem */
+    }
+
+    .about-title {
+        text-align: center; /* Centraliza o título em telas pequenas */
+        font-size: 2rem;
+        margin: 1rem 0; /* Ajusta as margens para telas pequenas */
     }
 
     .about-image {
-        margin-top: 1rem;
+        margin: 2rem 0; /* Espaçamento extra em cima e embaixo da imagem */
+        width: 80%; /* Ajustar a largura da imagem */
+        margin-left: auto;
+        margin-right: auto; /* Centralizar a imagem */
     }
 
-    .about-text {
-        font-size: 1.2rem;
-        padding: 1rem;
-    }
-
-    .about-image img {
-        width: 100%;
-        height: auto;
-        margin-top: 1rem;
-    }
-
-    /* Ajustar a estrutura da seção "about" */
-    .about-section .w3-row {
-        flex-direction: row;
-        align-items: center;
+    .w3-row {
+        /*display: flex;*/
+        flex-direction: column;
+        align-items: center; /* Centralizar conteúdo */
     }
 
     #whyGoat h2 {
