@@ -515,110 +515,69 @@ footer p {
         font-size: 1rem !important;
     }
     
-    #whyGoat h2, #gallery h2, #presale h2, #how-to-buy h2 {
-        font-size: 2.2rem !important;
-        text-align: center;
-        margin: 0 auto; /* Adicionado para garantir centralização */
+    .about-title, h2 {
+        font-size: 24px;
+        margin: 16px 0;
     }
 
-    about-title {
-        text-align: center; /* Centraliza o título em telas pequenas */
-        font-size: 2.2rem !important;
-        margin: 0 auto; /* Ajusta as margens para telas pequenas */
+    .about-text {
+        font-size: 16px;
+        padding: 8px;
     }
 
-    #roadmap h2 {
-        font-size: 2.2rem !important; /* Adjust the font size for smaller screens */
-        text-align: center; /* Centraliza o título em telas pequenas */
-        margin: 0 auto; /* Ajusta as margens para telas pequenas */
-    }
-
-    .about-text, #whyGoat p {
-        font-size: 1.4rem;
-        text-align: center;
-        /*display: flex;*/
-    }
-
-    #roadmap p {
-        font-size: 1.4rem; /* Adjust the font size for smaller screens */
-        text-align: center; /* Center align text */
-    }
-
-    .w3-row {
-        flex-direction: column;
-    }
-
-    .about-image img, #whyGoat img, .step img {
+    .about-image img, .roadmap-img, .social-links img {
         width: 100%;
         height: auto;
-        margin: 1.2rem auto;
     }
 
-    .how-to-buy-steps {
+    .carousel-images {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .news-ticker {
-        height: 2rem;
+        overflow: hidden;
+    }
+
+    .ticker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .ticker p {
-        font-size: 1rem;
-        padding-right: 1rem;
+        font-size: 16px;
+        margin: 0;
     }
 
-    .carousel {
-        max-width: 100%;
+    .presale-content p, .how-to-buy-steps h3 {
+        font-size: 18px;
+        margin: 8px 0;
     }
 
-    .roadmap-img {
+    .presale-timer, .how-to-buy-steps img {
         width: 100%;
-        margin: 0;
-        order: 1;
+        height: auto;
     }
 
-    #roadmap {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 2rem;
-    }
-
-    #roadmap div {
-        margin: 0;
-    }
-
-    .presale-content {
-        padding: 1rem;
-    }
-
-    #socials {
-        padding: 28px 10px;
-    }
-
-    #socials h2 {
-        font-size: 2.2rem !important;
-        margin-bottom: 15px;
-    }
-
-    #socials p {
-        font-size: 1em;
-        margin-bottom: 30px;
+    .how-to-buy-steps .step {
+        margin-bottom: 16px;
     }
 
     .social-links {
-        flex-direction: row;
-        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .social {
-        width: 65px;
-        height: 65px;
+    .social-links a {
+        margin: 8px 0;
     }
 
     footer {
-        padding: 2rem 1rem;
+        font-size: 14px;
+        padding: 16px;
     }
 }
 
