@@ -481,17 +481,17 @@ img:hover {
 }
 
 footer {
-    background-color: #1a1a1a; /* Fundo escuro */
-    color: #f1f1f1; /* Texto claro */
+    background-color: #000; /* Fundo escuro */
+    color: #fff; /* Texto claro */
     padding: 64px 20px; /* Espaçamento */
     text-align: center; /* Centralizar o texto */
-    font-family: 'Arial', sans-serif; /* Fonte moderna */
+    font-family: 'Silkscreen', sans-serif; /* Fonte moderna */
 }
 
 /* Estilo para os parágrafos dentro do footer */
 footer p {
     margin: 0 0 24px; /* Margem inferior para espaçamento entre parágrafos */
-    font-size: 14px; /* Tamanho da fonte */
+    font-size: 18px; /* Tamanho da fonte */
     line-height: 1.6; /* Altura da linha para melhor legibilidade */
 }
 
