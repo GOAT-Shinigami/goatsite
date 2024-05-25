@@ -481,13 +481,23 @@ img:hover {
 }
 
 footer {
-    background-color: #000;
-    padding: 4rem 1rem;
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: #f1f1f1; /* Texto claro */
+    padding: 64px 20px; /* Espaçamento */
+    text-align: center; /* Centralizar o texto */
+    font-family: 'Arial', sans-serif; /* Fonte moderna */
 }
 
+/* Estilo para os parágrafos dentro do footer */
 footer p {
-    margin: 0.5rem 0;
-    color: #fff;
+    margin: 0 0 24px; /* Margem inferior para espaçamento entre parágrafos */
+    font-size: 14px; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
+
+/* Estilo para o texto do copyright */
+footer p:first-of-type {
+    font-weight: bold; /* Negrito */
 }
 
 @media screen and (max-width: 600px) {
