@@ -114,7 +114,10 @@ document.addEventListener('DOMContentLoaded', function () {
         'goat.gif',
         'goat1.gif',
         'marge.gif',
-        'dance.gif'
+        'dance.gif',
+        'finish.gif',
+        'parkour.gif',
+        'rock.gif'
     ];
 
     images.forEach(src => {
